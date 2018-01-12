@@ -13,7 +13,7 @@
 			to enhance the productivity of the Android application developers:
 		</p>
 		<ul>
-			<li>Integrtion with the Gradle build system.</li>
+			<li>Integration with the Gradle build system.</li>
 			<li>A fast and feature-rich emulator.</li>
 			<li>A unified environment where you can develop for all Android devices.</li>
 			<li>“Instant Run” to push changes to your running app without building a new APK.</li>
