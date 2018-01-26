@@ -1,6 +1,6 @@
 {
     "app-id": "com.google.AndroidStudio",
-    "runtime": "org.freedesktop.Platform",
+    "runtime": "org.freedesktop.Sdk",
     "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
     "command": "android",
@@ -11,30 +11,20 @@
         "--share=ipc",
         "--share=network",
         "--device=all",
+        "--allow=devel",
         "--filesystem=home",
         "--allow=multiarch",
+        "--env=ANDROID_EMULATOR_USE_SYSTEM_LIBS=1",
         "--talk-name=org.freedesktop.Notifications"
     ],
     "modules": [
         {
-            "name": "git",
-            "make-args": ["NO_PERL=1"],
-            "make-install-args": ["NO_PERL=1"],
-            "cleanup": ["/share/git-gui"],        
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.15.0.tar.xz", 
-                    "sha256": "107116489f10b758b51af1c5dbdb9a274917b0fb67dc8eaefcdabc7bc3eb3e6a"
-                }
-            ]
-        },
-        {
             "name": "android-studio",
             "buildsystem": "simple",
             "build-commands": [
-                "install -D apply_extra /app/bin",
+                "install -D apply_extra /app/bin/apply_extra",
                 "install -D android.sh /app/bin/android",
+                "install -Dm644 com.google.AndroidStudio-64.png /app/share/icons/hicolor/64x64/apps/com.google.AndroidStudio.png",
                 "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
                 "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
                 "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
@@ -61,6 +51,10 @@
                 {
                     "type": "file",
                     "path": "com.google.AndroidStudio.png"
+                },
+                {
+                    "type": "file",
+                    "path": "com.google.AndroidStudio-64.png"
                 },
                 {
                     "type": "script",
