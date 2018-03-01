@@ -12,7 +12,7 @@
         "--share=network",
         "--device=all",
         "--allow=devel",
-        "--filesystem=home",
+        "--filesystem=host",
         "--allow=multiarch",
         "--env=ANDROID_EMULATOR_USE_SYSTEM_LIBS=1",
         "--talk-name=org.freedesktop.Notifications"
