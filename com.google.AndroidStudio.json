@@ -90,7 +90,7 @@
                 },
                 {
                     "type": "script",
-                    "commands": ["/app/extra/bin/studio.sh"],
+                    "commands": ["_JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME/tmp/ /app/extra/bin/studio.sh"],
                     "dest-filename": "android.sh"
                 },
                 {
