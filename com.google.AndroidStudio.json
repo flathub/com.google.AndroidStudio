@@ -1,8 +1,8 @@
 {
     "app-id": "com.google.AndroidStudio",
-    "runtime": "org.freedesktop.Sdk",
-    "runtime-version": "1.6",
-    "sdk": "org.freedesktop.Sdk",
+    "runtime": "org.gnome.Sdk",
+    "runtime-version": "3.28",
+    "sdk": "org.gnome.Sdk",
     "command": "android",
     "finish-args": [
         "--socket=x11",
