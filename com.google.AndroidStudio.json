@@ -19,6 +19,7 @@
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--env=ANDROID_EMULATOR_USE_SYSTEM_LIBS=1",
+        "--env=QT_QPA_PLATFORM=",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
     ],
