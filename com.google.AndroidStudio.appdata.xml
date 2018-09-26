@@ -23,6 +23,7 @@
 			<li>C++ and NDK support.</li>
 			<li>Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine.</li>
 		</ul>
+		<p>NOTE: This wrapper is not verified by, affiliated with, or supported by Google.</p>
 	</description>
 	<icon type="remote" height="256" width="256">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s256/image8.png</icon>
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
