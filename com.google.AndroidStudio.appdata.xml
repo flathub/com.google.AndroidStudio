@@ -29,12 +29,13 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
-            <release version="3.2.0.26" date="2018-09-25"/>
-            <release version="3.1.4.0" date="2018-08-06"/>
-        	<release version="3.1.3.0" date="2018-06-7"/>
-        	<release version="3.1.2.0" date="2018-03-31"/>
-    		<release version="3.1.0.16" date="2018-03-27"/>
-    		<release version="3.0.1.0" date="2017-11-20"/>
+		<release version="3.2.1.0" date="2018-10-11"/>
+		<release version="3.2.0.26" date="2018-09-25"/>
+		<release version="3.1.4.0" date="2018-08-06"/>
+		<release version="3.1.3.0" date="2018-06-7"/>
+		<release version="3.1.2.0" date="2018-03-31"/>
+		<release version="3.1.0.16" date="2018-03-27"/>
+		<release version="3.0.1.0" date="2017-11-20"/>
   	</releases>
 	<screenshots>
 		<screenshot type="default">
