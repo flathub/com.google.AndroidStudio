@@ -29,6 +29,7 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
+		<release version="3.4.0.18" date="2019-04-17"/>
 		<release version="3.3.2.0" date="2019-03-05"/>
 		<release version="3.3.1.0" date="2019-02-06"/>
 		<release version="3.3.0.20" date="2019-01-14"/>
