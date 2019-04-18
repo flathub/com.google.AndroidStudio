@@ -66,8 +66,8 @@
                     "type": "script",
                     "dest-filename": "apply_extra",
                     "commands": [
-                        "unzip -q android-studio.zip",
-                        "rm android-studio.zip",                        
+                        "tar zxf android-studio.tar.gz",
+                        "rm android-studio.tar.gz",                        
                         "mv android-studio/* .",
                         "rmdir android-studio"
                     ]
@@ -95,7 +95,7 @@
                 },
                 {
                     "type": "extra-data",
-                    "filename": "android-studio.zip",
+                    "filename": "android-studio.tar.gz",
                     "only-arches": ["x86_64"],
                     "url": "https://dl.google.com/dl/android/studio/ide-zips/3.4.0.18/android-studio-ide-183.5452501-linux.tar.gz",
                     "sha256": "ad2bd4be87a55cfaeee6f28d40d925691314c11862b303d411f9776b76fa1c45",
