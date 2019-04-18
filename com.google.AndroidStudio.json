@@ -97,9 +97,9 @@
                     "type": "extra-data",
                     "filename": "android-studio.zip",
                     "only-arches": ["x86_64"],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.3.2.0/android-studio-ide-182.5314842-linux.zip",
-                    "sha256": "8257d3eab61c3da088e26689888a13e53e210c109a4e775ed71158b4471bb06a",
-                    "size": 1064031415
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.4.0.18/android-studio-ide-183.5452501-linux.tar.gz",
+                    "sha256": "ad2bd4be87a55cfaeee6f28d40d925691314c11862b303d411f9776b76fa1c45",
+                    "size": 1087166186
                 }
             ]
         }
