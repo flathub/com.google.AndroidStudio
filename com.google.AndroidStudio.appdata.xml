@@ -45,8 +45,12 @@
 	<screenshots>
 		<screenshot type="default">
 			<image>https://developer.android.com/studio/images/studio-homepage-hero.jpg</image>
-			<caption>Android Studio showing th structure of a new project.</caption>
+			<caption>Android Studio Showing the structure of a project</caption>
 		</screenshot>
 	</screenshots>
 	<url type="homepage">https://developer.android.com/studio/</url>
+  	<content_rating type="oars-1.0">
+    		<content_attribute id="social-info">moderate</content_attribute>
+  	</content_rating>
+
 </component>
