@@ -41,8 +41,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/libsecret/0.18/libsecret-0.18.7.tar.xz",
-                    "sha256": "0d66fe1fc4561b3e046ee281d7c5a703a9baac88a8c4fb42ebc739d31dabd487"
+                    "url": "http://ftp.gnome.org/pub/GNOME/sources/libsecret/0.18/libsecret-0.18.8.tar.xz",
+                    "sha256": "3bfa889d260e0dbabcf5b9967f2aae12edcd2ddc9adc365de7a5cc840c311d15"
                 },
                 {
                     "type": "shell",
@@ -97,9 +97,9 @@
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
                     "only-arches": ["x86_64"],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.4.1.0/android-studio-ide-183.5522156-linux.tar.gz",
-                    "sha256": "60488b63302fef657367105d433321de248f1fb692d06dba6661efec434b9478",
-                    "size": 1087847976
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.4.2.0/android-studio-ide-183.5692245-linux.tar.gz",
+                    "sha256": "35eb8c74837d1aab59229101fc91568a607ac04854a40209f7a0ba7ac0601924",
+                    "size": 1087839319
                 }
             ]
         }
