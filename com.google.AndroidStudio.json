@@ -1,11 +1,12 @@
 {
     "app-id": "com.google.AndroidStudio",
-    "runtime": "org.gnome.Sdk",
-    "runtime-version": "3.32",
-    "sdk": "org.gnome.Sdk",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "18.08",
+    "sdk": "org.freedesktop.Sdk",
     "command": "android",
     "finish-args": [
         "--socket=x11",
+        "--socket=wayland",
         "--socket=pulseaudio",
         "--socket=system-bus",
         "--share=ipc",
@@ -41,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/libsecret/0.18/libsecret-0.18.8.tar.xz",
-                    "sha256": "3bfa889d260e0dbabcf5b9967f2aae12edcd2ddc9adc365de7a5cc840c311d15"
+                    "url": "http://ftp.gnome.org/pub/GNOME/sources/libsecret/0.19/libsecret-0.19.1.tar.xz",
+                    "sha256": "8583e10179456ae2c83075d95455f156dc08db6278b32bf4bd61819335a30e3a"
                 },
                 {
                     "type": "shell",
@@ -97,9 +98,9 @@
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
                     "only-arches": ["x86_64"],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.4.2.0/android-studio-ide-183.5692245-linux.tar.gz",
-                    "sha256": "35eb8c74837d1aab59229101fc91568a607ac04854a40209f7a0ba7ac0601924",
-                    "size": 1087839319
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.5.0.21/android-studio-ide-191.5791312-linux.tar.gz",
+                    "sha256": "5794fd6edca6e4daa31f5ed710670d0b425534549a6c4aa2e3e9753ae116736f",
+                    "size": 765055716
                 }
             ]
         }
