@@ -98,8 +98,8 @@
                     "filename": "android-studio.tar.gz",
                     "only-arches": ["x86_64"],
                     "url": "https://dl.google.com/dl/android/studio/ide-zips/3.4.2.0/android-studio-ide-183.5692245-linux.tar.gz",
-                    "sha256": "35eb8c74837d1aab59229101fc91568a607ac04854a40209f7a0ba7ac0601924",
-                    "size": 1087839319
+                    "sha256": "5794fd6edca6e4daa31f5ed710670d0b425534549a6c4aa2e3e9753ae116736f",
+                    "size": 765055716
                 }
             ]
         }
