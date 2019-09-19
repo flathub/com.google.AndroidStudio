@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Android Studio
-Exec=android
+Exec=android-studio
 Icon=com.google.AndroidStudio
 Comment=Development environment for the Android platform
 Terminal=false

@@ -1,77 +1,36 @@
 {
     "app-id": "com.google.AndroidStudio",
-    "runtime": "org.gnome.Sdk",
-    "runtime-version": "3.32",
-    "sdk": "org.gnome.Sdk",
-    "command": "android",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "19.08",
+    "sdk": "org.freedesktop.Sdk",
+    "sdk-extensions": [],
+    "command": "android-studio",
     "finish-args": [
         "--socket=x11",
         "--socket=pulseaudio",
-        "--socket=system-bus",
+        "--socket=ssh-auth",
         "--share=ipc",
         "--share=network",
         "--device=all",
-        "--allow=devel",
         "--filesystem=host",
         "--allow=multiarch",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
-        "--env=ANDROID_EMULATOR_USE_SYSTEM_LIBS=1",
+        "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
-        "--talk-name=org.freedesktop.Notifications"
+        "--talk-name=org.freedesktop.Flatpak"
     ],
     "modules": [
-        {
-            "name": "libsecret",
-            "config-opts": [
-                "--disable-manpages",
-                "--disable-gtk-doc",
-                "--disable-static",
-                "--disable-introspection"
-            ],
-            "cleanup": [
-                "/bin",
-                "/include",
-                "/lib/pkgconfig",
-                "/share/gtk-doc",
-                "*.la"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/libsecret/0.18/libsecret-0.18.8.tar.xz",
-                    "sha256": "3bfa889d260e0dbabcf5b9967f2aae12edcd2ddc9adc365de7a5cc840c311d15"
-                },
-                {
-                    "type": "shell",
-                    "commands": ["autoreconf -f"]
-                }
-            ]
-        },
         {
             "name": "android-studio",
             "buildsystem": "simple",
             "build-commands": [
                 "install -D apply_extra /app/bin/apply_extra",
-                "install -D android.sh /app/bin/android",
+                "install -D android-studio.sh /app/bin/android-studio",
                 "install -Dm644 com.google.AndroidStudio-64.png /app/share/icons/hicolor/64x64/apps/com.google.AndroidStudio.png",
                 "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
                 "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
                 "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
             ],
             "sources": [
-                {
-                    "type": "script",
-                    "dest-filename": "apply_extra",
-                    "commands": [
-                        "tar zxf android-studio.tar.gz",
-                        "rm android-studio.tar.gz",                        
-                        "mv android-studio/* .",
-                        "rmdir android-studio"
-                    ]
-                },
                 {
                     "type": "file",
                     "path": "com.google.AndroidStudio.desktop"
@@ -89,17 +48,53 @@
                     "path": "com.google.AndroidStudio-64.png"
                 },
                 {
-                    "type": "script",
-                    "commands": ["_JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME/tmp/ /app/extra/bin/studio.sh"],
-                    "dest-filename": "android.sh"
-                },
-                {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "only-arches": ["x86_64"],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.4.2.0/android-studio-ide-183.5692245-linux.tar.gz",
-                    "sha256": "35eb8c74837d1aab59229101fc91568a607ac04854a40209f7a0ba7ac0601924",
-                    "size": 1087839319
+                    "size": 765055716,
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.5.0.21/android-studio-ide-191.5791312-linux.tar.gz",
+                    "sha256": "5794fd6edca6e4daa31f5ed710670d0b425534549a6c4aa2e3e9753ae116736f"
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "apply_extra",
+                    "commands": [
+                        "tar xzf /app/extra/android-studio.tar.gz",
+                        "rm -f /app/extra/android-studio.tar.gz"
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "android-studio.sh",
+                    "commands": [
+                        "exec /app/extra/android-studio/bin/studio.sh"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "external-programs",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install -D git.sh /app/bin/git",
+                "install -D gpg.sh /app/bin/gpg"
+            ],
+            "sources": [
+                {
+                    "type": "script",
+                    "dest-filename": "git.sh",
+                    "commands": [
+                        "exec flatpak-spawn --host git $@"
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "gpg.sh",
+                    "commands": [
+                        "exec flatpak-spawn --host gpg $@"
+                    ]
                 }
             ]
         }
