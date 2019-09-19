@@ -29,6 +29,7 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
+		<release version="3.5.0.21" date="2019-08-20"/>
 		<release version="3.4.2.0" date="2019-07-10"/>
 		<release version="3.4.1.0" date="2019-05-01"/>
 		<release version="3.4.0.18" date="2019-04-17"/>
@@ -42,7 +43,7 @@
 		<release version="3.1.2.0" date="2018-03-31"/>
 		<release version="3.1.0.16" date="2018-03-27"/>
 		<release version="3.0.1.0" date="2017-11-20"/>
-  	</releases>
+	</releases>
 	<screenshots>
 		<screenshot type="default">
 			<image>https://developer.android.com/studio/images/studio-homepage-hero.jpg</image>
@@ -50,8 +51,8 @@
 		</screenshot>
 	</screenshots>
 	<url type="homepage">https://developer.android.com/studio/</url>
-  	<content_rating type="oars-1.0">
-    		<content_attribute id="social-info">moderate</content_attribute>
-  	</content_rating>
+	<content_rating type="oars-1.0">
+		<content_attribute id="social-info">moderate</content_attribute>
+	</content_rating>
 
 </component>
