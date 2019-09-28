@@ -12,6 +12,8 @@
         "--share=ipc",
         "--share=network",
         "--device=all",
+        "--env=ANDROID_EMULATOR_USE_SYSTEM_LIBS=1",
+        "--env=JAVA_HOME=/app/extra/android-studio/jre",
         "--filesystem=host",
         "--allow=multiarch",
         "--talk-name=org.freedesktop.Notifications",
