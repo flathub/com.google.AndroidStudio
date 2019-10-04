@@ -14,6 +14,8 @@
         "--device=all",
         "--filesystem=host",
         "--allow=multiarch",
+        "--env=_JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME/tmp/",
+        "--env=JAVA_HOME=/app/extra/android-studio/jre",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Flatpak"
