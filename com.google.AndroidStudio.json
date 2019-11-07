@@ -14,7 +14,6 @@
         "--device=all",
         "--filesystem=host",
         "--allow=multiarch",
-        "--env=_JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME/tmp/",
         "--env=JAVA_HOME=/app/extra/android-studio/jre",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
@@ -71,6 +70,8 @@
                     "type": "script",
                     "dest-filename": "android-studio.sh",
                     "commands": [
+                        "if ! [ -n \"$XDG_CACHE_HOME\" ]; then export XDG_CACHE_HOME=$HOME/.cache; fi",
+                        "export _JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME",
                         "exec /app/extra/android-studio/bin/studio.sh"
                     ]
                 }
