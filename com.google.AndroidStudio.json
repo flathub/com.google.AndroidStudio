@@ -14,7 +14,6 @@
         "--device=all",
         "--filesystem=host",
         "--allow=multiarch",
-        "--env=_JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME/tmp/",
         "--env=JAVA_HOME=/app/extra/android-studio/jre",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
@@ -52,12 +51,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 774544330,
+                    "size": 774539586,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.5.1.0/android-studio-ide-191.5900203-linux.tar.gz",
-                    "sha256": "94fc392a148480a67299d83c1faaabc56db27188194748433534cf8b5ca4dd29"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/3.5.2.0/android-studio-ide-191.5977832-linux.tar.gz",
+                    "sha256": "f838486ce847db802bdaf1163059033934146c6ccdcdaa9a398bd85cda348d4d"
                 },
                 {
                     "type": "script",
@@ -71,6 +70,8 @@
                     "type": "script",
                     "dest-filename": "android-studio.sh",
                     "commands": [
+                        "if ! [ -n \"$XDG_CACHE_HOME\" ]; then export XDG_CACHE_HOME=$HOME/.cache; fi",
+                        "export _JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME",
                         "exec /app/extra/android-studio/bin/studio.sh"
                     ]
                 }
