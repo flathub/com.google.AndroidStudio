@@ -13,6 +13,7 @@
         "--share=network",
         "--device=all",
         "--filesystem=host",
+        "--filesystem=xdg-run/keyring",
         "--allow=multiarch",
         "--env=JAVA_HOME=/app/extra/android-studio/jre",
         "--talk-name=org.freedesktop.Notifications",
@@ -78,26 +79,62 @@
             ]
         },
         {
-            "name": "external-programs",
-            "buildsystem": "simple",
-            "build-commands": [
-                "install -D git.sh /app/bin/git",
-                "install -D gpg.sh /app/bin/gpg"
+            "name": "git",
+            "make-args": [
+                "NO_TCLTK=1",
+                "INSTALL_SYMLINKS=1"
+            ],
+            "make-install-args": [
+                "NO_TCLTK=1",
+                "INSTALL_SYMLINKS=1"
             ],
             "sources": [
                 {
-                    "type": "script",
-                    "dest-filename": "git.sh",
-                    "commands": [
-                        "exec flatpak-spawn --host git $@"
-                    ]
-                },
+                    "type": "archive",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.24.0.tar.xz",
+                    "sha256": "9f71d61973626d8b28c4cdf8e2484b4bf13870ed643fed982d68b2cfd754371b"
+                }
+            ]
+        },
+        {
+            "name": "git-lfs",
+            "buildsystem": "simple",
+            "build-commands": [
+                "PREFIX=$FLATPAK_DEST ./install.sh"
+            ],
+            "sources": [
                 {
-                    "type": "script",
-                    "dest-filename": "gpg.sh",
-                    "commands": [
-                        "exec flatpak-spawn --host gpg $@"
-                    ]
+                    "type": "archive",
+                    "strip-components": 0,
+                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.0/git-lfs-linux-amd64-v2.9.0.tar.gz",
+                    "sha256": "afe269af8c60f2f36f9c9203dd0af279f0b8f74e1a36493330b82d99adc05ddc"
+                }
+            ]
+        },
+        {
+            "name": "gpg",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.17.tar.bz2",
+                    "sha256": "afa262868e39b651a2db4c071fba90415154243e83a830ca00516f9a807fd514"
+                }
+            ]
+        },
+        {
+            "name": "libsecret",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dgtk_doc=false",
+                "-Dmanpage=false",
+                "-Dvapi=false"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "commit": "f576dfbe50f9aed22802ad0db0356d081f467d7a",
+                    "tag": "0.19.1",
+                    "url": "https://gitlab.gnome.org/GNOME/libsecret.git"
                 }
             ]
         }
