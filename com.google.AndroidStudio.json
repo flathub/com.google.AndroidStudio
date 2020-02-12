@@ -121,22 +121,6 @@
                 }
             ]
         },
-        {
-            "name": "libsecret",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dgtk_doc=false",
-                "-Dmanpage=false",
-                "-Dvapi=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "commit": "f576dfbe50f9aed22802ad0db0356d081f467d7a",
-                    "tag": "0.19.1",
-                    "url": "https://gitlab.gnome.org/GNOME/libsecret.git"
-                }
-            ]
-        }
+        "shared-modules/libsecret/libsecret.json"
     ]
 }
