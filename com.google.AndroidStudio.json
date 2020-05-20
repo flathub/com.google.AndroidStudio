@@ -74,7 +74,7 @@
                     "commands": [
                         "if ! [ -n \"$XDG_CACHE_HOME\" ]; then export XDG_CACHE_HOME=$HOME/.cache; fi",
                         "export _JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME",
-                        "exec /app/extra/android-studio/bin/studio.sh"
+                        "exec env \"PATH=$PATH:$EXTRA_PATH\" /app/extra/android-studio/bin/studio.sh"
                     ]
                 }
             ]
