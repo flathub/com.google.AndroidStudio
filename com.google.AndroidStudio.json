@@ -57,7 +57,7 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.0.2.0/android-studio-ide-193.6821437-linux.tar.gz",
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/4.0.2.0/android-studio-ide-193.6821437-linux.tar.gz",
                     "sha256": "bf796e83c5c2978b5e90c04fe0dd704bddb91670da48c0dfe922098702b27736"
                 },
                 {
