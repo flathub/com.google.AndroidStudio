@@ -1,7 +1,7 @@
 {
     "app-id": "com.google.AndroidStudio",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "19.08",
+    "runtime-version": "20.08",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [],
     "command": "android-studio",
@@ -28,7 +28,6 @@
             "build-commands": [
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -D android-studio.sh /app/bin/android-studio",
-                "install -Dm644 com.google.AndroidStudio-64.png /app/share/icons/hicolor/64x64/apps/com.google.AndroidStudio.png",
                 "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
                 "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
                 "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
@@ -47,18 +46,14 @@
                     "path": "com.google.AndroidStudio.png"
                 },
                 {
-                    "type": "file",
-                    "path": "com.google.AndroidStudio-64.png"
-                },
-                {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 907561022,
+                    "size": 925365363,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/4.0.0.16/android-studio-ide-193.6514223-linux.tar.gz",
-                    "sha256": "70c04dc542281c015a700fad73d7d62ce9dace774bc12050cad9f1d6363112eb"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/4.1.2.0/android-studio-ide-201.7042882-linux.tar.gz",
+                    "sha256": "89f7c3a03ed928edeb7bbb1971284bcb72891a77b4f363557a7ad4ed37652bb9"
                 },
                 {
                     "type": "script",
@@ -92,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.24.2.tar.xz",
-                    "sha256": "7ab1c4d8c03999537804c13f91fcb0d875fa911dfd34f6225f1c48c1a2ec3e83"
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.95.5.tar.xz",
+                    "sha256": "a4bea37ecb9a3fb5c0c8ef18c2f7eeaf8ccbcfec91f72f3bccfc6bf72a3e3902"
                 }
             ]
         },
@@ -107,8 +102,8 @@
                 {
                     "type": "archive",
                     "strip-components": 0,
-                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.2/git-lfs-linux-amd64-v2.9.2.tar.gz",
-                    "sha256": "04346234130e518d165bdc7e9964375bbeb3b98efabd042084530cc34288274c"
+                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.2/git-lfs-linux-amd64-v2.13.2.tar.gz",
+                    "sha256": "7913f267c84518860551384313ece6f2e72cb5a18cf9987189a087108346267d"
                 }
             ]
         },
@@ -117,8 +112,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.17.tar.bz2",
-                    "sha256": "afa262868e39b651a2db4c071fba90415154243e83a830ca00516f9a807fd514"
+                    "url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.27.tar.bz2",
+                    "sha256": "34e60009014ea16402069136e0a5f63d9b65f90096244975db5cea74b3d02399"
                 }
             ]
         },
