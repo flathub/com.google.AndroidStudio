@@ -48,12 +48,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 926213072,
+                    "size": 925365363,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/4.1.1.0/android-studio-ide-201.6953283-linux.tar.gz",
-                    "sha256": "68032184959c54576f119b7c7c8ded175d848374f3954fa450530d78260dd68b"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/4.1.2.0/android-studio-ide-201.7042882-linux.tar.gz",
+                    "sha256": "89f7c3a03ed928edeb7bbb1971284bcb72891a77b4f363557a7ad4ed37652bb9"
                 },
                 {
                     "type": "script",
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.28.0.tar.xz",
-                    "sha256": "dfa5d1a253aa451465478fe45c6a40ab8605b340fdb4c4e80b16d7f87708439d"
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.30.0.tar.xz",
+                    "sha256": "55735021109565721af805af382c45cce73c3cfaa59daad22443d1477d334d19"
                 }
             ]
         },
@@ -102,8 +102,8 @@
                 {
                     "type": "archive",
                     "strip-components": 0,
-                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.12.0/git-lfs-linux-amd64-v2.12.0.tar.gz",
-                    "sha256": "f9befd0fa0b19517b8ed14ab07812f0d39d776d8c9ea0023e343e30ff300813f"
+                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.2/git-lfs-linux-amd64-v2.13.2.tar.gz",
+                    "sha256": "7913f267c84518860551384313ece6f2e72cb5a18cf9987189a087108346267d"
                 }
             ]
         },
@@ -112,8 +112,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.23.tar.bz2",
-                    "sha256": "10b55e49d78b3e49f1edb58d7541ecbdad92ddaeeb885b6f486ed23d1cd1da5c"
+                    "url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.27.tar.bz2",
+                    "sha256": "34e60009014ea16402069136e0a5f63d9b65f90096244975db5cea74b3d02399"
                 }
             ]
         },
