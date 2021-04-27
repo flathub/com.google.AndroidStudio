@@ -27,22 +27,22 @@
             "build-commands": [
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -D android-studio.sh /app/bin/android-studio",
-                "install -Dm644 com.google.AndroidStudioCanary.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudioCanary.svg",
-                "install -Dm644 com.google.AndroidStudioCanary.appdata.xml /app/share/appdata/com.google.AndroidStudioCanary.appdata.xml",
-                "install -Dm644 com.google.AndroidStudioCanary.desktop /app/share/applications/com.google.AndroidStudioCanary.desktop"
+                "install -Dm644 com.google.AndroidStudio.svg /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.svg",
+                "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
+                "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "path": "com.google.AndroidStudioCanary.desktop"
+                    "path": "com.google.AndroidStudio.desktop"
                 },
                 {
                     "type": "file",
-                    "path": "com.google.AndroidStudioCanary.appdata.xml"
+                    "path": "com.google.AndroidStudio.appdata.xml"
                 },
                 {
                     "type": "file",
-                    "path": "com.google.AndroidStudioCanary.svg"
+                    "path": "com.google.AndroidStudio.svg"
                 },
                 {
                     "type": "extra-data",
