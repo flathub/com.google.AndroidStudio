@@ -1,5 +1,5 @@
 {
-    "app-id": "com.google.AndroidStudio",
+    "app-id": "com.google.AndroidStudioCanary",
     "runtime": "org.freedesktop.Sdk",
     "runtime-version": "20.08",
     "sdk": "org.freedesktop.Sdk",
@@ -27,22 +27,22 @@
             "build-commands": [
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -D android-studio.sh /app/bin/android-studio",
-                "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
-                "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
-                "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
+                "install -Dm644 com.google.AndroidStudioCanary.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudioCanary.svg",
+                "install -Dm644 com.google.AndroidStudioCanary.appdata.xml /app/share/appdata/com.google.AndroidStudioCanary.appdata.xml",
+                "install -Dm644 com.google.AndroidStudioCanary.desktop /app/share/applications/com.google.AndroidStudioCanary.desktop"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "path": "com.google.AndroidStudio.desktop"
+                    "path": "com.google.AndroidStudioCanary.desktop"
                 },
                 {
                     "type": "file",
-                    "path": "com.google.AndroidStudio.appdata.xml"
+                    "path": "com.google.AndroidStudioCanary.appdata.xml"
                 },
                 {
                     "type": "file",
-                    "path": "com.google.AndroidStudio.png"
+                    "path": "com.google.AndroidStudioCanary.svg"
                 },
                 {
                     "type": "extra-data",
@@ -51,8 +51,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/4.1.3.0/android-studio-ide-201.7199119-linux.tar.gz",
-                    "sha256": "f599749ca47cda06d392e2764017c8a8a0c7b963a6a88ed494b432bece7cbc1b"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2020.3.1.14/android-studio-2020.3.1.14-linux.tar.gz",
+                    "sha256": "740d2e2275738b9c6de62c6cb2a8294a0fab3f1b2f97769cee9e39afb02203a9"
                 },
                 {
                     "type": "script",
