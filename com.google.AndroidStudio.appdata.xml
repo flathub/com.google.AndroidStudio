@@ -29,6 +29,7 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
+		<release version="2020.3.1 Beta 3" date="2021-06-07"/>
 		<release version="2020.3.1 Beta 1" date="2021-05-19"/>
         <release version="2020.3.1 Canary 15" date="2021-04-30"/>
 		<release version="2020.3.1 Canary 14" date="2021-04-07"/>
