@@ -47,12 +47,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 985888687,
+                    "size": 984766167,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2020.3.1.16/android-studio-2020.3.1.16-linux.tar.gz",
-                    "sha256": "00b3096d631000593883085a0150369722c7f8e2fe3d86b61502303c7b65e156"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2020.3.1.19/android-studio-2020.3.1.19-linux.tar.gz",
+                    "sha256": "7e5499895730303b3acc96c5b0f7f66ff33ae074dafc5673846b7b977e927f03"
                 },
                 {
                     "type": "script",
@@ -66,8 +66,6 @@
                     "type": "script",
                     "dest-filename": "android-studio.sh",
                     "commands": [
-                        "if ! [ -n \"$XDG_CACHE_HOME\" ]; then export XDG_CACHE_HOME=$HOME/.cache; fi",
-                        "export _JAVA_OPTIONS=-Djava.io.tmpdir=$XDG_CACHE_HOME",
                         "exec env \"PATH=$PATH:$EXTRA_PATH\" /app/extra/android-studio/bin/studio.sh"
                     ]
                 }
