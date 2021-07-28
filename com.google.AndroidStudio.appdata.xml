@@ -29,6 +29,7 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
+		<release version="2020.3.1.22" date="2021-07-28" />
 		<release version="4.2.2.0" date="2021-07-01"/>
 		<release version="4.2.1.0" date="2021-05-14"/>
 		<release version="4.2.0.24" date="2021-05-04"/>
