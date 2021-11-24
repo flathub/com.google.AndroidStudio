@@ -124,6 +124,34 @@
                 }
             ]
         },
+        {
+            "name": "ncurses",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz",
+                    "sha256": "9046298fb440324c9d4135ecea7879ffed8546dd1b58e59430ea07a4633f563b"
+                }
+            ],
+            "buildsystem": "autotools",
+            "build-options": {
+                "cppflags": "-P"
+            },
+            "config-opts": [
+                "--with-shared",
+                "--with-termlib",
+                "--without-normal",
+                "--without-develop",
+                "--without-cxx",
+                "--without-tests",
+                "--without-progs",
+                "--without-manpages"
+            ],
+            "cleanup": [
+                 "/include",
+                 "/lib/*.a"
+            ]
+        },
         "shared-modules/libsecret/libsecret.json"
     ]
 }
