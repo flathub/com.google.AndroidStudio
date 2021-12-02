@@ -37,7 +37,7 @@
                     "path": "com.google.AndroidStudio.desktop"
                 },
                 {
-                    "type": "file",
+		    "type": "file",
                     "path": "com.google.AndroidStudio.appdata.xml"
                 },
                 {
@@ -47,12 +47,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 987611101,
+                    "size": 951931391,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2020.3.1.21/android-studio-2020.3.1.21-linux.tar.gz",
-                    "sha256": "6eb4cbb362dec3c78a73addcc43c20bb4281c7a855dcbd50ec11d185c4606712"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2021.1.1.17/android-studio-2021.1.1.17-linux.tar.gz",
+                    "sha256": "e562d480299dacad0f02b73879041335b12892ae0345e291c2c64e58a6fe4dde"
                 },
                 {
                     "type": "script",
