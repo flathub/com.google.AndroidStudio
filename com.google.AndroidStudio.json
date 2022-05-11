@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.xz",
-                    "sha256": "a4bea37ecb9a3fb5c0c8ef18c2f7eeaf8ccbcfec91f72f3bccfc6bf72a3e3902"
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.36.1.tar.xz",
+                    "sha256": "405d4a0ff6e818d1f12b3e92e1ac060f612adcb454f6299f70583058cb508370"
                 }
             ]
         },
@@ -99,8 +99,8 @@
                 {
                     "type": "archive",
                     "strip-components": 0,
-                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.3/git-lfs-linux-amd64-v2.13.3.tar.gz",
-                    "sha256": "03197488f7be54cfc7b693f0ed6c75ac155f5aaa835508c64d68ec8f308b04c1"
+                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.1.4/git-lfs-linux-amd64-v3.1.4.tar.gz",
+                    "sha256": "f97f3e40261d872a246f6fb2c96adf132f96c1428f70b4d0e5a644f98481fb76"
                 }
             ]
         },
