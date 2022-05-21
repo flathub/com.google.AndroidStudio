@@ -1,7 +1,7 @@
 {
     "app-id": "com.google.AndroidStudio",
     "runtime": "org.freedesktop.Sdk",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "android-studio",
     "finish-args": [
@@ -37,7 +37,7 @@
                     "path": "com.google.AndroidStudio.desktop"
                 },
                 {
-		    "type": "file",
+                    "type": "file",
                     "path": "com.google.AndroidStudio.appdata.xml"
                 },
                 {
@@ -51,8 +51,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2021.1.1.17/android-studio-2021.1.1.17-linux.tar.gz",
-                    "sha256": "e562d480299dacad0f02b73879041335b12892ae0345e291c2c64e58a6fe4dde"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2022.1.1.2/android-studio-2022.1.1.2-linux.tar.gz",
+                    "sha256": "b53e8d84e8c02a9536321c517c6b77054b34f68a08def32673df2d7d7d333a18"
                 },
                 {
                     "type": "script",
@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.30.0.tar.xz",
-                    "sha256": "55735021109565721af805af382c45cce73c3cfaa59daad22443d1477d334d19"
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.36.1.tar.xz",
+                    "sha256": "405d4a0ff6e818d1f12b3e92e1ac060f612adcb454f6299f70583058cb508370"
                 }
             ]
         },
@@ -99,8 +99,8 @@
                 {
                     "type": "archive",
                     "strip-components": 0,
-                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.2/git-lfs-linux-amd64-v2.13.2.tar.gz",
-                    "sha256": "7913f267c84518860551384313ece6f2e72cb5a18cf9987189a087108346267d"
+                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.1.4/git-lfs-linux-amd64-v3.1.4.tar.gz",
+                    "sha256": "f97f3e40261d872a246f6fb2c96adf132f96c1428f70b4d0e5a644f98481fb76"
                 }
             ]
         },
@@ -122,6 +122,34 @@
                     "url": "https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.gz",
                     "sha256": "8cf86e00ad3aaa6d26aca30640e86b0e3e1f395ed99f189b06d4c9f74bc58a4e"
                 }
+            ]
+        },
+        {
+            "name": "ncurses",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz",
+                    "sha256": "9046298fb440324c9d4135ecea7879ffed8546dd1b58e59430ea07a4633f563b"
+                }
+            ],
+            "buildsystem": "autotools",
+            "build-options": {
+                "cppflags": "-P"
+            },
+            "config-opts": [
+                "--with-shared",
+                "--with-termlib",
+                "--without-normal",
+                "--without-develop",
+                "--without-cxx",
+                "--without-tests",
+                "--without-progs",
+                "--without-manpages"
+            ],
+            "cleanup": [
+                "/include",
+                "/lib/*.a"
             ]
         },
         "shared-modules/libsecret/libsecret.json"
