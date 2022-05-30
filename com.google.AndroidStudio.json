@@ -47,12 +47,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 1010969463,
+                    "size": 1011008721,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2021.2.1.14/android-studio-2021.2.1.14-linux.tar.gz",
-                    "sha256": "e98bb08ae6b4eaa9401b555a294d98615a6ade4c85b43c630a880313eab3c7b3"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2021.2.1.15/android-studio-2021.2.1.15-linux.tar.gz",
+                    "sha256": "0018e0dfc0dd2921700516f7a2c443377c557788da7fb0a45243ecb4300745be"
                 },
                 {
                     "type": "script",
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.27.tar.bz2",
-                    "sha256": "34e60009014ea16402069136e0a5f63d9b65f90096244975db5cea74b3d02399"
+                    "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.35.tar.bz2",
+                    "sha256": "340bc255938971e6e729b3d9956fa2ef4db8215d77693bf300df2bb302498690"
                 }
             ]
         },
