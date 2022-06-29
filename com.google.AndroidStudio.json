@@ -59,7 +59,8 @@
                     "dest-filename": "apply_extra",
                     "commands": [
                         "tar xzf /app/extra/android-studio.tar.gz",
-                        "rm -f /app/extra/android-studio.tar.gz"
+                        "rm -f /app/extra/android-studio.tar.gz",
+			"chmod +x /app/extra/android-studio/bin/fsnotifier"
                     ]
                 },
                 {
