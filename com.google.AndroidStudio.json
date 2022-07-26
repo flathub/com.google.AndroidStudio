@@ -114,6 +114,16 @@
                 }
             ]
         },
+	{
+	    "name": "pinentry",
+	    "sources": [
+		{
+		    "type": "archive",
+		    "url": "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.17.1.tar.bz2"
+		    "sha256": "711eabf5dd661b9b04be9edc9ace2a7bc031f6bd9d37a768d02d0efdef108f5f"
+		}
+	    ]
+	},
         {
             "name": "patch",
             "sources": [
