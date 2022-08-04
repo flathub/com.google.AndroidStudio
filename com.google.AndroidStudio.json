@@ -128,8 +128,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz",
-                    "sha256": "9046298fb440324c9d4135ecea7879ffed8546dd1b58e59430ea07a4633f563b"
+                    "url": "ftp://ftp.gnu.org/gnu/ncurses/ncurses-6.3.tar.gz",
+                    "sha512": "5373f228cba6b7869210384a607a2d7faecfcbfef6dbfcd7c513f4e84fbd8bcad53ac7db2e7e84b95582248c1039dcfc7c4db205a618f7da22a166db482f0105"
                 }
             ],
             "buildsystem": "autotools",
@@ -144,7 +144,8 @@
                 "--without-cxx",
                 "--without-tests",
                 "--without-progs",
-                "--without-manpages"
+                "--without-manpages",
+                "--with-abi-version=5"
             ],
             "cleanup": [
                 "/include",
