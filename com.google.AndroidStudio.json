@@ -47,12 +47,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 1011008721,
+                    "size": 1011007237,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2021.2.1.15/android-studio-2021.2.1.15-linux.tar.gz",
-                    "sha256": "0018e0dfc0dd2921700516f7a2c443377c557788da7fb0a45243ecb4300745be"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2021.2.1.16/android-studio-2021.2.1.16-linux.tar.gz",
+                    "sha256": "aa5773a9e1da25bdb2367a8bdd2b623dbe0345170ed231a15b3f40e8888447dc"
                 },
                 {
                     "type": "script",
@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.36.1.tar.xz",
-                    "sha256": "405d4a0ff6e818d1f12b3e92e1ac060f612adcb454f6299f70583058cb508370"
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.37.1.tar.xz",
+                    "sha256": "c8162c6b8b8f1c5db706ab01b4ee29e31061182135dc27c4860224aaec1b3500"
                 }
             ]
         },
@@ -98,9 +98,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "strip-components": 0,
-                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.1.4/git-lfs-linux-amd64-v3.1.4.tar.gz",
-                    "sha256": "f97f3e40261d872a246f6fb2c96adf132f96c1428f70b4d0e5a644f98481fb76"
+                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.2.0/git-lfs-linux-amd64-v3.2.0.tar.gz",
+                    "sha256": "d6730b8036d9d99f872752489a331995930fec17b61c87c7af1945c65a482a50"
                 }
             ]
         },
@@ -109,8 +108,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.35.tar.bz2",
-                    "sha256": "340bc255938971e6e729b3d9956fa2ef4db8215d77693bf300df2bb302498690"
+                    "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.36.tar.bz2",
+                    "sha256": "bdfe783810fceca9703b9e811817acca63ee9ef0174e616598e8ea6590aa4c9c"
                 }
             ]
         },
@@ -129,8 +128,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz",
-                    "sha256": "9046298fb440324c9d4135ecea7879ffed8546dd1b58e59430ea07a4633f563b"
+                    "url": "ftp://ftp.gnu.org/gnu/ncurses/ncurses-6.3.tar.gz",
+                    "sha512": "5373f228cba6b7869210384a607a2d7faecfcbfef6dbfcd7c513f4e84fbd8bcad53ac7db2e7e84b95582248c1039dcfc7c4db205a618f7da22a166db482f0105"
                 }
             ],
             "buildsystem": "autotools",
@@ -145,7 +144,8 @@
                 "--without-cxx",
                 "--without-tests",
                 "--without-progs",
-                "--without-manpages"
+                "--without-manpages",
+                "--with-abi-version=5"
             ],
             "cleanup": [
                 "/include",
