@@ -108,8 +108,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.36.tar.bz2",
-                    "sha256": "bdfe783810fceca9703b9e811817acca63ee9ef0174e616598e8ea6590aa4c9c"
+                    "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.40.tar.bz2",
+                    "sha256": "1164b29a75e8ab93ea15033300149e1872a7ef6bdda3d7c78229a735f8204c28"
+                },
+                {
+                    "type": "patch",
+                    "path": "gnupg-a5c3821664886ffffbe6a83aac088a6e0088a607.patch"
                 }
             ]
         },
