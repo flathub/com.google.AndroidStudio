@@ -1,7 +1,7 @@
 {
     "app-id": "com.google.AndroidStudio",
     "runtime": "org.freedesktop.Sdk",
-    "runtime-version": "21.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "android-studio",
     "finish-args": [
@@ -72,24 +72,6 @@
             ]
         },
         {
-            "name": "git",
-            "make-args": [
-                "NO_TCLTK=1",
-                "INSTALL_SYMLINKS=1"
-            ],
-            "make-install-args": [
-                "NO_TCLTK=1",
-                "INSTALL_SYMLINKS=1"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.38.1.tar.xz",
-                    "sha256": "97ddf8ea58a2b9e0fbc2508e245028ca75911bd38d1551616b148c1aa5740ad9"
-                }
-            ]
-        },
-        {
             "name": "git-lfs",
             "buildsystem": "simple",
             "build-commands": [
@@ -101,59 +83,6 @@
                     "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.2.0/git-lfs-linux-amd64-v3.2.0.tar.gz",
                     "sha256": "d6730b8036d9d99f872752489a331995930fec17b61c87c7af1945c65a482a50"
                 }
-            ]
-        },
-        {
-            "name": "gpg",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.40.tar.bz2",
-                    "sha256": "1164b29a75e8ab93ea15033300149e1872a7ef6bdda3d7c78229a735f8204c28"
-                },
-                {
-                    "type": "patch",
-                    "path": "gnupg-a5c3821664886ffffbe6a83aac088a6e0088a607.patch"
-                }
-            ]
-        },
-        {
-            "name": "patch",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.gz",
-                    "sha256": "8cf86e00ad3aaa6d26aca30640e86b0e3e1f395ed99f189b06d4c9f74bc58a4e"
-                }
-            ]
-        },
-        {
-            "name": "ncurses",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "ftp://ftp.gnu.org/gnu/ncurses/ncurses-6.3.tar.gz",
-                    "sha512": "5373f228cba6b7869210384a607a2d7faecfcbfef6dbfcd7c513f4e84fbd8bcad53ac7db2e7e84b95582248c1039dcfc7c4db205a618f7da22a166db482f0105"
-                }
-            ],
-            "buildsystem": "autotools",
-            "build-options": {
-                "cppflags": "-P"
-            },
-            "config-opts": [
-                "--with-shared",
-                "--with-termlib",
-                "--without-normal",
-                "--without-develop",
-                "--without-cxx",
-                "--without-tests",
-                "--without-progs",
-                "--without-manpages",
-                "--with-abi-version=5"
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/*.a"
             ]
         },
         "shared-modules/libsecret/libsecret.json"
