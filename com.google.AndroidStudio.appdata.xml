@@ -29,7 +29,8 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
-		<release version="2022.2.1.18" date="2023-04-13" />
+		<release version="2022.2.1.19" date="2023-05-10"/>
+		<release version="2022.2.1.18" date="2023-04-13"/>
 		<release version="2022.1.1.21" date="2023-02-27"/>
 		<release version="2022.1.1.20" date="2023-02-01"/>
 		<release version="2022.1.1.19" date="2023-01-12"/>
@@ -80,7 +81,7 @@
 	</releases>
 	<screenshots>
 		<screenshot type="default">
-			<image>https://developer.android.com/studio/images/studio-homepage-hero.jpg</image>
+			<image>https://developer.android.com/static/images/studio/studio-hero_2880.png</image>
 			<caption>Android Studio Showing the structure of a project</caption>
 		</screenshot>
 	</screenshots>
