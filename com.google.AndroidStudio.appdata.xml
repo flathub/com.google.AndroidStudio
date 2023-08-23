@@ -29,6 +29,7 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
+		<release version="2022.3.1.19" date="2023-08-21"/>
 		<release version="2022.3.1.18" date="2023-07-26"/>
 		<release version="2022.2.1.20" date="2023-05-24"/>
 		<release version="2022.2.1.19" date="2023-05-10"/>
