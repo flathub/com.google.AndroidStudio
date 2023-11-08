@@ -51,8 +51,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2022.3.1.20/android-studio-2022.3.1.20-linux.tar.gz",
-                    "sha256": "224c4eb7a0c8e1c04f50eced1013495740c71abb898d5749d2c93172e7beadd8"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2022.3.1.21/android-studio-2022.3.1.21-linux.tar.gz",
+                    "sha256": "c6bd608fd2cf7ebdf0576f6e6283b5b594d3a72a80009f82ffabe70c9b457203"
                 },
                 {
                     "type": "script",
