@@ -3,7 +3,7 @@
     "runtime": "org.freedesktop.Sdk",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
-    "command": "android-studio",
+    "command": "android-studio-wrapper",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
@@ -82,6 +82,20 @@
                     "type": "archive",
                     "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.2.0/git-lfs-linux-amd64-v3.2.0.tar.gz",
                     "sha256": "d6730b8036d9d99f872752489a331995930fec17b61c87c7af1945c65a482a50"
+                }
+            ]
+        },
+        {
+            "name": "ide-flatpak-wrapper",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Deditor_binary=/app/bin/android-studio",
+                "-Dprogram_name=android-studio-wrapper"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "ide-flatpak-wrapper"
                 }
             ]
         },
