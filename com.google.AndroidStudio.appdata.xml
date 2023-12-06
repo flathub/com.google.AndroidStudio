@@ -29,7 +29,30 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
-		<release version="2023.1.1.26" date="2023-11-30"/>
+		<release version="2023.1.1.26" date="2023-11-30">
+			<description>
+				<ul>
+					<li>IntelliJ IDEA 2023.1 platform update</li>
+					<li>New macro to specify JDK path</li>
+					<li>Analyze Android vitals in App Quality Insights</li>
+					<li>New Power Profiler</li>
+					<li>New App Links Assistant</li>
+					<li>Live Edit updated manual mode shortcut</li>
+					<li>Compose Multipreview templates</li>
+					<li>Compose Preview Gallery Mode</li>
+					<li>Compose state information in debugger</li>
+					<li>Device mirroring</li>
+					<li>Hardware input forwarding</li>
+					<li>Manage devices directly from the Running Devices window</li>
+					<li>Embedded Layout Inspector</li>
+					<li>New UI improvements</li>
+					<li>SDK Upgrade Assistant updates</li>
+					<li>Use Firebase Test Lab devices with Gradle-managed devices</li>
+					<li>Disable build optimization for target API level only</li>
+					<li>Eclipse Android Development Tool projects are no longer supported</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2022.3.1.22" date="2023-11-16"/>
 		<release version="2022.3.1.21" date="2023-11-07"/>
 		<release version="2022.3.1.20" date="2023-09-28"/>
