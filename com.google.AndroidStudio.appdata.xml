@@ -29,32 +29,161 @@
 	<icon type="remote" height="128" width="128">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s128/image8.png</icon>
 	<icon type="remote" height="64" width="64">https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png</icon>
 	<releases>
-		<release version="2023.1.1.26" date="2023-11-30"/>
+		<release version="2023.1.1.26" date="2023-11-30">
+			<description>
+				<ul>
+					<li>IntelliJ IDEA 2023.1 platform update</li>
+					<li>New macro to specify JDK path</li>
+					<li>Analyze Android vitals in App Quality Insights</li>
+					<li>New Power Profiler</li>
+					<li>New App Links Assistant</li>
+					<li>Live Edit updated manual mode shortcut</li>
+					<li>Compose Multipreview templates</li>
+					<li>Compose Preview Gallery Mode</li>
+					<li>Compose state information in debugger</li>
+					<li>Device mirroring</li>
+					<li>Hardware input forwarding</li>
+					<li>Manage devices directly from the Running Devices window</li>
+					<li>Embedded Layout Inspector</li>
+					<li>New UI improvements</li>
+					<li>SDK Upgrade Assistant updates</li>
+					<li>Use Firebase Test Lab devices with Gradle-managed devices</li>
+					<li>Disable build optimization for target API level only</li>
+					<li>Eclipse Android Development Tool projects are no longer supported</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2022.3.1.22" date="2023-11-16"/>
 		<release version="2022.3.1.21" date="2023-11-07"/>
 		<release version="2022.3.1.20" date="2023-09-28"/>
 		<release version="2022.3.1.19" date="2023-08-21"/>
-		<release version="2022.3.1.18" date="2023-07-26"/>
+		<release version="2022.3.1.18" date="2023-07-26">
+			<description>
+				<ul>
+					<li>Use Live Edit to update composables in real time</li>
+					<li>New UI preview</li>
+					<li>New API support for Compose Animation Preview</li>
+					<li>Support for Grammatical Inflection API</li>
+					<li>View and manage processes in the Device Explorer</li>
+					<li>New Android SDK Upgrade Assistant</li>
+					<li>Enhanced diagnostic tools and bug reporting</li>
+					<li>Make selected modules toolbar button</li>
+					<li>Download info during sync</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2022.2.1.20" date="2023-05-24"/>
 		<release version="2022.2.1.19" date="2023-05-10"/>
-		<release version="2022.2.1.18" date="2023-04-13"/>
+		<release version="2022.2.1.18" date="2023-04-13">
+			<description>
+				<ul>
+					<li>Themed app icons and dynamic color</li>
+					<li>Updates to Live Edit</li>
+					<li>Compose Tracing</li>
+					<li>Updates to project templates</li>
+					<li>Device mirroring</li>
+					<li>Network Inspector traffic interception</li>
+					<li>Auto-connect to foreground process in Layout Inspector</li>
+					<li>Updates to App Quality Insights</li>
+					<li>One-click automated profileable build and run</li>
+					<li>Lint support for SDK extensions</li>
+					<li>IntelliJ IDEA 2022.2 platform update</li>
+					<li>Android Studio bundled with JDK 17</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2022.1.1.21" date="2023-02-27"/>
 		<release version="2022.1.1.20" date="2023-02-01"/>
-		<release version="2022.1.1.19" date="2023-01-12"/>
+		<release version="2022.1.1.19" date="2023-01-12">
+			<description>
+				<ul>
+					<li>Updates to Logcat</li>
+					<li>App Quality Insights from Firebase Crashlytics</li>
+					<li>Live updates to your Compose Preview</li>
+					<li>Use Compose Preview with different devices</li>
+					<li>Layout Inspector recomposition rendering highlights</li>
+					<li>Visual linting for views</li>
+					<li>Universal Problems panel</li>
+					<li>Resizable emulator</li>
+					<li>Desktop Android Virtual Device now available</li>
+					<li>Check download impact using Build Analyzer</li>
+					<li>SDK insights</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2021.3.1.17" date="2022-10-13"/>
-		<release version="2021.3.1.16" date="2022-09-15"/>
+		<release version="2021.3.1.16" date="2022-09-15">
+			<description>
+				<ul>
+					<li>New in Compose</li>
+					<li>Updated Wear OS emulator pairing assistant</li>
+					<li>Updated Wear OS emulator toolbar</li>
+					<li>New Wear OS run configurations</li>
+					<li>New Logcat</li>
+					<li>Gradle Managed Devices</li>
+					<li>R8 support using mapping files based on DEX instruction offsets</li>
+					<li>Stateless lambdas are no longer desugared as singletons</li>
+					<li>R8 avoids verification slowdown on Android runtimes</li>
+					<li>Support for JDK-11 APIs with Java 8+ API desugaring</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2021.2.1.16" date="2022-08-03"/>
 		<release version="2021.2.1.15" date="2022-05-25"/>
-		<release version="2021.2.1.14" date="2022-05-09"/>
+		<release version="2021.2.1.14" date="2022-05-09">
+			<description>
+				<ul>
+					<li>Support for creating your app with Jetpack Compose</li>
+					<li>Support for profiling your app</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2021.1.1.23" date="2022-04-07"/>
 		<release version="2021.1.1.22" date="2022-02-23"/>
 		<release version="2021.1.1.21" date="2022-02-06"/>
-		<release version="2021.1.1.20" date="2022-01-25"/>
+		<release version="2021.1.1.20" date="2022-01-25">
+			<description>
+				<ul>
+					<li>Support for KMP test execution</li>
+					<li>New Device Manager</li>
+					<li>New in Layout Inspector</li>
+					<li>New in App Inspection</li>
+					<li>New in Profilers</li>
+					<li>Wireless debugging</li>
+					<li>Compose interactive preview enabled by default</li>
+					<li>Animated Vector Drawable (AVD) preview</li>
+					<li>Non-transitive R classes on by default</li>
+					<li>Updated device picker for design tools</li>
+					<li>Android testing</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2020.3.1.26" date="2021-12-09"/>
 		<release version="2020.3.1.25" date="2021-10-12"/>
 		<release version="2020.3.1.24" date="2021-09-02"/>
 		<release version="2020.3.1.23" date="2021-08-19"/>
-		<release version="2020.3.1.22" date="2021-07-29"/>
+		<release version="2020.3.1.22" date="2021-07-29">
+			<description>
+				<ul>
+					<li>New version numbering</li>
+					<li>Android Gradle plugin 7.0.0</li>
+					<li>New Background Task Inspector</li>
+					<li>Updates Database Inspector</li>
+					<li>Updated UI for recording in Memory Profiler</li>
+					<li>Updates to Refresh Linked C++ Project</li>
+					<li>New test matrix for multi-device testing</li>
+					<li>StateFlow support in data binding</li>
+					<li>Improved suggested import</li>
+					<li>Support for configuration cache in Build Analyzer</li>
+					<li>Support for Jetpack Compose tooling</li>
+					<li>Compose support in the Layout Inspector</li>
+					<li>Improved deploy dropdown</li>
+					<li>New Wear OS pairing assistant</li>
+					<li>Responsive layout template</li>
+					<li>Accessibility Scanner for Layout Editor</li>
+				</ul>
+			</description>
+		</release>
 		<release version="4.2.2.0" date="2021-07-01"/>
 		<release version="4.2.1.0" date="2021-05-14"/>
 		<release version="4.2.0.24" date="2021-05-04"/>
