@@ -1,9 +1,9 @@
 {
     "app-id": "com.google.AndroidStudio",
     "runtime": "org.freedesktop.Sdk",
-    "runtime-version": "20.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
-    "command": "android-studio",
+    "command": "android-studio-wrapper",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
@@ -15,7 +15,7 @@
         "--filesystem=host",
         "--filesystem=xdg-run/keyring",
         "--allow=multiarch",
-        "--env=JAVA_HOME=/app/extra/android-studio/jre",
+        "--env=JAVA_HOME=/app/extra/android-studio/jbr",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Flatpak"
@@ -47,12 +47,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 951931391,
+                    "size": 1208024832,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2021.1.1.17/android-studio-2021.1.1.17-linux.tar.gz",
-                    "sha256": "e562d480299dacad0f02b73879041335b12892ae0345e291c2c64e58a6fe4dde"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2023.2.1.17/android-studio-2023.2.1.17-linux.tar.gz",
+                    "sha256": "446d4dd3aa6c45a46b0bfe7b4eb6f6dcad087b3a76541562051a894472ecb0c2"
                 },
                 {
                     "type": "script",
@@ -72,24 +72,6 @@
             ]
         },
         {
-            "name": "git",
-            "make-args": [
-                "NO_TCLTK=1",
-                "INSTALL_SYMLINKS=1"
-            ],
-            "make-install-args": [
-                "NO_TCLTK=1",
-                "INSTALL_SYMLINKS=1"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.30.0.tar.xz",
-                    "sha256": "55735021109565721af805af382c45cce73c3cfaa59daad22443d1477d334d19"
-                }
-            ]
-        },
-        {
             "name": "git-lfs",
             "buildsystem": "simple",
             "build-commands": [
@@ -98,29 +80,22 @@
             "sources": [
                 {
                     "type": "archive",
-                    "strip-components": 0,
-                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.2/git-lfs-linux-amd64-v2.13.2.tar.gz",
-                    "sha256": "7913f267c84518860551384313ece6f2e72cb5a18cf9987189a087108346267d"
+                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.2.0/git-lfs-linux-amd64-v3.2.0.tar.gz",
+                    "sha256": "d6730b8036d9d99f872752489a331995930fec17b61c87c7af1945c65a482a50"
                 }
             ]
         },
         {
-            "name": "gpg",
+            "name": "ide-flatpak-wrapper",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Deditor_binary=/app/bin/android-studio",
+                "-Dprogram_name=android-studio-wrapper"
+            ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.27.tar.bz2",
-                    "sha256": "34e60009014ea16402069136e0a5f63d9b65f90096244975db5cea74b3d02399"
-                }
-            ]
-        },
-        {
-            "name": "patch",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.gz",
-                    "sha256": "8cf86e00ad3aaa6d26aca30640e86b0e3e1f395ed99f189b06d4c9f74bc58a4e"
+                    "type": "dir",
+                    "path": "ide-flatpak-wrapper"
                 }
             ]
         },
