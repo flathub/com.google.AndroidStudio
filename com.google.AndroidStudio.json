@@ -3,7 +3,7 @@
     "runtime": "org.freedesktop.Sdk",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
-    "command": "android-studio",
+    "command": "android-studio-wrapper",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
@@ -47,12 +47,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 1014162603,
+                    "size": 1149577846,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2022.1.1.21/android-studio-2022.1.1.21-linux.tar.gz",
-                    "sha256": "0bca26c45daf5cad79b131c34013b985d146a2526990ea2aa6d88792d51905a1"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2023.1.1.26/android-studio-2023.1.1.26-linux.tar.gz",
+                    "sha256": "977e8a9855414f7d41157f0be0e10fb740c42bd337f763d5d96b3e059780663d"
                 },
                 {
                     "type": "script",
@@ -82,6 +82,20 @@
                     "type": "archive",
                     "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.2.0/git-lfs-linux-amd64-v3.2.0.tar.gz",
                     "sha256": "d6730b8036d9d99f872752489a331995930fec17b61c87c7af1945c65a482a50"
+                }
+            ]
+        },
+        {
+            "name": "ide-flatpak-wrapper",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Deditor_binary=/app/bin/android-studio",
+                "-Dprogram_name=android-studio-wrapper"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "ide-flatpak-wrapper"
                 }
             ]
         },
