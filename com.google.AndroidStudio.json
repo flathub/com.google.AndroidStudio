@@ -47,7 +47,7 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 1208024832,
+                    "size": 1208103328,
                     "only-arches": [
                         "x86_64"
                     ],
