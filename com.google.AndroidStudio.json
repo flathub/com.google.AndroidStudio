@@ -51,7 +51,6 @@
                     "only-arches": [
                         "x86_64"
                     ],
-
                     "url": "https://dl.google.com/dl/android/studio/ide-zips/2023.1.1.27/android-studio-2023.1.1.27-linux.tar.gz",
                     "sha256": "5c5f97c871a4edd3d304729cc7ddbda9d147bba85125614edfcda68784ae583b"
                 },
