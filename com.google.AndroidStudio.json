@@ -1,7 +1,7 @@
 {
     "app-id": "com.google.AndroidStudio",
     "runtime": "org.freedesktop.Sdk",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "android-studio-wrapper",
     "finish-args": [
@@ -47,12 +47,12 @@
                 {
                     "type": "extra-data",
                     "filename": "android-studio.tar.gz",
-                    "size": 1220807706,
+                    "size": 1220232190,
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2023.3.1.2/android-studio-2023.3.1.2-linux.tar.gz",
-                    "sha256": "81e389520baf98b8e78ebc817b03bf87faea17da51b897f163b59a41b91c2e68"
+                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2023.3.1.5/android-studio-2023.3.1.5-linux.tar.gz",
+                    "sha256": "7319400ad4a90c1a0ce4a1c058212fa8f6ee2a7bc7eda0f33a8dcff85a2582a9"
                 },
                 {
                     "type": "script",
