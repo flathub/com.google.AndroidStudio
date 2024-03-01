@@ -5,7 +5,7 @@
 	<project_license>LicenseRef-proprietary</project_license>
 	<name>Android Studio</name>
 	<launchable type="desktop-id">com.google.AndroidStudio.desktop</launchable>
-	<summary>Integrated development environment for Google's Android platform</summary>
+	<summary>IDE for Google's Android platform</summary>
 	<description>
 		<p>
 			Official Integrated Development Environment (IDE) for developing Android
@@ -45,7 +45,7 @@
 		<content_attribute id="social-info">moderate</content_attribute>
 	</content_rating>
 	<releases>
-		<release version="2023.2.1.23" date="2024-02-01">
+		<release version="2023.2.1.23" date="2024-02-29">
 			<description>
 				<ul>
 					<li>Version control system integration in App Quality Insights</li>
