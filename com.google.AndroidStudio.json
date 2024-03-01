@@ -5,8 +5,8 @@
     "sdk": "org.freedesktop.Sdk",
     "command": "android-studio-wrapper",
     "finish-args": [
-        "--socket=fallback=x11",
         "--socket=wayland",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--socket=ssh-auth",
         "--share=ipc",
