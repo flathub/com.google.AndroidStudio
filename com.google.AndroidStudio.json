@@ -5,8 +5,8 @@
     "sdk": "org.freedesktop.Sdk",
     "command": "android-studio-wrapper",
     "finish-args": [
-        "--socket=x11",
         "--socket=wayland",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--socket=ssh-auth",
         "--share=ipc",
@@ -51,7 +51,6 @@
                     "only-arches": [
                         "x86_64"
                     ],
-
                     "url": "https://dl.google.com/dl/android/studio/ide-zips/2023.2.1.23/android-studio-2023.2.1.23-linux.tar.gz",
                     "sha256": "1b668f80ca811cdc350deb6568143da37fd57d7e90121f5542a319e52fd5a073"
                 },
