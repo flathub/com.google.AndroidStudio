@@ -4,6 +4,7 @@
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>LicenseRef-proprietary</project_license>
 	<name>Android Studio</name>
+	<launchable type="desktop-id">com.google.AndroidStudio.desktop</launchable>
 	<summary>Integrated development environment for Google's Android platform</summary>
 	<description>
 		<p>
@@ -44,8 +45,20 @@
 		<content_attribute id="social-info">moderate</content_attribute>
 	</content_rating>
 	<releases>
-		<release version="2023.3.1.5" date="2024-01-22"/>
-    <release version="2023.1.1.28" date="2024-01-23"/>
+		<release version="2023.2.1.23" date="2024-02-01">
+			<description>
+				<ul>
+					<li>Version control system integration in App Quality Insights</li>
+					<li>View Crashlytics crash variants in App Quality Insights</li>
+					<li>Compose UI Check</li>
+					<li>Progressive Rendering for Compose Preview</li>
+					<li>IntelliJ IDEA 2023.2 platform update</li>
+					<li>Baseline Profiles module wizard</li>
+					<li>Test against configuration changes with the Espresso Device API</li>
+				</ul>
+			</description>
+		</release>
+		<release version="2023.1.1.28" date="2024-01-23"/>
 		<release version="2023.1.1.27" date="2024-01-03"/>
 		<release version="2023.1.1.26" date="2023-11-30">
 			<description>
