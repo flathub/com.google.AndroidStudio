@@ -46,6 +46,8 @@
 	</content_rating>
 	<releases>
 		<release version="2023.3.1.13" date="2024-03-07"/>
+    <!-- stable releases -->
+    <release version="2023.2.1.25" date="2024-04-09"/>
 		<release version="2023.2.1.24" date="2024-03-18"/>
 		<release version="2023.2.1.23" date="2024-02-29">
 			<description>
