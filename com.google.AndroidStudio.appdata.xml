@@ -46,6 +46,22 @@
 	</content_rating>
 	<releases>
     <!-- stable releases -->
+    <release version="2023.3.1.18" date="2024-04-30">
+			<description>
+				<ul>
+					<li>Introducing Gemini in Android Studio</li>
+					<li>New sign-in flow</li>
+					<li>Access real devices with Device Streaming in Android Studio</li>
+					<li>App Quality Insights support for ANRs, custom data, and multi-events</li>
+					<li>Embedded Layout Inspector</li>
+					<li>App Links Assistant supports web associations file validation</li>
+					<li>Baseline Profile installation</li>
+					<li>New colorblind checks in Compose UI Check</li>
+					<li>Redirect audio using device mirroring</li>
+					<li>IntelliJ 2023.3 platform updates</li>
+				</ul>
+			</description>
+		</release>
     <release version="2023.2.1.25" date="2024-04-09"/>
 		<release version="2023.2.1.24" date="2024-03-18"/>
 		<release version="2023.2.1.23" date="2024-02-29">
