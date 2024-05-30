@@ -1,269 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>com.google.AndroidStudio.desktop</id>
-	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>LicenseRef-proprietary</project_license>
-	<name>Android Studio</name>
-	<launchable type="desktop-id">com.google.AndroidStudio.desktop</launchable>
-	<summary>IDE for Google's Android platform</summary>
-	<description>
-		<p>
-			Official Integrated Development Environment (IDE) for developing Android
-			applications. The IDE is based on IntelliJ IDEA, and provides additional
-			features on top of its powerful code editor and developer tools designed
-			to enhance the productivity of the Android application developers:
-		</p>
-		<ul>
-			<li>Integration with the Gradle build system.</li>
-			<li>A fast and feature-rich emulator.</li>
-			<li>A unified environment where you can develop for all Android devices.</li>
-			<li>“Instant Run” to push changes to your running app without building a new APK.</li>
-			<li>Code templates and GitHub integration to help you build common app features and import sample code.</li>
-			<li>Extensive testing tools and frameworks.</li>
-			<li>Lint tools to catch performance, usability, version compatibility, and other problems.</li>
-			<li>C++ and NDK support.</li>
-			<li>Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine.</li>
-		</ul>
-		<p>NOTE: This wrapper is not verified by, affiliated with, or supported by Google.</p>
-	</description>
-  <categories>
-    <category>Development</category>
-    <category>IDE</category>
-  </categories>
-	<screenshots>
-		<screenshot type="default">
-			<image>https://developer.android.com/static/images/studio/studio-hero_2880.png</image>
-			<caption>Android Studio Showing the structure of a project</caption>
-		</screenshot>
-	</screenshots>
-	<url type="homepage">https://developer.android.com/studio/</url>
-	<url type="help">https://developer.android.com/</url>
-  <url type="bugtracker">https://issuetracker.google.com/components/192708</url>
-  <url type="vcs-browser">https://android.googlesource.com/platform/tools/base/+/studio-master-dev/source.md</url>
-  <developer_name>Android Open Source Project</developer_name>
-	<content_rating type="oars-1.1">
-		<content_attribute id="social-info">moderate</content_attribute>
-	</content_rating>
-	<releases>
-    <!-- stable releases -->
-    <release version="2023.3.1.19" date="2024-05-20"/>
-    <release version="2023.3.1.18" date="2024-04-30">
-			<description>
-				<ul>
-					<li>Introducing Gemini in Android Studio</li>
-					<li>New sign-in flow</li>
-					<li>Access real devices with Device Streaming in Android Studio</li>
-					<li>App Quality Insights support for ANRs, custom data, and multi-events</li>
-					<li>Embedded Layout Inspector</li>
-					<li>App Links Assistant supports web associations file validation</li>
-					<li>Baseline Profile installation</li>
-					<li>New colorblind checks in Compose UI Check</li>
-					<li>Redirect audio using device mirroring</li>
-					<li>IntelliJ 2023.3 platform updates</li>
-				</ul>
-			</description>
-		</release>
-    <release version="2023.2.1.25" date="2024-04-09"/>
-		<release version="2023.2.1.24" date="2024-03-18"/>
-		<release version="2023.2.1.23" date="2024-02-29">
-			<description>
-				<ul>
-					<li>Version control system integration in App Quality Insights</li>
-					<li>View Crashlytics crash variants in App Quality Insights</li>
-					<li>Compose UI Check</li>
-					<li>Progressive Rendering for Compose Preview</li>
-					<li>IntelliJ IDEA 2023.2 platform update</li>
-					<li>Baseline Profiles module wizard</li>
-					<li>Test against configuration changes with the Espresso Device API</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2023.1.1.28" date="2024-01-23"/>
-		<release version="2023.1.1.27" date="2024-01-03"/>
-		<release version="2023.1.1.26" date="2023-11-30">
-			<description>
-				<ul>
-					<li>IntelliJ IDEA 2023.1 platform update</li>
-					<li>New macro to specify JDK path</li>
-					<li>Analyze Android vitals in App Quality Insights</li>
-					<li>New Power Profiler</li>
-					<li>New App Links Assistant</li>
-					<li>Live Edit updated manual mode shortcut</li>
-					<li>Compose Multipreview templates</li>
-					<li>Compose Preview Gallery Mode</li>
-					<li>Compose state information in debugger</li>
-					<li>Device mirroring</li>
-					<li>Hardware input forwarding</li>
-					<li>Manage devices directly from the Running Devices window</li>
-					<li>Embedded Layout Inspector</li>
-					<li>New UI improvements</li>
-					<li>SDK Upgrade Assistant updates</li>
-					<li>Use Firebase Test Lab devices with Gradle-managed devices</li>
-					<li>Disable build optimization for target API level only</li>
-					<li>Eclipse Android Development Tool projects are no longer supported</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2022.3.1.22" date="2023-11-16"/>
-		<release version="2022.3.1.21" date="2023-11-07"/>
-		<release version="2022.3.1.20" date="2023-09-28"/>
-		<release version="2022.3.1.19" date="2023-08-21"/>
-		<release version="2022.3.1.18" date="2023-07-26">
-			<description>
-				<ul>
-					<li>Use Live Edit to update composables in real time</li>
-					<li>New UI preview</li>
-					<li>New API support for Compose Animation Preview</li>
-					<li>Support for Grammatical Inflection API</li>
-					<li>View and manage processes in the Device Explorer</li>
-					<li>New Android SDK Upgrade Assistant</li>
-					<li>Enhanced diagnostic tools and bug reporting</li>
-					<li>Make selected modules toolbar button</li>
-					<li>Download info during sync</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2022.2.1.20" date="2023-05-24"/>
-		<release version="2022.2.1.19" date="2023-05-10"/>
-		<release version="2022.2.1.18" date="2023-04-13">
-			<description>
-				<ul>
-					<li>Themed app icons and dynamic color</li>
-					<li>Updates to Live Edit</li>
-					<li>Compose Tracing</li>
-					<li>Updates to project templates</li>
-					<li>Device mirroring</li>
-					<li>Network Inspector traffic interception</li>
-					<li>Auto-connect to foreground process in Layout Inspector</li>
-					<li>Updates to App Quality Insights</li>
-					<li>One-click automated profileable build and run</li>
-					<li>Lint support for SDK extensions</li>
-					<li>IntelliJ IDEA 2022.2 platform update</li>
-					<li>Android Studio bundled with JDK 17</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2022.1.1.21" date="2023-02-27"/>
-		<release version="2022.1.1.20" date="2023-02-01"/>
-		<release version="2022.1.1.19" date="2023-01-12">
-			<description>
-				<ul>
-					<li>Updates to Logcat</li>
-					<li>App Quality Insights from Firebase Crashlytics</li>
-					<li>Live updates to your Compose Preview</li>
-					<li>Use Compose Preview with different devices</li>
-					<li>Layout Inspector recomposition rendering highlights</li>
-					<li>Visual linting for views</li>
-					<li>Universal Problems panel</li>
-					<li>Resizable emulator</li>
-					<li>Desktop Android Virtual Device now available</li>
-					<li>Check download impact using Build Analyzer</li>
-					<li>SDK insights</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2021.3.1.17" date="2022-10-13"/>
-		<release version="2021.3.1.16" date="2022-09-15">
-			<description>
-				<ul>
-					<li>New in Compose</li>
-					<li>Updated Wear OS emulator pairing assistant</li>
-					<li>Updated Wear OS emulator toolbar</li>
-					<li>New Wear OS run configurations</li>
-					<li>New Logcat</li>
-					<li>Gradle Managed Devices</li>
-					<li>R8 support using mapping files based on DEX instruction offsets</li>
-					<li>Stateless lambdas are no longer desugared as singletons</li>
-					<li>R8 avoids verification slowdown on Android runtimes</li>
-					<li>Support for JDK-11 APIs with Java 8+ API desugaring</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2021.2.1.16" date="2022-08-03"/>
-		<release version="2021.2.1.15" date="2022-05-25"/>
-		<release version="2021.2.1.14" date="2022-05-09">
-			<description>
-				<ul>
-					<li>Support for creating your app with Jetpack Compose</li>
-					<li>Support for profiling your app</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2021.1.1.23" date="2022-04-07"/>
-		<release version="2021.1.1.22" date="2022-02-23"/>
-		<release version="2021.1.1.21" date="2022-02-06"/>
-		<release version="2021.1.1.20" date="2022-01-25">
-			<description>
-				<ul>
-					<li>Support for KMP test execution</li>
-					<li>New Device Manager</li>
-					<li>New in Layout Inspector</li>
-					<li>New in App Inspection</li>
-					<li>New in Profilers</li>
-					<li>Wireless debugging</li>
-					<li>Compose interactive preview enabled by default</li>
-					<li>Animated Vector Drawable (AVD) preview</li>
-					<li>Non-transitive R classes on by default</li>
-					<li>Updated device picker for design tools</li>
-					<li>Android testing</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2020.3.1.26" date="2021-12-09"/>
-		<release version="2020.3.1.25" date="2021-10-12"/>
-		<release version="2020.3.1.24" date="2021-09-02"/>
-		<release version="2020.3.1.23" date="2021-08-19"/>
-		<release version="2020.3.1.22" date="2021-07-29">
-			<description>
-				<ul>
-					<li>New version numbering</li>
-					<li>Android Gradle plugin 7.0.0</li>
-					<li>New Background Task Inspector</li>
-					<li>Updates Database Inspector</li>
-					<li>Updated UI for recording in Memory Profiler</li>
-					<li>Updates to Refresh Linked C++ Project</li>
-					<li>New test matrix for multi-device testing</li>
-					<li>StateFlow support in data binding</li>
-					<li>Improved suggested import</li>
-					<li>Support for configuration cache in Build Analyzer</li>
-					<li>Support for Jetpack Compose tooling</li>
-					<li>Compose support in the Layout Inspector</li>
-					<li>Improved deploy dropdown</li>
-					<li>New Wear OS pairing assistant</li>
-					<li>Responsive layout template</li>
-					<li>Accessibility Scanner for Layout Editor</li>
-				</ul>
-			</description>
-		</release>
-		<release version="4.2.2.0" date="2021-07-01"/>
-		<release version="4.2.1.0" date="2021-05-14"/>
-		<release version="4.2.0.24" date="2021-05-04"/>
-		<release version="4.1.3.0" date="2021-03-18"/>
-		<release version="4.1.2.0" date="2021-01-20"/>
-		<release version="4.1.1.0" date="2020-11-10"/>
-		<release version="4.1.0.19" date="2020-10-12"/>
-		<release version="4.0.2.0" date="2020-10-06"/>
-		<release version="4.0.1.0" date="2020-06-24"/>
-		<release version="4.0.0.16" date="2020-05-28"/>
-		<release version="3.6.3.0" date="2020-04-17"/>
-		<release version="3.6.2.0" date="2020-03-28"/>
-		<release version="3.6.1.0" date="2020-02-28"/>
-		<release version="3.5.3.0" date="2019-12-05"/>
-		<release version="3.5.2.0" date="2019-11-04"/>
-		<release version="3.5.1.0" date="2019-10-02"/>
-		<release version="3.5.0.21" date="2019-08-20"/>
-		<release version="3.4.2.0" date="2019-07-10"/>
-		<release version="3.4.1.0" date="2019-05-01"/>
-		<release version="3.4.0.18" date="2019-04-17"/>
-		<release version="3.3.2.0" date="2019-03-05"/>
-		<release version="3.3.1.0" date="2019-02-06"/>
-		<release version="3.3.0.20" date="2019-01-14"/>
-		<release version="3.2.1.0" date="2018-10-11"/>
-		<release version="3.2.0.26" date="2018-09-25"/>
-		<release version="3.1.4.0" date="2018-08-06"/>
-		<release version="3.1.3.0" date="2018-06-7"/>
-		<release version="3.1.2.0" date="2018-03-31"/>
-		<release version="3.1.0.16" date="2018-03-27"/>
-		<release version="3.0.1.0" date="2017-11-20"/>
-	</releases>
+    <id>com.google.AndroidStudio.desktop</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>LicenseRef-proprietary</project_license>
+    <name>Android Studio</name>
+    <launchable type="desktop-id">com.google.AndroidStudio.desktop</launchable>
+    <summary>IDE for Google's Android platform</summary>
+    <description>
+        <p>
+            Official Integrated Development Environment (IDE) for developing Android
+            applications. The IDE is based on IntelliJ IDEA, and provides additional
+            features on top of its powerful code editor and developer tools designed
+            to enhance the productivity of the Android application developers:
+        </p>
+        <ul>
+            <li>Integration with the Gradle build system.</li>
+            <li>A fast and feature-rich emulator.</li>
+            <li>A unified environment where you can develop for all Android devices.</li>
+            <li>“Instant Run” to push changes to your running app without building a new APK.</li>
+            <li>Code templates and GitHub integration to help you build common app features and import sample code.</li>
+            <li>Extensive testing tools and frameworks.</li>
+            <li>Lint tools to catch performance, usability, version compatibility, and other problems.</li>
+            <li>C++ and NDK support.</li>
+            <li>Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine.</li>
+        </ul>
+        <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Google.</p>
+    </description>
+    <categories>
+        <category>Development</category>
+        <category>IDE</category>
+    </categories>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://developer.android.com/static/images/studio/studio-hero_2880.png</image>
+            <caption>Android Studio Showing the structure of a project</caption>
+        </screenshot>
+    </screenshots>
+    <url type="homepage">https://developer.android.com/studio/</url>
+    <url type="help">https://developer.android.com/</url>
+    <url type="bugtracker">https://issuetracker.google.com/components/192708</url>
+    <url type="vcs-browser">https://android.googlesource.com/platform/tools/base/+/studio-master-dev/source.md</url>
+    <developer_name>Android Open Source Project</developer_name>
+    <content_rating type="oars-1.1">
+        <content_attribute id="social-info">moderate</content_attribute>
+    </content_rating>
+    <releases>
+        <!-- stable releases -->
+        <release date="2024-05-20" version="2023.3.1.19" />
+        <release date="2024-04-30" version="2023.3.1.18">
+            <description>
+                <ul>
+                    <li>Introducing Gemini in Android Studio</li>
+                    <li>New sign-in flow</li>
+                    <li>Access real devices with Device Streaming in Android Studio</li>
+                    <li>App Quality Insights support for ANRs, custom data, and multi-events</li>
+                    <li>Embedded Layout Inspector</li>
+                    <li>App Links Assistant supports web associations file validation</li>
+                    <li>Baseline Profile installation</li>
+                    <li>New colorblind checks in Compose UI Check</li>
+                    <li>Redirect audio using device mirroring</li>
+                    <li>IntelliJ 2023.3 platform updates</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2024-04-09" version="2023.2.1.25" />
+        <release date="2024-03-18" version="2023.2.1.24" />
+        <release date="2024-02-29" version="2023.2.1.23">
+            <description>
+                <ul>
+                    <li>Version control system integration in App Quality Insights</li>
+                    <li>View Crashlytics crash variants in App Quality Insights</li>
+                    <li>Compose UI Check</li>
+                    <li>Progressive Rendering for Compose Preview</li>
+                    <li>IntelliJ IDEA 2023.2 platform update</li>
+                    <li>Baseline Profiles module wizard</li>
+                    <li>Test against configuration changes with the Espresso Device API</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2024-01-23" version="2023.1.1.28" />
+        <release date="2024-01-03" version="2023.1.1.27" />
+        <release date="2023-11-30" version="2023.1.1.26">
+            <description>
+                <ul>
+                    <li>IntelliJ IDEA 2023.1 platform update</li>
+                    <li>New macro to specify JDK path</li>
+                    <li>Analyze Android vitals in App Quality Insights</li>
+                    <li>New Power Profiler</li>
+                    <li>New App Links Assistant</li>
+                    <li>Live Edit updated manual mode shortcut</li>
+                    <li>Compose Multipreview templates</li>
+                    <li>Compose Preview Gallery Mode</li>
+                    <li>Compose state information in debugger</li>
+                    <li>Device mirroring</li>
+                    <li>Hardware input forwarding</li>
+                    <li>Manage devices directly from the Running Devices window</li>
+                    <li>Embedded Layout Inspector</li>
+                    <li>New UI improvements</li>
+                    <li>SDK Upgrade Assistant updates</li>
+                    <li>Use Firebase Test Lab devices with Gradle-managed devices</li>
+                    <li>Disable build optimization for target API level only</li>
+                    <li>Eclipse Android Development Tool projects are no longer supported</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2023-11-16" version="2022.3.1.22" />
+        <release date="2023-11-07" version="2022.3.1.21" />
+        <release date="2023-09-28" version="2022.3.1.20" />
+        <release date="2023-08-21" version="2022.3.1.19" />
+        <release date="2023-07-26" version="2022.3.1.18">
+            <description>
+                <ul>
+                    <li>Use Live Edit to update composables in real time</li>
+                    <li>New UI preview</li>
+                    <li>New API support for Compose Animation Preview</li>
+                    <li>Support for Grammatical Inflection API</li>
+                    <li>View and manage processes in the Device Explorer</li>
+                    <li>New Android SDK Upgrade Assistant</li>
+                    <li>Enhanced diagnostic tools and bug reporting</li>
+                    <li>Make selected modules toolbar button</li>
+                    <li>Download info during sync</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2023-05-24" version="2022.2.1.20" />
+        <release date="2023-05-10" version="2022.2.1.19" />
+        <release date="2023-04-13" version="2022.2.1.18">
+            <description>
+                <ul>
+                    <li>Themed app icons and dynamic color</li>
+                    <li>Updates to Live Edit</li>
+                    <li>Compose Tracing</li>
+                    <li>Updates to project templates</li>
+                    <li>Device mirroring</li>
+                    <li>Network Inspector traffic interception</li>
+                    <li>Auto-connect to foreground process in Layout Inspector</li>
+                    <li>Updates to App Quality Insights</li>
+                    <li>One-click automated profileable build and run</li>
+                    <li>Lint support for SDK extensions</li>
+                    <li>IntelliJ IDEA 2022.2 platform update</li>
+                    <li>Android Studio bundled with JDK 17</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2023-02-27" version="2022.1.1.21" />
+        <release date="2023-02-01" version="2022.1.1.20" />
+        <release date="2023-01-12" version="2022.1.1.19">
+            <description>
+                <ul>
+                    <li>Updates to Logcat</li>
+                    <li>App Quality Insights from Firebase Crashlytics</li>
+                    <li>Live updates to your Compose Preview</li>
+                    <li>Use Compose Preview with different devices</li>
+                    <li>Layout Inspector recomposition rendering highlights</li>
+                    <li>Visual linting for views</li>
+                    <li>Universal Problems panel</li>
+                    <li>Resizable emulator</li>
+                    <li>Desktop Android Virtual Device now available</li>
+                    <li>Check download impact using Build Analyzer</li>
+                    <li>SDK insights</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2022-10-13" version="2021.3.1.17" />
+        <release date="2022-09-15" version="2021.3.1.16">
+            <description>
+                <ul>
+                    <li>New in Compose</li>
+                    <li>Updated Wear OS emulator pairing assistant</li>
+                    <li>Updated Wear OS emulator toolbar</li>
+                    <li>New Wear OS run configurations</li>
+                    <li>New Logcat</li>
+                    <li>Gradle Managed Devices</li>
+                    <li>R8 support using mapping files based on DEX instruction offsets</li>
+                    <li>Stateless lambdas are no longer desugared as singletons</li>
+                    <li>R8 avoids verification slowdown on Android runtimes</li>
+                    <li>Support for JDK-11 APIs with Java 8+ API desugaring</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2022-08-03" version="2021.2.1.16" />
+        <release date="2022-05-25" version="2021.2.1.15" />
+        <release date="2022-05-09" version="2021.2.1.14">
+            <description>
+                <ul>
+                    <li>Support for creating your app with Jetpack Compose</li>
+                    <li>Support for profiling your app</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2022-04-07" version="2021.1.1.23" />
+        <release date="2022-02-23" version="2021.1.1.22" />
+        <release date="2022-02-06" version="2021.1.1.21" />
+        <release date="2022-01-25" version="2021.1.1.20">
+            <description>
+                <ul>
+                    <li>Support for KMP test execution</li>
+                    <li>New Device Manager</li>
+                    <li>New in Layout Inspector</li>
+                    <li>New in App Inspection</li>
+                    <li>New in Profilers</li>
+                    <li>Wireless debugging</li>
+                    <li>Compose interactive preview enabled by default</li>
+                    <li>Animated Vector Drawable (AVD) preview</li>
+                    <li>Non-transitive R classes on by default</li>
+                    <li>Updated device picker for design tools</li>
+                    <li>Android testing</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2021-12-09" version="2020.3.1.26" />
+        <release date="2021-10-12" version="2020.3.1.25" />
+        <release date="2021-09-02" version="2020.3.1.24" />
+        <release date="2021-08-19" version="2020.3.1.23" />
+        <release date="2021-07-29" version="2020.3.1.22">
+            <description>
+                <ul>
+                    <li>New version numbering</li>
+                    <li>Android Gradle plugin 7.0.0</li>
+                    <li>New Background Task Inspector</li>
+                    <li>Updates Database Inspector</li>
+                    <li>Updated UI for recording in Memory Profiler</li>
+                    <li>Updates to Refresh Linked C++ Project</li>
+                    <li>New test matrix for multi-device testing</li>
+                    <li>StateFlow support in data binding</li>
+                    <li>Improved suggested import</li>
+                    <li>Support for configuration cache in Build Analyzer</li>
+                    <li>Support for Jetpack Compose tooling</li>
+                    <li>Compose support in the Layout Inspector</li>
+                    <li>Improved deploy dropdown</li>
+                    <li>New Wear OS pairing assistant</li>
+                    <li>Responsive layout template</li>
+                    <li>Accessibility Scanner for Layout Editor</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2021-07-01" version="4.2.2.0" />
+        <release date="2021-05-14" version="4.2.1.0" />
+        <release date="2021-05-04" version="4.2.0.24" />
+        <release date="2021-03-18" version="4.1.3.0" />
+        <release date="2021-01-20" version="4.1.2.0" />
+        <release date="2020-11-10" version="4.1.1.0" />
+        <release date="2020-10-12" version="4.1.0.19" />
+        <release date="2020-10-06" version="4.0.2.0" />
+        <release date="2020-06-24" version="4.0.1.0" />
+        <release date="2020-05-28" version="4.0.0.16" />
+        <release date="2020-04-17" version="3.6.3.0" />
+        <release date="2020-03-28" version="3.6.2.0" />
+        <release date="2020-02-28" version="3.6.1.0" />
+        <release date="2019-12-05" version="3.5.3.0" />
+        <release date="2019-11-04" version="3.5.2.0" />
+        <release date="2019-10-02" version="3.5.1.0" />
+        <release date="2019-08-20" version="3.5.0.21" />
+        <release date="2019-07-10" version="3.4.2.0" />
+        <release date="2019-05-01" version="3.4.1.0" />
+        <release date="2019-04-17" version="3.4.0.18" />
+        <release date="2019-03-05" version="3.3.2.0" />
+        <release date="2019-02-06" version="3.3.1.0" />
+        <release date="2019-01-14" version="3.3.0.20" />
+        <release date="2018-10-11" version="3.2.1.0" />
+        <release date="2018-09-25" version="3.2.0.26" />
+        <release date="2018-08-06" version="3.1.4.0" />
+        <release date="2018-06-7" version="3.1.3.0" />
+        <release date="2018-03-31" version="3.1.2.0" />
+        <release date="2018-03-27" version="3.1.0.16" />
+        <release date="2017-11-20" version="3.0.1.0" />
+    </releases>
 </component>
