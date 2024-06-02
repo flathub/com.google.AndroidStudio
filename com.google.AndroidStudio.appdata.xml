@@ -44,6 +44,20 @@
     <content_rating type="oars-1.1">
         <content_attribute id="social-info">moderate</content_attribute>
     </content_rating>
+    <requires>
+        <memory>8192</memory>
+        <control>keyboard</control>
+        <control>pointing</control>
+        <display_length compare="ge">768</display_length>
+    </requires>
+    <recommends>
+        <memory>16384</memory>
+        <display_length compare="ge">1024</display_length>
+        <internet>always</internet>
+    </recommends>
+    <supports>
+        <internet>offline-only</internet>
+    </supports>
     <releases>
         <!-- stable releases -->
         <release date="2024-05-20" version="2023.3.1.19" />
