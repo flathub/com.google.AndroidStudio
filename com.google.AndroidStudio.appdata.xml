@@ -32,8 +32,16 @@
     </categories>
     <screenshots>
         <screenshot type="default">
-            <image>https://developer.android.com/static/images/studio/studio-hero_2880.png</image>
+            <image>https://developer.android.com/static/images/studio/studio-hero.png</image>
             <caption>Android Studio Showing the structure of a project</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://developer.android.com/static/studio/images/project-android-view.png</image>
+            <caption>Project files in Android project view</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://developer.android.com/static/studio/images/lint-inspection-results.png</image>
+            <caption>The results of a lint inspection in Android Studio</caption>
         </screenshot>
     </screenshots>
     <url type="homepage">https://developer.android.com/studio/</url>
@@ -58,10 +66,15 @@
     <supports>
         <internet>offline-only</internet>
     </supports>
+    <branding>
+        <color type="primary" scheme_preference="light">#ffffff</color>
+        <color type="primary" scheme_preference="dark">#121212</color>
+    </branding>
     <releases>
         <!-- stable releases -->
         <release date="2024-05-20" version="2023.3.1.19" />
         <release date="2024-04-30" version="2023.3.1.18">
+            <url type="details">https://developer.android.com/studio/releases</url>
             <description>
                 <ul>
                     <li>Introducing Gemini in Android Studio</li>
@@ -80,6 +93,7 @@
         <release date="2024-04-09" version="2023.2.1.25" />
         <release date="2024-03-18" version="2023.2.1.24" />
         <release date="2024-02-29" version="2023.2.1.23">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-iguana-release-notes</url>
             <description>
                 <ul>
                     <li>Version control system integration in App Quality Insights</li>
@@ -95,6 +109,7 @@
         <release date="2024-01-23" version="2023.1.1.28" />
         <release date="2024-01-03" version="2023.1.1.27" />
         <release date="2023-11-30" version="2023.1.1.26">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes</url>
             <description>
                 <ul>
                     <li>IntelliJ IDEA 2023.1 platform update</li>
@@ -123,6 +138,7 @@
         <release date="2023-09-28" version="2022.3.1.20" />
         <release date="2023-08-21" version="2022.3.1.19" />
         <release date="2023-07-26" version="2022.3.1.18">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-giraffe-release-notes</url>
             <description>
                 <ul>
                     <li>Use Live Edit to update composables in real time</li>
@@ -140,6 +156,7 @@
         <release date="2023-05-24" version="2022.2.1.20" />
         <release date="2023-05-10" version="2022.2.1.19" />
         <release date="2023-04-13" version="2022.2.1.18">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-flamingo-release-notes</url>
             <description>
                 <ul>
                     <li>Themed app icons and dynamic color</li>
@@ -160,6 +177,7 @@
         <release date="2023-02-27" version="2022.1.1.21" />
         <release date="2023-02-01" version="2022.1.1.20" />
         <release date="2023-01-12" version="2022.1.1.19">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-electric-eel-release-notes</url>
             <description>
                 <ul>
                     <li>Updates to Logcat</li>
@@ -178,6 +196,7 @@
         </release>
         <release date="2022-10-13" version="2021.3.1.17" />
         <release date="2022-09-15" version="2021.3.1.16">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-dolphin-release-notes</url>
             <description>
                 <ul>
                     <li>New in Compose</li>
@@ -196,6 +215,7 @@
         <release date="2022-08-03" version="2021.2.1.16" />
         <release date="2022-05-25" version="2021.2.1.15" />
         <release date="2022-05-09" version="2021.2.1.14">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-chipmunk-release-notes</url>
             <description>
                 <ul>
                     <li>Support for creating your app with Jetpack Compose</li>
@@ -207,6 +227,7 @@
         <release date="2022-02-23" version="2021.1.1.22" />
         <release date="2022-02-06" version="2021.1.1.21" />
         <release date="2022-01-25" version="2021.1.1.20">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-bumblebee-release-notes</url>
             <description>
                 <ul>
                     <li>Support for KMP test execution</li>
@@ -228,6 +249,7 @@
         <release date="2021-09-02" version="2020.3.1.24" />
         <release date="2021-08-19" version="2020.3.1.23" />
         <release date="2021-07-29" version="2020.3.1.22">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-arctic-fox-release-notes</url>
             <description>
                 <ul>
                     <li>New version numbering</li>
