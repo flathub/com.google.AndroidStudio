@@ -1,103 +1,89 @@
 {
-    "app-id": "com.google.AndroidStudio",
-    "runtime": "org.freedesktop.Sdk",
-    "runtime-version": "23.08",
-    "sdk": "org.freedesktop.Sdk",
-    "command": "android-studio-wrapper",
-    "finish-args": [
-        "--socket=x11",
-        "--socket=pulseaudio",
-        "--socket=ssh-auth",
-        "--share=ipc",
-        "--share=network",
-        "--device=all",
-        "--filesystem=host",
-        "--filesystem=xdg-run/keyring",
-        "--allow=multiarch",
-        "--env=JAVA_HOME=/app/extra/android-studio/jbr",
-        "--talk-name=org.freedesktop.Notifications",
-        "--talk-name=org.freedesktop.secrets",
-        "--talk-name=org.freedesktop.Flatpak"
-    ],
-    "modules": [
+  "app-id": "com.google.AndroidStudio",
+  "runtime": "org.freedesktop.Sdk",
+  "runtime-version": "23.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "android-studio-wrapper",
+  "finish-args": [
+    "--socket=x11",
+    "--socket=pulseaudio",
+    "--socket=ssh-auth",
+    "--share=ipc",
+    "--share=network",
+    "--device=all",
+    "--filesystem=host",
+    "--filesystem=xdg-run/keyring",
+    "--allow=multiarch",
+    "--env=JAVA_HOME=/app/extra/android-studio/jbr",
+    "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.freedesktop.secrets",
+    "--talk-name=org.freedesktop.Flatpak"
+  ],
+  "modules": [
+    {
+      "name": "android-studio",
+      "buildsystem": "simple",
+      "build-commands": [
+        "install -D apply_extra /app/bin/apply_extra",
+        "install -D android-studio.sh /app/bin/android-studio",
+        "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
+        "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
+        "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
+      ],
+      "sources": [
         {
-            "name": "android-studio",
-            "buildsystem": "simple",
-            "build-commands": [
-                "install -D apply_extra /app/bin/apply_extra",
-                "install -D android-studio.sh /app/bin/android-studio",
-                "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
-                "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
-                "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "path": "com.google.AndroidStudio.desktop"
-                },
-                {
-		    "type": "file",
-                    "path": "com.google.AndroidStudio.appdata.xml"
-                },
-                {
-                    "type": "file",
-                    "path": "com.google.AndroidStudio.png"
-                },
-                {
-                    "type": "extra-data",
-                    "filename": "android-studio.tar.gz",
-                    "size": 1237506238,
-                    "only-arches": [
-                        "x86_64"
-                    ],
-                    "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.1.2.2/android-studio-2024.1.2.2-linux.tar.gz",
-                    "sha256": "9c4df502c9e2785c217aef93d8cd0df1f5bc56f8fc8d442ad37cfddd6032d922"
-                },
-                {
-                    "type": "script",
-                    "dest-filename": "apply_extra",
-                    "commands": [
-                        "tar xzf /app/extra/android-studio.tar.gz",
-                        "rm -f /app/extra/android-studio.tar.gz"
-                    ]
-                },
-                {
-                    "type": "script",
-                    "dest-filename": "android-studio.sh",
-                    "commands": [
-                        "exec env \"PATH=$PATH:$EXTRA_PATH\" /app/extra/android-studio/bin/studio.sh"
-                    ]
-                }
-            ]
+          "type": "file",
+          "path": "com.google.AndroidStudio.desktop"
         },
         {
-            "name": "git-lfs",
-            "buildsystem": "simple",
-            "build-commands": [
-                "PREFIX=$FLATPAK_DEST ./install.sh"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.2.0/git-lfs-linux-amd64-v3.2.0.tar.gz",
-                    "sha256": "d6730b8036d9d99f872752489a331995930fec17b61c87c7af1945c65a482a50"
-                }
-            ]
+          "type": "file",
+          "path": "com.google.AndroidStudio.appdata.xml"
         },
         {
-            "name": "ide-flatpak-wrapper",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Deditor_binary=/app/bin/android-studio",
-                "-Dprogram_name=android-studio-wrapper"
-            ],
-            "sources": [
-                {
-                    "type": "dir",
-                    "path": "ide-flatpak-wrapper"
-                }
-            ]
+          "type": "file",
+          "path": "com.google.AndroidStudio.png"
         },
-        "shared-modules/libsecret/libsecret.json"
-    ]
+        {
+          "type": "extra-data",
+          "filename": "android-studio.tar.gz",
+          "size": 1237506238,
+          "only-arches": [
+            "x86_64"
+          ],
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.1.2.2/android-studio-2024.1.2.2-linux.tar.gz",
+          "sha256": "9c4df502c9e2785c217aef93d8cd0df1f5bc56f8fc8d442ad37cfddd6032d922"
+        },
+        {
+          "type": "script",
+          "dest-filename": "apply_extra",
+          "commands": [
+            "tar xzf /app/extra/android-studio.tar.gz",
+            "rm -f /app/extra/android-studio.tar.gz"
+          ]
+        },
+        {
+          "type": "script",
+          "dest-filename": "android-studio.sh",
+          "commands": [
+            "exec env \"PATH=$PATH:$EXTRA_PATH\" /app/extra/android-studio/bin/studio.sh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ide-flatpak-wrapper",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Deditor_binary=/app/bin/android-studio",
+        "-Dprogram_name=android-studio-wrapper"
+      ],
+      "sources": [
+        {
+          "type": "dir",
+          "path": "ide-flatpak-wrapper"
+        }
+      ]
+    },
+    "shared-modules/libsecret/libsecret.json"
+  ]
 }
