@@ -72,7 +72,7 @@
     </branding>
     <releases>
         <!-- beta releases -->
-        <release date="2024-05-17" version="2024.1.2.2" />
+        <release date="2024-06-07" version="2024.1.2.5" />
         <!-- stable releases -->
         <release date="2024-06-10" version="2023.3.1.20" />
         <release date="2024-05-20" version="2023.3.1.19" />
