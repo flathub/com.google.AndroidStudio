@@ -67,11 +67,12 @@
         <internet>offline-only</internet>
     </supports>
     <branding>
-        <color type="primary" scheme_preference="light">#ffffff</color>
-        <color type="primary" scheme_preference="dark">#121212</color>
+        <color scheme_preference="light" type="primary">#ffffff</color>
+        <color scheme_preference="dark" type="primary">#121212</color>
     </branding>
     <releases>
         <!-- stable releases -->
+        <release date="2024-06-10" version="2023.3.1.20" />
         <release date="2024-05-20" version="2023.3.1.19" />
         <release date="2024-04-30" version="2023.3.1.18">
             <url type="details">https://developer.android.com/studio/releases</url>
