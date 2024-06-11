@@ -26,7 +26,7 @@
       "build-commands": [
         "install -D apply_extra /app/bin/apply_extra",
         "install -D android-studio.sh /app/bin/android-studio",
-        "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
+        "install -Dm644 com.google.AndroidStudio.svg /app/share/icons/hicolor/scalable/apps/com.google.AndroidStudio.svg",
         "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
         "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
       ],
@@ -41,7 +41,7 @@
         },
         {
           "type": "file",
-          "path": "com.google.AndroidStudio.png"
+          "path": "com.google.AndroidStudio.svg"
         },
         {
           "type": "extra-data",

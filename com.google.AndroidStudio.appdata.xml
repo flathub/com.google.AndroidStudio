@@ -5,7 +5,7 @@
     <project_license>LicenseRef-proprietary</project_license>
     <name>Android Studio</name>
     <launchable type="desktop-id">com.google.AndroidStudio.desktop</launchable>
-    <summary>IDE for Google's Android platform</summary>
+    <summary>IDE for Android app development</summary>
     <description>
         <p>
             Official Integrated Development Environment (IDE) for developing Android
