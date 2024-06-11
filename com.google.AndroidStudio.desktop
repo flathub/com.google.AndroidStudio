@@ -2,7 +2,7 @@
 Name=Android Studio
 Exec=android-studio-wrapper
 Icon=com.google.AndroidStudio
-Comment=Development environment for the Android platform
+Comment=IDE for Android app development
 Terminal=false
 Type=Application
 Categories=Development;IDE;Java;
