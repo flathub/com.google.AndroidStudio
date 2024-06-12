@@ -12,12 +12,10 @@
     "--share=network",
     "--device=all",
     "--filesystem=host",
-    "--filesystem=xdg-run/keyring",
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/android-studio/jbr",
     "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.secrets",
-    "--talk-name=org.freedesktop.Flatpak"
+    "--talk-name=org.freedesktop.secrets"
   ],
   "modules": [
     {
