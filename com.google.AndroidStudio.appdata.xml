@@ -72,10 +72,20 @@
     </branding>
     <releases>
         <!-- stable releases -->
+        <release date="2024-06-13" version="2024.1.1.11">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <ul>
+                    <li>Build a Generative AI app using the Gemini API template</li>
+                    <li>Side by side layout in Running Devices window</li>
+                    <li>IntelliJ 2024.1 platform updates</li>
+                </ul>
+            </description>
+        </release>
         <release date="2024-06-10" version="2023.3.1.20" />
         <release date="2024-05-20" version="2023.3.1.19" />
         <release date="2024-04-30" version="2023.3.1.18">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-jellyfish-release-notes</url>
             <description>
                 <ul>
                     <li>Introducing Gemini in Android Studio</li>
