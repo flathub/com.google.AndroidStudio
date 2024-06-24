@@ -15,7 +15,8 @@
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/android-studio/jbr",
     "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.secrets"
+    "--talk-name=org.freedesktop.secrets" ,
+    "--talk-name=com.canonical.AppMenu.Registrar"
   ],
   "modules": [
     {
