@@ -48,7 +48,9 @@
     <url type="help">https://developer.android.com/</url>
     <url type="bugtracker">https://issuetracker.google.com/components/192708</url>
     <url type="vcs-browser">https://android.googlesource.com/platform/tools/base/+/studio-master-dev/source.md</url>
-    <developer_name>Android Open Source Project</developer_name>
+    <developer id="com.google">
+        <name>Android Open Source Project</name>
+    </developer>
     <content_rating type="oars-1.1">
         <content_attribute id="social-info">moderate</content_attribute>
     </content_rating>

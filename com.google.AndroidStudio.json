@@ -15,7 +15,7 @@
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/android-studio/jbr",
     "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.secrets" ,
+    "--talk-name=org.freedesktop.secrets",
     "--talk-name=com.canonical.AppMenu.Registrar"
   ],
   "modules": [
@@ -26,7 +26,7 @@
         "install -D apply_extra /app/bin/apply_extra",
         "install -D android-studio.sh /app/bin/android-studio",
         "install -Dm644 com.google.AndroidStudio.svg /app/share/icons/hicolor/scalable/apps/com.google.AndroidStudio.svg",
-        "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
+        "install -Dm644 com.google.AndroidStudio.metainfo.xml /app/share/metainfo/com.google.AndroidStudio.metainfo.xml",
         "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
       ],
       "sources": [
@@ -36,7 +36,7 @@
         },
         {
           "type": "file",
-          "path": "com.google.AndroidStudio.appdata.xml"
+          "path": "com.google.AndroidStudio.metainfo.xml"
         },
         {
           "type": "file",
