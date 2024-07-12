@@ -76,6 +76,8 @@
         </ul>
     </description>
     <releases>
+        <!-- beta releases -->
+        <release date="2024-07-10" version="2024.1.2.9" />
         <!-- stable releases -->
         <release date="2024-07-11" version="2024.1.1.12" />
         <release date="2024-06-13" version="2024.1.1.11">
