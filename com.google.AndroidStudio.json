@@ -12,12 +12,11 @@
     "--share=network",
     "--device=all",
     "--filesystem=host",
-    "--filesystem=xdg-run/keyring",
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/android-studio/jbr",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets",
-    "--talk-name=org.freedesktop.Flatpak"
+    "--talk-name=com.canonical.AppMenu.Registrar"
   ],
   "modules": [
     {
@@ -26,8 +25,8 @@
       "build-commands": [
         "install -D apply_extra /app/bin/apply_extra",
         "install -D android-studio.sh /app/bin/android-studio",
-        "install -Dm644 com.google.AndroidStudio.png /app/share/icons/hicolor/128x128/apps/com.google.AndroidStudio.png",
-        "install -Dm644 com.google.AndroidStudio.appdata.xml /app/share/appdata/com.google.AndroidStudio.appdata.xml",
+        "install -Dm644 com.google.AndroidStudio.svg /app/share/icons/hicolor/scalable/apps/com.google.AndroidStudio.svg",
+        "install -Dm644 com.google.AndroidStudio.metainfo.xml /app/share/metainfo/com.google.AndroidStudio.metainfo.xml",
         "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
       ],
       "sources": [
@@ -37,21 +36,21 @@
         },
         {
           "type": "file",
-          "path": "com.google.AndroidStudio.appdata.xml"
+          "path": "com.google.AndroidStudio.metainfo.xml"
         },
         {
           "type": "file",
-          "path": "com.google.AndroidStudio.png"
+          "path": "com.google.AndroidStudio.svg"
         },
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1244235510,
+          "size": 1236056705,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.1.2.5/android-studio-2024.1.2.5-linux.tar.gz",
-          "sha256": "6e185b7f90653e01abb715a0fb58fc532d9b4bb36b3b1806035dc310b8260c96"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.1.2.9/android-studio-2024.1.2.9-linux.tar.gz",
+          "sha256": "7939e953d2abaae5b89cc46a75ef4f526550d3991fea4172d72afe2266bd339d"
         },
         {
           "type": "script",
