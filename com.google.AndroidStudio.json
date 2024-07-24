@@ -11,7 +11,7 @@
     "--share=ipc",
     "--share=network",
     "--device=all",
-    "--filesystem=host",
+    "--filesystem=home",
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/android-studio/jbr",
     "--talk-name=org.freedesktop.Notifications",
