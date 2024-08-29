@@ -11,7 +11,7 @@
     "--share=ipc",
     "--share=network",
     "--device=all",
-    "--filesystem=host",
+    "--filesystem=home",
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/android-studio/jbr",
     "--talk-name=org.freedesktop.Notifications",
@@ -45,12 +45,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1236056705,
+          "size": 1236228872,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.1.2.9/android-studio-2024.1.2.9-linux.tar.gz",
-          "sha256": "7939e953d2abaae5b89cc46a75ef4f526550d3991fea4172d72afe2266bd339d"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.1.2.12/android-studio-2024.1.2.12-linux.tar.gz",
+          "sha256": "745168820e989a9085ff842d47ce541407db09df7b8ab20770f6ea89e41a6e92"
         },
         {
           "type": "script",
