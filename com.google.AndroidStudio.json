@@ -45,12 +45,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1236228872,
+          "size": 1255308424,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.1.2.12/android-studio-2024.1.2.12-linux.tar.gz",
-          "sha256": "745168820e989a9085ff842d47ce541407db09df7b8ab20770f6ea89e41a6e92"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2024.2.1.4/android-studio-2024.2.1.4-linux.tar.gz",
+          "sha256": "1f634debfcb040232e9d7d6693481b804a18ef980757e7e9aeefa664d7bd7e99"
         },
         {
           "type": "script",

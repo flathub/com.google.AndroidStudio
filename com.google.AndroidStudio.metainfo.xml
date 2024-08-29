@@ -76,6 +76,8 @@
         </ul>
     </description>
     <releases>
+        <!-- beta releases -->
+        <release date="2024-08-28" version="2024.2.1.4" />
         <!-- stable releases -->
         <release date="2024-08-29" version="2024.1.2.12">
             <url type="details">https://developer.android.com/studio/releases</url>
