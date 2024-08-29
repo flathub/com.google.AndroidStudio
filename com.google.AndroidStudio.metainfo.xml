@@ -77,6 +77,22 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2024-08-29" version="2024.1.2.12">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Koala Feature Drop | 2024.1.2</p>
+                <ul>
+                    <li>Android Device Streaming: more devices and improved sign-up</li>
+                    <li>USB cable speed detection</li>
+                    <li>Updated sign in flow to Google services</li>
+                    <li>Device UI setting shortcuts</li>
+                    <li>Faster and improved Profiler with a task-centric approach</li>
+                    <li>Wear OS tiles preview panel</li>
+                    <li>Compose Glance widget previews</li>
+                    <li>Live Edit for Compose enabled by default and new shortcut</li>
+                </ul>
+            </description>
+        </release>
         <release date="2024-08-08" version="2024.1.1.13">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.1.1#android-studio-koala-|-2024.1.1-patch-2</url>
             <description>
@@ -112,7 +128,7 @@
             </description>
         </release>
         <release date="2024-06-13" version="2024.1.1.11">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-koala-release-notes</url>
             <description>
                 <p>Android Studio Koala | 2024.1.1</p>
                 <ul>
@@ -128,21 +144,6 @@
                 <p>Android Studio Jellyfish | 2023.3.1 Patch 2</p>
                 <ul>
                     <li>FIXED: AGP 8.4 seems to break GMD downloads on CI</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-05-20" version="2023.3.1.19" >
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2023.3.1#android-studio-jellyfish-|-2023.3.1-patch-1</url>
-            <description>
-                <p>Android Studio Jellyfish | 2023.3.1 Patch 1</p>
-                <ul>
-                    <li>FIXED: Allow suppressing a warning about JDK 21 deprecating support for targeting java 8</li>
-                    <li>FIXED: java.lang.VerifyError: Verifier rejected class</li>
-                    <li>FIXED: New version R8 format conversion error after obfuscation</li>
-                    <li>FIXED: Intermediate builds may not have complete global synthetic content for stubs</li>
-                    <li>FIXED: Source code of Kotlin libraries are not downloaded in Android Studio Iguana</li>
-                    <li>FIXED: Fails sync</li>
-                    <li>FIXED: Layout editor freezes for long time when autocomplete is done</li>
                 </ul>
             </description>
         </release>
