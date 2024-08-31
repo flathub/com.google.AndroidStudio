@@ -76,6 +76,8 @@
         </ul>
     </description>
     <releases>
+        <!-- beta releases -->
+        <release date="2024-08-30" version="2024.2.1.5" />
         <!-- stable releases -->
         <release date="2024-10-14" version="2024.2.1.10">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-1</url>
