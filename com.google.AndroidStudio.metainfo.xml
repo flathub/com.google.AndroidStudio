@@ -77,6 +77,20 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2024-09-17" version="2024.1.2.13">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.1.2#android-studio-koala-feature-drop-|-2024.1.2-patch-1</url>
+            <description>
+                <p>Android Studio Koala Feature Drop | 2024.1.2 Patch 1</p>
+                <ul>
+                    <li>FIXED: Dexing task/transform generates non-deterministic classes.dex contents</li>
+                    <li>FIXED: R8 regression from 8.4.2 to 8.5.0</li>
+                    <li>FIXED: Cannot close Koala when updating indices (which takes forever)</li>
+                    <li>FIXED: R8 8.5.x StackOverflowError in SimpleInliningConstraintAnalysis</li>
+                    <li>FIXED: Task :xxxx:minifyXXXReleaseWithR8 ERROR: R8: java.util.ConcurrentModificationException</li>
+                    <li>FIXED: java.lang.NullPointerException: Cannot invoke "com.android.tools.r8.ir.analysis.type.TypeElement.asClassType()"</li>
+                </ul>
+            </description>
+        </release>
         <release date="2024-08-29" version="2024.1.2.12">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -135,15 +149,6 @@
                     <li>Build a Generative AI app using the Gemini API template</li>
                     <li>Side by side layout in Running Devices window</li>
                     <li>IntelliJ 2024.1 platform updates</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-06-10" version="2023.3.1.20" >
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2023.3.1#android-studio-jellyfish-|-2023.3.1-patch-2</url>
-            <description>
-                <p>Android Studio Jellyfish | 2023.3.1 Patch 2</p>
-                <ul>
-                    <li>FIXED: AGP 8.4 seems to break GMD downloads on CI</li>
                 </ul>
             </description>
         </release>
