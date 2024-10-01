@@ -77,6 +77,16 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2024-10-01" version="2024.2.1.9">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Ladybug | 2024.2.1</p>
+                <ul>
+                    <li>IntelliJ 2024.2 platform updates</li>
+                    <li>Support for Pixel 9 series devices</li>
+                </ul>
+            </description>
+        </release>
         <release date="2024-09-17" version="2024.1.2.13">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.1.2#android-studio-koala-feature-drop-|-2024.1.2-patch-1</url>
             <description>
@@ -92,7 +102,7 @@
             </description>
         </release>
         <release date="2024-08-29" version="2024.1.2.12">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-koala-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Koala Feature Drop | 2024.1.2</p>
                 <ul>
@@ -138,17 +148,6 @@
                 <ul>
                     <li>FIXED: Error running a baseline profile module on a split APK</li>
                     <li>FIXED: Sync should pass compose information to Studio when using the compose plugin</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-06-13" version="2024.1.1.11">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-koala-release-notes</url>
-            <description>
-                <p>Android Studio Koala | 2024.1.1</p>
-                <ul>
-                    <li>Build a Generative AI app using the Gemini API template</li>
-                    <li>Side by side layout in Running Devices window</li>
-                    <li>IntelliJ 2024.1 platform updates</li>
                 </ul>
             </description>
         </release>
