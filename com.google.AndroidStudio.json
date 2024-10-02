@@ -24,7 +24,6 @@
       "buildsystem": "simple",
       "build-commands": [
         "install -D apply_extra /app/bin/apply_extra",
-        "install -D android-studio.sh /app/bin/android-studio",
         "install -Dm644 com.google.AndroidStudio.svg /app/share/icons/hicolor/scalable/apps/com.google.AndroidStudio.svg",
         "install -Dm644 com.google.AndroidStudio.metainfo.xml /app/share/metainfo/com.google.AndroidStudio.metainfo.xml",
         "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
@@ -59,13 +58,6 @@
             "tar xzf /app/extra/android-studio.tar.gz",
             "rm -f /app/extra/android-studio.tar.gz"
           ]
-        },
-        {
-          "type": "script",
-          "dest-filename": "android-studio.sh",
-          "commands": [
-            "exec env \"PATH=$PATH:$EXTRA_PATH\" /app/extra/android-studio/bin/studio"
-          ]
         }
       ]
     },
@@ -73,7 +65,7 @@
       "name": "ide-flatpak-wrapper",
       "buildsystem": "meson",
       "config-opts": [
-        "-Deditor_binary=/app/bin/android-studio",
+        "-Deditor_binary=/app/extra/android-studio/bin/studio",
         "-Dprogram_name=android-studio-wrapper"
       ],
       "sources": [
