@@ -64,7 +64,7 @@
           "type": "script",
           "dest-filename": "android-studio.sh",
           "commands": [
-            "exec env \"PATH=$PATH:$EXTRA_PATH\" /app/extra/android-studio/bin/studio.sh"
+            "exec env \"PATH=$PATH:$EXTRA_PATH\" /app/extra/android-studio/bin/studio"
           ]
         }
       ]
