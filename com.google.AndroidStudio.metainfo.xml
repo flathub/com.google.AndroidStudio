@@ -77,6 +77,21 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2024-10-14" version="2024.2.1.10">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-1</url>
+            <description>
+                <p>Android Studio Ladybug | 2024.2.1 Patch 1</p>
+                <ul>
+                    <li>FIXED: agp docs have a lot of TBD</li>
+                    <li>FIXED: Links from Android SDK Upgrade Assistant point to internal Google documentation</li>
+                    <li>FIXED: Cannot open Android studio: Missing essential plugins</li>
+                    <li>FIXED: AGP 8.6.1: Regression - WrongConstant lint failure when using [Int].toLong() inside a @LongDef in Kotlin</li>
+                    <li>FIXED: "At least one host must be specified" lint error when setting http or https intent-filter scheme</li>
+                    <li>FIXED: java.lang.NoClassDefFoundError when running tests using JUnit</li>
+                    <li>FIXED: Run configuration for unit tests is not properly updated</li>
+                </ul>
+            </description>
+        </release>
         <release date="2024-10-01" version="2024.2.1.9">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -138,16 +153,6 @@
                     <li>FIXED: R8 Processing Error Possibly Due to Right Shift Operator</li>
                     <li>FIXED: R8 NullPointer after updating to Kotlin 2.0</li>
                     <li>FIXED: Split type error occurred</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-07-11" version="2024.1.1.12">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.1.1#android-studio-koala-|-2024.1.1-patch-1</url>
-            <description>
-                <p>Android Studio Koala | 2024.1.1 Patch 1</p>
-                <ul>
-                    <li>FIXED: Error running a baseline profile module on a split APK</li>
-                    <li>FIXED: Sync should pass compose information to Studio when using the compose plugin</li>
                 </ul>
             </description>
         </release>
