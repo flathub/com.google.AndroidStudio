@@ -23,10 +23,10 @@
       "name": "android-studio",
       "buildsystem": "simple",
       "build-commands": [
-        "install -D apply_extra /app/bin/apply_extra",
-        "install -Dm644 com.google.AndroidStudio.svg /app/share/icons/hicolor/scalable/apps/com.google.AndroidStudio.svg",
-        "install -Dm644 com.google.AndroidStudio.metainfo.xml /app/share/metainfo/com.google.AndroidStudio.metainfo.xml",
-        "install -Dm644 com.google.AndroidStudio.desktop /app/share/applications/com.google.AndroidStudio.desktop"
+        "install -D apply_extra ${FLATPAK_DEST}/bin/apply_extra",
+        "install -Dm644 com.google.AndroidStudio.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg",
+        "install -Dm644 com.google.AndroidStudio.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml",
+        "install -Dm644 com.google.AndroidStudio.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
       ],
       "sources": [
         {
