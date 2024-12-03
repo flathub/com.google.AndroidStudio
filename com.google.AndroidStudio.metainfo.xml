@@ -105,6 +105,16 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2024-12-02" version="2024.2.1.12">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-3</url>
+            <description>
+                <p>Android Studio Ladybug | 2024.2.1 Patch 3</p>
+                <ul>
+                    <li>FIXED: Many missing analysis API method warnings when running lint</li>
+                    <li>FIXED: False positive lint check android.permission.SCHEDULE_EXACT_ALARM is only granted to system apps</li>
+                </ul>
+            </description>
+        </release>
         <release date="2024-10-31" version="2024.2.1.11">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-2</url>
             <description>
@@ -153,22 +163,6 @@
                     <li>FIXED: R8 8.5.x StackOverflowError in SimpleInliningConstraintAnalysis</li>
                     <li>FIXED: Task :xxxx:minifyXXXReleaseWithR8 ERROR: R8: java.util.ConcurrentModificationException</li>
                     <li>FIXED: java.lang.NullPointerException: Cannot invoke "com.android.tools.r8.ir.analysis.type.TypeElement.asClassType()"</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-08-29" version="2024.1.2.12">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-koala-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Koala Feature Drop | 2024.1.2</p>
-                <ul>
-                    <li>Android Device Streaming: more devices and improved sign-up</li>
-                    <li>USB cable speed detection</li>
-                    <li>Updated sign in flow to Google services</li>
-                    <li>Device UI setting shortcuts</li>
-                    <li>Faster and improved Profiler with a task-centric approach</li>
-                    <li>Wear OS tiles preview panel</li>
-                    <li>Compose Glance widget previews</li>
-                    <li>Live Edit for Compose enabled by default and new shortcut</li>
                 </ul>
             </description>
         </release>
