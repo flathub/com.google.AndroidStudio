@@ -106,7 +106,7 @@
     <releases>
         <!-- stable releases -->
         <release date="2024-12-02" version="2024.2.1.12">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-2</url>
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-3</url>
             <description>
                 <p>Android Studio Ladybug | 2024.2.1 Patch 3</p>
                 <ul>
