@@ -97,6 +97,20 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-01-09" version="2024.2.2.13">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Ladybug Feature Drop | 2024.2.2</p>
+                <ul>
+                    <li>Wear Tiles Animation Preview</li>
+                    <li>Motion Editor deprecation</li>
+                    <li>New Gemini in Android Studio features</li>
+                    <li>Google Play SDK Index integration</li>
+                    <li>Mock sensor capabilities and values</li>
+                    <li>App Links Assistant: JSON generation and web issue fixes</li>
+                </ul>
+            </description>
+        </release>
         <release date="2024-12-02" version="2024.2.1.12">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-3</url>
             <description>
@@ -131,30 +145,6 @@
                     <li>FIXED: "At least one host must be specified" lint error when setting http or https intent-filter scheme</li>
                     <li>FIXED: java.lang.NoClassDefFoundError when running tests using JUnit</li>
                     <li>FIXED: Run configuration for unit tests is not properly updated</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-10-01" version="2024.2.1.9">
-            <url type="details">https://developer.android.com/studio/releases</url>
-            <description>
-                <p>Android Studio Ladybug | 2024.2.1</p>
-                <ul>
-                    <li>IntelliJ 2024.2 platform updates</li>
-                    <li>Support for Pixel 9 series devices</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-09-17" version="2024.1.2.13">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.1.2#android-studio-koala-feature-drop-|-2024.1.2-patch-1</url>
-            <description>
-                <p>Android Studio Koala Feature Drop | 2024.1.2 Patch 1</p>
-                <ul>
-                    <li>FIXED: Dexing task/transform generates non-deterministic classes.dex contents</li>
-                    <li>FIXED: R8 regression from 8.4.2 to 8.5.0</li>
-                    <li>FIXED: Cannot close Koala when updating indices (which takes forever)</li>
-                    <li>FIXED: R8 8.5.x StackOverflowError in SimpleInliningConstraintAnalysis</li>
-                    <li>FIXED: Task :xxxx:minifyXXXReleaseWithR8 ERROR: R8: java.util.ConcurrentModificationException</li>
-                    <li>FIXED: java.lang.NullPointerException: Cannot invoke "com.android.tools.r8.ir.analysis.type.TypeElement.asClassType()"</li>
                 </ul>
             </description>
         </release>
