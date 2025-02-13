@@ -97,6 +97,25 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-02-13" version="2024.2.2.14">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.2#android-studio-ladybug-feature-drop-|-2024.2.2-patch-1</url>
+            <description>
+                <p>Android Studio Ladybug Feature Drop | 2024.2.2 Patch 1</p>
+                <ul>
+                    <li>FIXED: When running project, AS does not rebuild project anymore resulting in "Error loading build artifacts"</li>
+                    <li>FIXED: Android Studio not deploying changes to app</li>
+                    <li>FIXED: Add OpenJDK 23 for testing</li>
+                    <li>FIXED: Android studio got slow after updating</li>
+                    <li>FIXED: Cannot run unit tests.</li>
+                    <li>FIXED: java.lang.AbstractMethodError: Receiver class [...]$$Lambda$[...] does not define or inherit an implementation of the resolved method [...] of interface [...]</li>
+                    <li>FIXED: NPE in Enqueuer releated to record DexCallSite</li>
+                    <li>FIXED: R8 8.7.18 causes a runtime null pointer exception when calling job?.cancel</li>
+                    <li>FIXED: java.lang.NoClassDefFoundError: Failed resolution of: Lkotlin/LazyThreadSafetyMode</li>
+                    <li>FIXED: Monzo appears to be using excessive amount of time in tree shaking</li>
+                    <li>FIXED: AGP 8.8 fail release build : R8: java.lang.NullPointerException: Cannot read field "b" because the return value of "com.android.tools.r8.internal.BS.a(com.android.tools.r8.internal.cR)" is null`</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-01-09" version="2024.2.2.13">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
