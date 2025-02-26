@@ -97,6 +97,19 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-02-26" version="2024.2.2.15">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.2#android-studio-ladybug-feature-drop-|-2024.2.2-patch-2</url>
+            <description>
+                <p>Android Studio Ladybug Feature Drop | 2024.2.2 Patch 2</p>
+                <ul>
+                    <li>FIXED: Initialization script 'C:\Users\mypc\AppData\Local\Temp\ijresolvers2.gradle' line: 162</li>
+                    <li>FIXED: Android Studio not deploying changes to app</li>
+                    <li>FIXED: Gson proguard is not working properly after upgrading to AGP 8.8</li>
+                    <li>FIXED: java.lang.VerifyError: Verifier rejected class</li>
+                    <li>FIXED: Leanback crashes when minified with R8 included in AGP 8.10.0-alpha04</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-02-13" version="2024.2.2.14">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.2#android-studio-ladybug-feature-drop-|-2024.2.2-patch-1</url>
             <description>
@@ -149,21 +162,6 @@
                     <li>FIXED: [R8 8.6.27] Method implementation replaced with `throw null`</li>
                     <li>FIXED: Default android proguard files throw a warning when used with current Version of R8</li>
                     <li>FIXED: MissingStartupProfileItemsDiagnostic crashes the Gradle client with an out-of-memory error if the message is too large</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-10-14" version="2024.2.1.10">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-1</url>
-            <description>
-                <p>Android Studio Ladybug | 2024.2.1 Patch 1</p>
-                <ul>
-                    <li>FIXED: agp docs have a lot of TBD</li>
-                    <li>FIXED: Links from Android SDK Upgrade Assistant point to internal Google documentation</li>
-                    <li>FIXED: Cannot open Android studio: Missing essential plugins</li>
-                    <li>FIXED: AGP 8.6.1: Regression - WrongConstant lint failure when using [Int].toLong() inside a @LongDef in Kotlin</li>
-                    <li>FIXED: "At least one host must be specified" lint error when setting http or https intent-filter scheme</li>
-                    <li>FIXED: java.lang.NoClassDefFoundError when running tests using JUnit</li>
-                    <li>FIXED: Run configuration for unit tests is not properly updated</li>
                 </ul>
             </description>
         </release>
