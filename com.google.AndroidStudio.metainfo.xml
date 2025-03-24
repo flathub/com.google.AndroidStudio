@@ -97,10 +97,24 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-03-24" version="2024.3.1.14">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.1#android-studio-meerkat-|-2024.3.1-patch-1</url>
+            <description>
+                <p>Android Studio Meerkat | 2024.3.1 Patch 1</p>
+                <p>Released together with: Android Gradle Plugin 8.9.1</p>
+                <ul>
+                    <li>FIXED: Backporting of android.os.Build.VERSION_CODES_FULL incorrect for Baklava</li>
+                    <li>FIXED: Unable to Generate Signed APK after updating to AGP 8.9.0</li>
+                    <li>FIXED: Analyze written-before-read property at allocation sites encounters error when generating classfile</li>
+                    <li>FIXED: Problem regarding Java SPI in R8 shrinker of versions 8.6.*, 8.7.*, 8.8.0</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-03-04" version="2024.3.1.13">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
                 <p>Android Studio Meerkat | 2024.3.1</p>
+                <p>Released together with: Android Gradle Plugin 8.9.0</p>
                 <ul>
                     <li>Compose Preview enhancements</li>
                     <li>KMP Shared Module integration with Android applications</li>
@@ -115,6 +129,7 @@
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.2#android-studio-ladybug-feature-drop-|-2024.2.2-patch-2</url>
             <description>
                 <p>Android Studio Ladybug Feature Drop | 2024.2.2 Patch 2</p>
+                <p>Released together with: Android Gradle Plugin 8.8.2</p>
                 <ul>
                     <li>FIXED: Initialization script 'C:\Users\mypc\AppData\Local\Temp\ijresolvers2.gradle' line: 162</li>
                     <li>FIXED: Android Studio not deploying changes to app</li>
@@ -128,6 +143,7 @@
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.2#android-studio-ladybug-feature-drop-|-2024.2.2-patch-1</url>
             <description>
                 <p>Android Studio Ladybug Feature Drop | 2024.2.2 Patch 1</p>
+                <p>Released together with: Android Gradle Plugin 8.8.1</p>
                 <ul>
                     <li>FIXED: When running project, AS does not rebuild project anymore resulting in "Error loading build artifacts"</li>
                     <li>FIXED: Android Studio not deploying changes to app</li>
@@ -147,6 +163,7 @@
             <url type="details">https://developer.android.com/studio/releases/past-releases/as-ladybug-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Ladybug Feature Drop | 2024.2.2</p>
+                <p>Released together with: Android Gradle Plugin 8.8.0</p>
                 <ul>
                     <li>Wear Tiles Animation Preview</li>
                     <li>Motion Editor deprecation</li>
@@ -154,16 +171,6 @@
                     <li>Google Play SDK Index integration</li>
                     <li>Mock sensor capabilities and values</li>
                     <li>App Links Assistant: JSON generation and web issue fixes</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2024-12-02" version="2024.2.1.12">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.1#android-studio-ladybug-|-2024.2.1-patch-3</url>
-            <description>
-                <p>Android Studio Ladybug | 2024.2.1 Patch 3</p>
-                <ul>
-                    <li>FIXED: Many missing analysis API method warnings when running lint</li>
-                    <li>FIXED: False positive lint check android.permission.SCHEDULE_EXACT_ALARM is only granted to system apps</li>
                 </ul>
             </description>
         </release>
