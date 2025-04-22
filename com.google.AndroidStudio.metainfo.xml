@@ -97,6 +97,18 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-04-21" version="2024.3.1.15">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.1#android-studio-meerkat-|-2024.3.1-patch-2</url>
+            <description>
+                <p>Android Studio Meerkat | 2024.3.1 Patch 2</p>
+                <p>Released together with: Android Gradle Plugin 8.9.2</p>
+                <ul>
+                    <li>FIXED: Resource Shrinking Issue in AGP 8.9 Causing Missing Resources in Dynamic Feature Modules</li>
+                    <li>FIXED: ClassCastException from a safe cast in class init</li>
+                    <li>FIXED: Cannot invoke com.android.tools.r8.internal.H5.x()</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-03-24" version="2024.3.1.14">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.1#android-studio-meerkat-|-2024.3.1-patch-1</url>
             <description>
@@ -156,21 +168,6 @@
                     <li>FIXED: java.lang.NoClassDefFoundError: Failed resolution of: Lkotlin/LazyThreadSafetyMode</li>
                     <li>FIXED: Monzo appears to be using excessive amount of time in tree shaking</li>
                     <li>FIXED: AGP 8.8 fail release build : R8: java.lang.NullPointerException: Cannot read field "b" because the return value of "com.android.tools.r8.internal.BS.a(com.android.tools.r8.internal.cR)" is null`</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-01-09" version="2024.2.2.13">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-ladybug-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Ladybug Feature Drop | 2024.2.2</p>
-                <p>Released together with: Android Gradle Plugin 8.8.0</p>
-                <ul>
-                    <li>Wear Tiles Animation Preview</li>
-                    <li>Motion Editor deprecation</li>
-                    <li>New Gemini in Android Studio features</li>
-                    <li>Google Play SDK Index integration</li>
-                    <li>Mock sensor capabilities and values</li>
-                    <li>App Links Assistant: JSON generation and web issue fixes</li>
                 </ul>
             </description>
         </release>
