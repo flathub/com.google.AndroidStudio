@@ -67,7 +67,6 @@
         "-Deditor_binary=/app/extra/android-studio/bin/studio",
         "-Dprogram_name=android-studio-wrapper",
         "-Deditor_title=Android Studio",
-        "-Dfirst_run_template=README.md",
         "-Dflagfile_prefix=flatpak-studio"
       ],
       "sources": [
