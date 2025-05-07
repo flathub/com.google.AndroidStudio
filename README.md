@@ -1,17 +1,29 @@
-# Android Studio Flatpak wrapper
-This is a community made Flatpak wrapper of Android Studio, it's not verified by, affiliated with, or supported by Google.
-This wrapper uses x11 or xwayland due to openJDK missing support. Filesystem visibility is voluntarily limited to home and flatpak-spawn not permitted due to security reason.
+# Android Studio Flatpak Wrapper
 
-Any suggestions, problem reports or improvement proposals are welcome.
+This is a community-made Flatpak wrapper of Android Studio. It's not verified by, affiliated with, or supported by Google.
 
-## Android Udev rules
-Many systems need UDEV rules to handle USB devices, we suggest these [android-udev-rules](https://github.com/M0Rf30/android-udev-rules) 
+This wrapper uses X11 via XWayland, due to missing support in OpenJDK. Filesystem visibility is voluntarily limited to home, and `flatpak-spawn` is not permitted because it would reduce security.
 
-## ADB systemd service
-If you want to start ADB Server Daemon on user login (and not on Android Studio boot) this is a systemd service example.
-To disable management by Android studio go to `Settings`, `Build, Execution, Deployment`, `Debugger`, `ADB server lifecycle management` and select `Use existing manually managed server`
+Any suggestions, problem reports, or improvement proposals are welcome.
 
-```
+## Android `udev` Rules
+
+Many systems need `udev` rules to handle USB devices, we suggest these: [`android-udev-rules`](https://github.com/M0Rf30/android-udev-rules).
+
+## ADB SystemD Service
+
+If you want to start ADB Server Daemon on user login (and not on Android Studio boot), this is a SystemD service example.
+
+To disable management by Android Studio go, to:
+
+1. "Settings",
+2. "Build, Execution, Deployment",
+3. "Debugger", and
+4. "ADB server lifecycle management".
+
+Then, select "Use existing manually managed server".
+
+```desktop
 [Unit]
 Description=Android Debug Server Daemon
 
