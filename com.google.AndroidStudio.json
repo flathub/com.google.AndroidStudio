@@ -62,7 +62,7 @@
           "type": "script",
           "dest-filename": "android-studio-wrapper",
           "commands": [
-            "./android-studio/bin/studio $@"
+            "/app/extra/android-studio/bin/studio $@"
           ]
         }
       ]
