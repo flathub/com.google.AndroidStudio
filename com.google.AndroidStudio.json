@@ -65,18 +65,12 @@
       "buildsystem": "meson",
       "config-opts": [
         "-Deditor_binary=/app/extra/android-studio/bin/studio",
-        "-Dprogram_name=android-studio-wrapper",
-        "-Deditor_title=Android Studio",
-        "-Dflagfile_prefix=flatpak-studio"
+        "-Dprogram_name=android-studio-wrapper"
       ],
       "sources": [
         {
           "type": "dir",
           "path": "ide-flatpak-wrapper"
-        },
-        {
-          "type": "file",
-          "path": "README.md"
         }
       ]
     },
