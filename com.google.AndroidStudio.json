@@ -57,20 +57,13 @@
             "tar xzf android-studio.tar.gz",
             "rm -f android-studio.tar.gz"
           ]
-        }
-      ]
-    },
-    {
-      "name": "ide-flatpak-wrapper",
-      "buildsystem": "meson",
-      "config-opts": [
-        "-Deditor_binary=/app/extra/android-studio/bin/studio",
-        "-Dprogram_name=android-studio-wrapper"
-      ],
-      "sources": [
+        },
         {
-          "type": "dir",
-          "path": "ide-flatpak-wrapper"
+          "type": "script",
+          "dest-filename": "android-studio-wrapper",
+          "commands": [
+            "./android-studio/bin/studio $@"
+          ]
         }
       ]
     },
