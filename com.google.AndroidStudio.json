@@ -22,7 +22,7 @@
       "name": "android-studio",
       "buildsystem": "simple",
       "build-commands": [
-        "install -D apply_extra ${FLATPAK_DEST}/bin/apply_extra",
+        "install -D -t ${FLATPAK_DEST}/bin/ apply_extra android-studio-wrapper",
         "install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/ ${FLATPAK_ID}.svg",
         "install -Dm644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.metainfo.xml",
         "install -Dm644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop"
@@ -57,20 +57,13 @@
             "tar xzf android-studio.tar.gz",
             "rm -f android-studio.tar.gz"
           ]
-        }
-      ]
-    },
-    {
-      "name": "ide-flatpak-wrapper",
-      "buildsystem": "meson",
-      "config-opts": [
-        "-Deditor_binary=/app/extra/android-studio/bin/studio",
-        "-Dprogram_name=android-studio-wrapper"
-      ],
-      "sources": [
+        },
         {
-          "type": "dir",
-          "path": "ide-flatpak-wrapper"
+          "type": "script",
+          "dest-filename": "android-studio-wrapper",
+          "commands": [
+            "/app/extra/android-studio/bin/studio $@"
+          ]
         }
       ]
     },
