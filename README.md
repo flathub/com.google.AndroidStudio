@@ -35,3 +35,9 @@ ExecStop=%h/android/sdk/platform-tools/adb kill-server
 [Install]
 WantedBy=default.target
 ```
+
+## BTRFS tip
+
+If your host file system is BTRFS is required to set `no copy on write` on avd folder to get good performance in AVD emulator.
+Type the following command in the host terminal after first run wizard:
+`chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd`
