@@ -36,8 +36,12 @@ ExecStop=%h/android/sdk/platform-tools/adb kill-server
 WantedBy=default.target
 ```
 
-## BTRFS tip
+## AVD Emulator on copy-on-write filesystems
 
-If your host file system is BTRFS is required to set `no copy on write` on avd folder to get good performance in AVD emulator.
-Type the following command in the host terminal after first run wizard:
-`chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd`
+It's recommended to disable the copy-on-write behavior of the AVD Manager storage folder in order to run Android Virtual Devices without performance penalties. Most filesystems with this behavior (eg. BTRFS, ZFS, Bcachefs, etc.) support changing this configuration on a per-folder basis:
+
+```
+chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd
+```
+> [!IMPORTANT]
+> This should only be done once, before creating any virtual devices. AVDs created prior won't be affected.
