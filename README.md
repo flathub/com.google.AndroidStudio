@@ -45,3 +45,13 @@ chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd
 ```
 > [!IMPORTANT]
 > This should only be done once, before creating any virtual devices. AVDs created prior won't be affected.
+
+## LLVM
+
+If you need LLVM for flutter app or something else you can install [`SDK Extension for LLVM Project 20`](https://github.com/flathub/org.freedesktop.Sdk.Extension.llvm20) and link to Android Studio,
+required `build-options` are already present. You can use this commands:
+
+```shell
+flatpak install flathub org.freedesktop.Sdk.Extension.openjdk
+flatpak override --user com.google.AndroidStudio --env=FLATPAK_ENABLE_SDK_EXT="llvm20"
+```

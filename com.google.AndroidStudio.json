@@ -21,6 +21,10 @@
     {
       "name": "android-studio",
       "buildsystem": "simple",
+      "build-options": {
+        "append-path": "/usr/lib/sdk/llvm20/bin",
+        "prepend-ld-library-path": "/usr/lib/sdk/llvm20/lib"
+      },
       "build-commands": [
         "install -D -t ${FLATPAK_DEST}/bin/ apply_extra android-studio-wrapper",
         "install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/ ${FLATPAK_ID}.svg",
