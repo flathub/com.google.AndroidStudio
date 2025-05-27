@@ -52,6 +52,6 @@ If you need LLVM for flutter app or something else you can install [`SDK Extensi
 required `build-options` are already present. You can use this commands:
 
 ```shell
-flatpak install flathub org.freedesktop.Sdk.Extension.openjdk
+flatpak install flathub org.freedesktop.Sdk.Extension.llvm20
 flatpak override --user com.google.AndroidStudio --env=FLATPAK_ENABLE_SDK_EXT="llvm20"
 ```
