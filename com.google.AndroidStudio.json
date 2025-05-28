@@ -15,7 +15,9 @@
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/android-studio/jbr",
     "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.secrets"
+    "--talk-name=org.freedesktop.secrets",
+    "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm20/bin",
+    "--env=LD_LIBRARY_PATH=/usr/lib/sdk/llvm20/lib"
   ],
   "modules": [
     {

@@ -35,3 +35,23 @@ ExecStop=%h/android/sdk/platform-tools/adb kill-server
 [Install]
 WantedBy=default.target
 ```
+
+## AVD Emulator on copy-on-write filesystems
+
+It's recommended to disable the copy-on-write behavior of the AVD Manager storage folder in order to run Android Virtual Devices without performance penalties. Most filesystems with this behavior (eg. BTRFS, ZFS, Bcachefs, etc.) support changing this configuration on a per-folder basis:
+
+```
+chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd
+```
+> [!IMPORTANT]
+> This should only be done once, before creating any virtual devices. AVDs created prior won't be affected.
+
+## LLVM
+
+If you need LLVM for flutter app or something else you can install [`SDK Extension for LLVM Project 20`](https://github.com/flathub/org.freedesktop.Sdk.Extension.llvm20) and link to Android Studio,
+required `build-options` are already present. You can use this commands:
+
+```shell
+flatpak install flathub org.freedesktop.Sdk.Extension.llvm20
+flatpak override --user com.google.AndroidStudio --env=FLATPAK_ENABLE_SDK_EXT="llvm20"
+```
