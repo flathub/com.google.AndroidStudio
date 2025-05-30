@@ -97,6 +97,18 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-05-28" version="2024.3.2.15">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.2#android-studio-meerkat-feature-drop-|-2024.3.2-patch-1</url>
+            <description>
+                <p>Android Studio Meerkat Feature Drop | 2024.3.2 Patch 1</p>
+                <p>Released together with: Android Gradle Plugin 8.10.1</p>
+                <ul>
+                    <li>FIXED: Explicitly enabling device tests in a non-default build type using AGP does not work</li>
+                    <li>FIXED: NullPointerException when compiling instant app after updating Kotlin to 2.1.20</li>
+                    <li>FIXED: [AGP]: ERROR: R8: java.lang.OutOfMemoryError: Required array length 2147483638 + 196 is too large</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-05-06" version="2024.3.2.14">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -146,20 +158,6 @@
                     <li>New Gemini in Android Studio features</li>
                     <li>Updated Build menu and actions</li>
                     <li>Google Play SDK Insights: Deprecated SDK warnings</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-02-26" version="2024.2.2.15">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.2.2#android-studio-ladybug-feature-drop-|-2024.2.2-patch-2</url>
-            <description>
-                <p>Android Studio Ladybug Feature Drop | 2024.2.2 Patch 2</p>
-                <p>Released together with: Android Gradle Plugin 8.8.2</p>
-                <ul>
-                    <li>FIXED: Initialization script 'C:\Users\mypc\AppData\Local\Temp\ijresolvers2.gradle' line: 162</li>
-                    <li>FIXED: Android Studio not deploying changes to app</li>
-                    <li>FIXED: Gson proguard is not working properly after upgrading to AGP 8.8</li>
-                    <li>FIXED: java.lang.VerifyError: Verifier rejected class</li>
-                    <li>FIXED: Leanback crashes when minified with R8 included in AGP 8.10.0-alpha04</li>
                 </ul>
             </description>
         </release>
