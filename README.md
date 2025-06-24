@@ -58,7 +58,7 @@ It's recommended to disable the copy-on-write behavior of the AVD Manager storag
 
 ```sh
 #!/usr/bin/env sh
-chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd
+chattr +C $HOME/.var/app/com.google.AndroidStudio/config/.android/avd
 ```
 
 > [!IMPORTANT]
