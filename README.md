@@ -36,13 +36,31 @@ ExecStop=%h/android/sdk/platform-tools/adb kill-server
 WantedBy=default.target
 ```
 
-## AVD Emulator on copy-on-write filesystems
+## AVD Emulator
+
+### SELinux
+
+Some OSes (at least, Fedora and RHEL) enable SELinux, which restricts what unusual actions applications can perform without previous authorisation, in order to improve security. However, complex applications, like Android Studio's AVD Manager, need to be able to bypass this, in order to perform such low-level actions. Unfortunately, Flatpak does not yet support configuring this automatically, so the user must.
+
+On these OSes, when an AVD is invoked without the override active, `gnome-abrt` shall inform the user that `qemu-system-x86` has `SIGABRT`'d. To prevent this, apply the undermentioned override:
+
+```sh
+#!/usr/bin/env sh
+sudo ausearch -c 'RenderThread' --raw | audit2allow -M my-RenderThread && \
+sudo semodule -X 300 -i my-RenderThread.pp
+```
+
+Because this is a matter of security, on Fedora, the user can install `sealert`, which shall appear when `gnome-abrt` does, and inform the user that this approach is correct. It is an official Red Hat tool.
+
+### On copy-on-write filesystems
 
 It's recommended to disable the copy-on-write behavior of the AVD Manager storage folder in order to run Android Virtual Devices without performance penalties. Most filesystems with this behavior (eg. BTRFS, ZFS, Bcachefs, etc.) support changing this configuration on a per-folder basis:
 
+```sh
+#!/usr/bin/env sh
+chattr +C $HOME/.var/app/com.google.AndroidStudio/config/.android/avd
 ```
-chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd
-```
+
 > [!IMPORTANT]
 > This should only be done once, before creating any virtual devices. AVDs created prior won't be affected.
 
@@ -51,7 +69,8 @@ chattr +C ~/.var/app/com.google.AndroidStudio/config/.android/avd
 If you need LLVM for flutter app or something else you can install [`SDK Extension for LLVM Project 20`](https://github.com/flathub/org.freedesktop.Sdk.Extension.llvm20) and link to Android Studio,
 required `build-options` are already present. You can use this commands:
 
-```shell
-flatpak install flathub org.freedesktop.Sdk.Extension.llvm20
+```sh
+#!/usr/bin/env sh
+flatpak install flathub org.freedesktop.Sdk.Extension.llvm20 && \
 flatpak override --user com.google.AndroidStudio --env=FLATPAK_ENABLE_SDK_EXT="llvm20"
 ```
