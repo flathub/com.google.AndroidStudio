@@ -97,6 +97,18 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-06-24" version="2025.1.1.13">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Narwhal | 2025.1.1</p>
+                <p>Android Gradle Plugin 8.11.0</p>
+                <ul>
+                    <li>Android Studio and Cloud services compatibility</li>
+                    <li>Introducing Gemini in Android Studio for businesses</li>
+                    <li>Studio Labs</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-05-28" version="2024.3.2.15">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.2#android-studio-meerkat-feature-drop-|-2024.3.2-patch-1</url>
             <description>
@@ -110,7 +122,7 @@
             </description>
         </release>
         <release date="2025-05-06" version="2024.3.2.14">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-meerkat-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Meerkat Feature Drop | 2024.3.2</p>
                 <p>Released together with: Android Gradle Plugin 8.10.0</p>
@@ -143,21 +155,6 @@
                     <li>FIXED: Unable to Generate Signed APK after updating to AGP 8.9.0</li>
                     <li>FIXED: Analyze written-before-read property at allocation sites encounters error when generating classfile</li>
                     <li>FIXED: Problem regarding Java SPI in R8 shrinker of versions 8.6.*, 8.7.*, 8.8.0</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-03-04" version="2024.3.1.13">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-meerkat-release-notes</url>
-            <description>
-                <p>Android Studio Meerkat | 2024.3.1</p>
-                <p>Released together with: Android Gradle Plugin 8.9.0</p>
-                <ul>
-                    <li>Compose Preview enhancements</li>
-                    <li>KMP Shared Module integration with Android applications</li>
-                    <li>Updated UX for adding virtual and remote devices to Device Manager</li>
-                    <li>New Gemini in Android Studio features</li>
-                    <li>Updated Build menu and actions</li>
-                    <li>Google Play SDK Insights: Deprecated SDK warnings</li>
                 </ul>
             </description>
         </release>
