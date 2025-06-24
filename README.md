@@ -40,13 +40,15 @@ WantedBy=default.target
 
 ### SELinux
 
-When an AVD is invoked, without the undermentioned applied, `gnome-abrt` shall inform the user that `qemu-system-x86` has `SIGABRT`'d. To prevent this, apply it:
+Some OSes utilise SELinux, which restricts what applications can do, in order to improve security. However, complex applications like Android Studio need to be able to bypass this, in order to perform low-level actions. Unfortunately, Flatpak does not yet support configuring this automatically.
 
-~~~sh
+On these OSes, when an AVD is invoked, `gnome-abrt` shall inform the user that `qemu-system-x86` has `SIGABRT`'d. To prevent this, apply the undermentioned policy:
+
+```sh
 #!/usr/bin/env sh
 sudo ausearch -c 'RenderThread' --raw | audit2allow -M my-RenderThread && \
 sudo semodule -X 300 -i my-RenderThread.pp
-~~~
+```
 
 For a security-sensitive topic like this, you can install `sealert`, which shall appear when `gnome-abrt` does, and inform the user that this approach is correct.
 
