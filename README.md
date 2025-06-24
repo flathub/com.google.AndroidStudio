@@ -40,9 +40,9 @@ WantedBy=default.target
 
 ### SELinux
 
-Some OSes utilise SELinux, which restricts what applications can do, in order to improve security. However, complex applications like Android Studio need to be able to bypass this, in order to perform low-level actions. Unfortunately, Flatpak does not yet support configuring this automatically.
+Some OSes (at least, Fedora and RHEL) enable SELinux, which restricts what unusual actions applications can perform without previous authorisation, in order to improve security. However, complex applications, like Android Studio's AVD Manager, need to be able to bypass this, in order to perform such low-level actions. Unfortunately, Flatpak does not yet support configuring this automatically, so the user must.
 
-On these OSes, when an AVD is invoked, `gnome-abrt` shall inform the user that `qemu-system-x86` has `SIGABRT`'d. To prevent this, apply the undermentioned policy:
+On these OSes, when an AVD is invoked without the override active, `gnome-abrt` shall inform the user that `qemu-system-x86` has `SIGABRT`'d. To prevent this, apply the undermentioned override:
 
 ```sh
 #!/usr/bin/env sh
@@ -50,7 +50,7 @@ sudo ausearch -c 'RenderThread' --raw | audit2allow -M my-RenderThread && \
 sudo semodule -X 300 -i my-RenderThread.pp
 ```
 
-For a security-sensitive topic like this, you can install `sealert`, which shall appear when `gnome-abrt` does, and inform the user that this approach is correct.
+Because this is a matter of security, on Fedora, the user can install `sealert`, which shall appear when `gnome-abrt` does, and inform the user that this approach is correct. It is an official Red Hat tool.
 
 ### On copy-on-write filesystems
 
