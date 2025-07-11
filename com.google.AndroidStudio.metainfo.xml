@@ -97,6 +97,14 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-07-10" version="2025.1.1.14">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.1#android-studio-narwhal-|-2025.1.1-patch-1</url>
+            <description>
+                <p>Android Studio Narwhal | 2025.1.1 Patch 1</p>
+                <p>Released together with: Android Gradle Plugin 8.11.1</p>
+                <p>This release includes minor fixes and improvements.</p>
+            </description>
+        </release>
         <release date="2025-06-24" version="2025.1.1.13">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -142,19 +150,6 @@
                     <li>FIXED: Resource Shrinking Issue in AGP 8.9 Causing Missing Resources in Dynamic Feature Modules</li>
                     <li>FIXED: ClassCastException from a safe cast in class init</li>
                     <li>FIXED: Cannot invoke com.android.tools.r8.internal.H5.x()</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-03-24" version="2024.3.1.14">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.1#android-studio-meerkat-|-2024.3.1-patch-1</url>
-            <description>
-                <p>Android Studio Meerkat | 2024.3.1 Patch 1</p>
-                <p>Released together with: Android Gradle Plugin 8.9.1</p>
-                <ul>
-                    <li>FIXED: Backporting of android.os.Build.VERSION_CODES_FULL incorrect for Baklava</li>
-                    <li>FIXED: Unable to Generate Signed APK after updating to AGP 8.9.0</li>
-                    <li>FIXED: Analyze written-before-read property at allocation sites encounters error when generating classfile</li>
-                    <li>FIXED: Problem regarding Java SPI in R8 shrinker of versions 8.6.*, 8.7.*, 8.8.0</li>
                 </ul>
             </description>
         </release>
