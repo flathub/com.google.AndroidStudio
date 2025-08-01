@@ -97,6 +97,28 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-07-31" version="2025.1.2.11">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Narwhal Feature Drop | 2025.1.2</p>
+                <p>Android Gradle Plugin 8.12.0</p>
+                <ul>
+                    <li>Gemini in Android Studio's Agent mode</li>
+                    <li>Rules in Gemini</li>
+                    <li>Embedded XR Emulator</li>
+                    <li>XR project template</li>
+                    <li>Embedded Layout Inspector for XR</li>
+                    <li>16 KB page size support</li>
+                    <li>Transform UI with Gemini</li>
+                    <li>Compose preview navigation improvements</li>
+                    <li>Compose preview picker</li>
+                    <li>Child recomposition in Layout Inspector</li>
+                    <li>New setting to disable Automatic Sync</li>
+                    <li>Partner Device Labs available with Android Device Streaming</li>
+                    <li>K2 mode by default</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-07-10" version="2025.1.1.14">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.1#android-studio-narwhal-|-2025.1.1-patch-1</url>
             <description>
@@ -106,7 +128,7 @@
             </description>
         </release>
         <release date="2025-06-24" version="2025.1.1.13">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-release-notes</url>
             <description>
                 <p>Android Studio Narwhal | 2025.1.1</p>
                 <p>Android Gradle Plugin 8.11.0</p>
@@ -138,18 +160,6 @@
                     <li>Themed icon support</li>
                     <li>Android Studio config directories changing</li>
                     <li>Prompt Library</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-04-21" version="2024.3.1.15">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.1#android-studio-meerkat-|-2024.3.1-patch-2</url>
-            <description>
-                <p>Android Studio Meerkat | 2024.3.1 Patch 2</p>
-                <p>Released together with: Android Gradle Plugin 8.9.2</p>
-                <ul>
-                    <li>FIXED: Resource Shrinking Issue in AGP 8.9 Causing Missing Resources in Dynamic Feature Modules</li>
-                    <li>FIXED: ClassCastException from a safe cast in class init</li>
-                    <li>FIXED: Cannot invoke com.android.tools.r8.internal.H5.x()</li>
                 </ul>
             </description>
         </release>
