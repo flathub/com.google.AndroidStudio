@@ -97,6 +97,17 @@
     </description>
     <releases>
         <!-- stable releases -->
+        <release date="2025-08-18" version="2025.1.2.12">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.2#android-studio-narwhal-feature-drop-|-2025.1.2-patch-1</url>
+            <description>
+                <p>Android Studio Narwhal Feature Drop | 2025.1.2 Patch 1</p>
+                <p>Android Gradle Plugin 8.12.1</p>
+                <ul>
+                    <li>FIXED: `com.android.kotlin.multiplatform.library` crashes with Gradle Managed Devices</li>
+                    <li>FIXED: Robolectric host test doesn't work unless device test is also configured in new Android-KMP Gradle plugin</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-07-31" version="2025.1.2.11">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -148,18 +159,6 @@
                     <li>FIXED: Explicitly enabling device tests in a non-default build type using AGP does not work</li>
                     <li>FIXED: NullPointerException when compiling instant app after updating Kotlin to 2.1.20</li>
                     <li>FIXED: [AGP]: ERROR: R8: java.lang.OutOfMemoryError: Required array length 2147483638 + 196 is too large</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-05-06" version="2024.3.2.14">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-meerkat-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Meerkat Feature Drop | 2024.3.2</p>
-                <p>Released together with: Android Gradle Plugin 8.10.0</p>
-                <ul>
-                    <li>Themed icon support</li>
-                    <li>Android Studio config directories changing</li>
-                    <li>Prompt Library</li>
                 </ul>
             </description>
         </release>
