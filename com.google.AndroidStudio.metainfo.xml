@@ -96,7 +96,17 @@
         </ul>
     </description>
     <releases>
-        <!-- stable releases -->
+        <!-- stable release -->
+        <release date="2025-08-28" version="2025.1.2.13">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.2#android-studio-narwhal-feature-drop-|-2025.1.2-patch-2</url>
+            <description>
+                <p>Android Studio Narwhal Feature Drop | 2025.1.2 Patch 2</p>
+                <p>Android Gradle Plugin 8.12.2</p>
+                <ul>
+                    <li>FIXED: Android SDK Upgrade Assistant does not display</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-08-18" version="2025.1.2.12">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.2#android-studio-narwhal-feature-drop-|-2025.1.2-patch-1</url>
             <description>
@@ -147,18 +157,6 @@
                     <li>Android Studio and Cloud services compatibility</li>
                     <li>Introducing Gemini in Android Studio for businesses</li>
                     <li>Studio Labs</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-05-28" version="2024.3.2.15">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2024.3.2#android-studio-meerkat-feature-drop-|-2024.3.2-patch-1</url>
-            <description>
-                <p>Android Studio Meerkat Feature Drop | 2024.3.2 Patch 1</p>
-                <p>Released together with: Android Gradle Plugin 8.10.1</p>
-                <ul>
-                    <li>FIXED: Explicitly enabling device tests in a non-default build type using AGP does not work</li>
-                    <li>FIXED: NullPointerException when compiling instant app after updating Kotlin to 2.1.20</li>
-                    <li>FIXED: [AGP]: ERROR: R8: java.lang.OutOfMemoryError: Required array length 2147483638 + 196 is too large</li>
                 </ul>
             </description>
         </release>
