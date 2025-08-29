@@ -96,7 +96,7 @@
         </ul>
     </description>
     <releases>
-        <!-- stable releases -->
+        <!-- stable release -->
         <release date="2025-08-28" version="2025.1.2.13">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.2#android-studio-narwhal-feature-drop-|-2025.1.2-patch-2</url>
             <description>
