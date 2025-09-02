@@ -1,7 +1,7 @@
 {
   "app-id": "com.google.AndroidStudio",
   "runtime": "org.freedesktop.Sdk",
-  "runtime-version": "24.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "android-studio-wrapper",
   "finish-args": [
@@ -13,7 +13,7 @@
     "--device=all",
     "--filesystem=home",
     "--allow=multiarch",
-    "--env=JAVA_HOME=/app/extra/android-studio/jbr",
+    "--env=JAVA_HOME=/app/extra/jbr",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.secrets",
     "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm20/bin",
@@ -56,7 +56,7 @@
           "type": "script",
           "dest-filename": "apply_extra",
           "commands": [
-            "tar xzf android-studio.tar.gz",
+            "tar xzf android-studio.tar.gz --strip-components=1",
             "rm -f android-studio.tar.gz"
           ]
         },
@@ -64,11 +64,10 @@
           "type": "script",
           "dest-filename": "android-studio-wrapper",
           "commands": [
-            "/app/extra/android-studio/bin/studio $@"
+            "/app/extra/bin/studio $@"
           ]
         }
       ]
-    },
-    "shared-modules/libsecret/libsecret.json"
+    }
   ]
 }
