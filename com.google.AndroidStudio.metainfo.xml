@@ -97,6 +97,23 @@
     </description>
     <releases>
         <!-- stable release -->
+        <release date="2025-09-02" version="2025.1.3.7">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Narwhal 3 Feature Drop | 2025.1.3</p>
+                <p>Android Gradle Plugin 8.13</p>
+                <ul>
+                    <li>Studio Labs</li>
+                    <li>Resizable Compose previews</li>
+                    <li>Android view setting to display build files under corresponding modules</li>
+                    <li>Play Policy Insights in Android Studio</li>
+                    <li>Test and develop with app backup and restore</li>
+                    <li>Proguard inspections</li>
+                    <li>AGENT.md files for project-level context</li>
+                    <li>New setting to disable Automatic Sync</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-08-28" version="2025.1.2.13">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.2#android-studio-narwhal-feature-drop-|-2025.1.2-patch-2</url>
             <description>
@@ -119,7 +136,7 @@
             </description>
         </release>
         <release date="2025-07-31" version="2025.1.2.11">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Narwhal Feature Drop | 2025.1.2</p>
                 <p>Android Gradle Plugin 8.12.0</p>
@@ -146,18 +163,6 @@
                 <p>Android Studio Narwhal | 2025.1.1 Patch 1</p>
                 <p>Released together with: Android Gradle Plugin 8.11.1</p>
                 <p>This release includes minor fixes and improvements.</p>
-            </description>
-        </release>
-        <release date="2025-06-24" version="2025.1.1.13">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-release-notes</url>
-            <description>
-                <p>Android Studio Narwhal | 2025.1.1</p>
-                <p>Android Gradle Plugin 8.11.0</p>
-                <ul>
-                    <li>Android Studio and Cloud services compatibility</li>
-                    <li>Introducing Gemini in Android Studio for businesses</li>
-                    <li>Studio Labs</li>
-                </ul>
             </description>
         </release>
     </releases>
