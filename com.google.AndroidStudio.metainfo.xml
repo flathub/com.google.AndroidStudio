@@ -97,13 +97,24 @@
     </description>
     <releases>
         <!-- stable release -->
-        <release date="2025-09-02" version="2025.1.3.7">
+        <release date="2025-10-09" version="2025.1.4.8">
             <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Narwhal 4 Feature Drop | 2025.1.4</p>
+                <p>Android Gradle Plugin 8.13</p>
+                <ul>
+                    <li>New setting to open new projects with the Project view</li>
+                    <li>Android SDK Upgrade Assistant now supports Android 16 / API 36</li>
+                    <li>Watch Face Format support in Android Studio</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2025-09-02" version="2025.1.3.7">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Narwhal 3 Feature Drop | 2025.1.3</p>
                 <p>Android Gradle Plugin 8.13</p>
                 <ul>
-                    <li>Studio Labs</li>
                     <li>Resizable Compose previews</li>
                     <li>Android view setting to display build files under corresponding modules</li>
                     <li>Play Policy Insights in Android Studio</li>
@@ -155,14 +166,6 @@
                     <li>Partner Device Labs available with Android Device Streaming</li>
                     <li>K2 mode by default</li>
                 </ul>
-            </description>
-        </release>
-        <release date="2025-07-10" version="2025.1.1.14">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.1#android-studio-narwhal-|-2025.1.1-patch-1</url>
-            <description>
-                <p>Android Studio Narwhal | 2025.1.1 Patch 1</p>
-                <p>Released together with: Android Gradle Plugin 8.11.1</p>
-                <p>This release includes minor fixes and improvements.</p>
             </description>
         </release>
     </releases>
