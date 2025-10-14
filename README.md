@@ -52,6 +52,17 @@ sudo semodule -X 300 -i my-RenderThread.pp
 
 Because this is a matter of security, on Fedora, the user can install `sealert`, which shall appear when `gnome-abrt` does, and inform the user that this approach is correct. It is an official Red Hat tool.
 
+Alternatively, use `setsebool` to set the SELinux boolean for only the current boot session (this might be advantageous security-wise if you don't need the AVD Manager often):
+
+```sh
+sudo setsebool selinuxuser_execheap true
+```
+Or if it is preffered that the boolean persist across reboots, use the `-P` option:
+
+```sh
+sudo setsebool -P selinuxuser_execheap true
+```
+
 ### On copy-on-write filesystems
 
 It's recommended to disable the copy-on-write behavior of the AVD Manager storage folder in order to run Android Virtual Devices without performance penalties. Most filesystems with this behavior (eg. BTRFS, ZFS, Bcachefs, etc.) support changing this configuration on a per-folder basis:
