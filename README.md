@@ -77,7 +77,7 @@ chattr +C $HOME/.var/app/com.google.AndroidStudio/config/.android/avd
 
 ## LLVM
 
-If you need LLVM for flutter app or something else you can install [`SDK Extension for LLVM Project 20`](https://github.com/flathub/org.freedesktop.Sdk.Extension.llvm21) and link to Android Studio,
+If you need LLVM for flutter app or something else you can install [`SDK Extension for LLVM Project 21`](https://github.com/flathub/org.freedesktop.Sdk.Extension.llvm21) and link to Android Studio,
 required `build-options` are already present. You can use this commands:
 
 ```sh
