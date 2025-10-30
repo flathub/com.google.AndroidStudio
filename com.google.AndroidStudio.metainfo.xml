@@ -97,8 +97,18 @@
     </description>
     <releases>
         <!-- stable release -->
-        <release date="2025-10-09" version="2025.1.4.8">
+        <release date="2025-10-30" version="2025.2.1.7">
             <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Otter | 2025.2.1</p>
+                <p>Android Gradle Plugin 8.13</p>
+                <ul>
+                    <li>Backup and Sync</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2025-10-09" version="2025.1.4.8">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-4-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Narwhal 4 Feature Drop | 2025.1.4</p>
                 <p>Android Gradle Plugin 8.13</p>
@@ -143,28 +153,6 @@
                 <ul>
                     <li>FIXED: `com.android.kotlin.multiplatform.library` crashes with Gradle Managed Devices</li>
                     <li>FIXED: Robolectric host test doesn't work unless device test is also configured in new Android-KMP Gradle plugin</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-07-31" version="2025.1.2.11">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Narwhal Feature Drop | 2025.1.2</p>
-                <p>Android Gradle Plugin 8.12.0</p>
-                <ul>
-                    <li>Gemini in Android Studio's Agent mode</li>
-                    <li>Rules in Gemini</li>
-                    <li>Embedded XR Emulator</li>
-                    <li>XR project template</li>
-                    <li>Embedded Layout Inspector for XR</li>
-                    <li>16 KB page size support</li>
-                    <li>Transform UI with Gemini</li>
-                    <li>Compose preview navigation improvements</li>
-                    <li>Compose preview picker</li>
-                    <li>Child recomposition in Layout Inspector</li>
-                    <li>New setting to disable Automatic Sync</li>
-                    <li>Partner Device Labs available with Android Device Streaming</li>
-                    <li>K2 mode by default</li>
                 </ul>
             </description>
         </release>
