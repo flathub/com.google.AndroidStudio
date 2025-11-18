@@ -17,8 +17,8 @@
         <content_attribute id="social-info">moderate</content_attribute>
     </content_rating>
     <branding>
-        <color scheme_preference="light" type="primary">#d2e3fc</color>
-        <color scheme_preference="dark" type="primary">#132137</color>
+        <color scheme_preference="light" type="primary">#4faf53</color>
+        <color scheme_preference="dark" type="primary">#0852cd</color>
     </branding>
     <categories>
         <category>Development</category>
@@ -97,6 +97,17 @@
     </description>
     <releases>
         <!-- stable release -->
+        <release date="2025-11-17" version="2025.2.1.8">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.2.1#android-studio-otter-|-2025.2.1-patch-1</url>
+            <description>
+                <p>Android Studio Otter | 2025.2.1 Patch 1</p>
+                <p>Android Gradle Plugin 8.13.1</p>
+                <ul>
+                    <li>FIXED: Autocomplete quality regression after removal of ML completion settings in Otter 2025.2.1</li>
+                    <li>FIXED: Multiple build operations failed. ConcurrentModificationException</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-10-30" version="2025.2.1.7">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -142,17 +153,6 @@
                 <p>Android Gradle Plugin 8.12.2</p>
                 <ul>
                     <li>FIXED: Android SDK Upgrade Assistant does not display</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-08-18" version="2025.1.2.12">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.2#android-studio-narwhal-feature-drop-|-2025.1.2-patch-1</url>
-            <description>
-                <p>Android Studio Narwhal Feature Drop | 2025.1.2 Patch 1</p>
-                <p>Android Gradle Plugin 8.12.1</p>
-                <ul>
-                    <li>FIXED: `com.android.kotlin.multiplatform.library` crashes with Gradle Managed Devices</li>
-                    <li>FIXED: Robolectric host test doesn't work unless device test is also configured in new Android-KMP Gradle plugin</li>
                 </ul>
             </description>
         </release>
