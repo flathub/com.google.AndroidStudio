@@ -1,5 +1,5 @@
 {
-  "app-id": "com.google.AndroidStudio",
+  "id": "com.google.AndroidStudio",
   "runtime": "org.freedesktop.Sdk",
   "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
@@ -15,9 +15,7 @@
     "--allow=multiarch",
     "--env=JAVA_HOME=/app/extra/jbr",
     "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.secrets",
-    "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm21/bin",
-    "--env=LD_LIBRARY_PATH=/usr/lib/sdk/llvm21/lib"
+    "--talk-name=org.freedesktop.secrets"
   ],
   "modules": [
     {
@@ -45,12 +43,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1473327110,
+          "size": 1473966792,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2025.2.1.7/android-studio-2025.2.1.7-linux.tar.gz",
-          "sha256": "16af1fa02d746e4c182d8852ff3859bba5c182768efeacfa18a8b81d65e78cb1"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2025.2.1.8/android-studio-2025.2.1.8-linux.tar.gz",
+          "sha256": "7aa6a2e46eb4387def1f4ea22b8b4a2b68021efa85065347c41187439fd25096"
         },
         {
           "type": "script",
