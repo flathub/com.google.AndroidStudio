@@ -97,6 +97,17 @@
     </description>
     <releases>
         <!-- stable release -->
+        <release date="2025-12-04" version="2025.2.2.7">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Otter 2 Feature Drop | 2025.2.2</p>
+                <p>Android Gradle Plugin 8.13.1</p>
+                <ul>
+                    <li>Access fresh documentation with the Android Knowledge Base</li>
+                    <li>Communications from Android Studio</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-11-17" version="2025.2.1.8">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.2.1#android-studio-otter-|-2025.2.1-patch-1</url>
             <description>
@@ -109,7 +120,7 @@
             </description>
         </release>
         <release date="2025-10-30" version="2025.2.1.7">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-otter-release-notes</url>
             <description>
                 <p>Android Studio Otter | 2025.2.1</p>
                 <p>Android Gradle Plugin 8.13</p>
@@ -143,16 +154,6 @@
                     <li>Proguard inspections</li>
                     <li>AGENT.md files for project-level context</li>
                     <li>New setting to disable Automatic Sync</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-08-28" version="2025.1.2.13">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.1.2#android-studio-narwhal-feature-drop-|-2025.1.2-patch-2</url>
-            <description>
-                <p>Android Studio Narwhal Feature Drop | 2025.1.2 Patch 2</p>
-                <p>Android Gradle Plugin 8.12.2</p>
-                <ul>
-                    <li>FIXED: Android SDK Upgrade Assistant does not display</li>
                 </ul>
             </description>
         </release>
