@@ -97,6 +97,16 @@
     </description>
     <releases>
         <!-- stable release -->
+        <release date="2025-12-23" version="2025.2.2.8">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.2.2#android-studio-otter-2-feature-drop-|-2025.2.2-patch-1</url>
+            <description>
+                <p>Android Studio Otter 2 Feature Drop | 2025.2.2 Patch 1</p>
+                <p>Android Gradle Plugin 8.13.1</p>
+                <ul>
+                    <li>FIXED: Android Project View Provider is not registered in Android Studio 2025.2.2 RC 1 and 2.3 Canary 1</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-12-04" version="2025.2.2.7">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -138,22 +148,6 @@
                     <li>New setting to open new projects with the Project view</li>
                     <li>Android SDK Upgrade Assistant now supports Android 16 / API 36</li>
                     <li>Watch Face Format support in Android Studio</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-09-02" version="2025.1.3.7">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Narwhal 3 Feature Drop | 2025.1.3</p>
-                <p>Android Gradle Plugin 8.13</p>
-                <ul>
-                    <li>Resizable Compose previews</li>
-                    <li>Android view setting to display build files under corresponding modules</li>
-                    <li>Play Policy Insights in Android Studio</li>
-                    <li>Test and develop with app backup and restore</li>
-                    <li>Proguard inspections</li>
-                    <li>AGENT.md files for project-level context</li>
-                    <li>New setting to disable Automatic Sync</li>
                 </ul>
             </description>
         </release>
