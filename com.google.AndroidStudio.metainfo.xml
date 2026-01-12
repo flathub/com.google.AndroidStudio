@@ -82,6 +82,7 @@
         </screenshot>
     </screenshots>
     <description>
+        <p>**This is a community package of Android Studio and not officially supported by Android Open Source Project.**</p>
         <p>Android Studio is the official Integrated Development Environment (IDE) for Android app development. Based on the powerful code editor and developer tools from IntelliJ IDEA, Android Studio offers even more features that enhance your productivity when building Android apps, such as:</p>
         <ul>
             <li>A flexible Gradle-based build system</li>
