@@ -8,6 +8,7 @@
     "--socket=x11",
     "--socket=pulseaudio",
     "--socket=ssh-auth",
+    "--socket=gpg-agent",
     "--share=ipc",
     "--share=network",
     "--device=all",
@@ -43,12 +44,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1479279350,
+          "size": 1495783037,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2025.2.2.8/android-studio-2025.2.2.8-linux.tar.gz",
-          "sha256": "c6cf40050f5ff3f82dc5ca226647ffc44b664ce8faadbe13cbec3bd3ff82e12b"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2025.2.3.9/android-studio-2025.2.3.9-linux.tar.gz",
+          "sha256": "986ea6cacb36da723f2c8550cccd7d8cd3e8b8b7bb2446d3a8bf39bbaf91abc1"
         },
         {
           "type": "script",

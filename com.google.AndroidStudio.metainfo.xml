@@ -98,6 +98,25 @@
     </description>
     <releases>
         <!-- stable release -->
+        <release date="2026-01-15" version="2025.2.3.9">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Otter 3 Feature Drop | 2025.2.3</p>
+                <p>Android Gradle Plugin 9.0.0</p>
+                <ul>
+                    <li>App Links AI Assistant</li>
+                    <li>Journeys for Android Studio in Studio Labs</li>
+                    <li>UI development in Agent Mode</li>
+                    <li>Manage multiple conversation threads with Gemini</li>
+                    <li>Use a local model</li>
+                    <li>Use a remote model</li>
+                    <li>Find and review changes using the changes drawer</li>
+                    <li>Automatic Logcat retracing</li>
+                    <li>Support for remote MCP servers</li>
+                    <li>Device interaction tools</li>
+                </ul>
+            </description>
+        </release>
         <release date="2025-12-23" version="2025.2.2.8">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.2.2#android-studio-otter-2-feature-drop-|-2025.2.2-patch-1</url>
             <description>
@@ -109,7 +128,7 @@
             </description>
         </release>
         <release date="2025-12-04" version="2025.2.2.7">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-otter-2-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Otter 2 Feature Drop | 2025.2.2</p>
                 <p>Android Gradle Plugin 8.13.1</p>
@@ -137,18 +156,6 @@
                 <p>Android Gradle Plugin 8.13</p>
                 <ul>
                     <li>Backup and Sync</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-10-09" version="2025.1.4.8">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-narwhal-4-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Narwhal 4 Feature Drop | 2025.1.4</p>
-                <p>Android Gradle Plugin 8.13</p>
-                <ul>
-                    <li>New setting to open new projects with the Project view</li>
-                    <li>Android SDK Upgrade Assistant now supports Android 16 / API 36</li>
-                    <li>Watch Face Format support in Android Studio</li>
                 </ul>
             </description>
         </release>
