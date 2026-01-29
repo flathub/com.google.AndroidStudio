@@ -1,364 +1,627 @@
-<svg width="128" height="128" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M49.853 122.321c-1.978-.47-3.634-1.567-5.95-3.944-3.871-3.97-7.013-5.624-12.472-6.563-5.664-.975-8.18-3.081-9.694-8.108-1.867-6.207-3.82-9.18-8.108-12.347-4.866-3.594-6.114-6.763-4.927-12.507 1.1-5.32.679-9.101-1.555-13.964-2.666-5.801-2.337-8.901 1.45-13.655 3.47-4.357 4.56-7.237 5.079-13.431.524-6.25 2.263-8.815 7.385-10.89 4.274-1.732 7.93-4.739 9.958-8.188 2.344-3.99 2.686-4.446 4.139-5.53 2.344-1.749 4.239-2.233 7.848-2.007 6.27.393 9.63-.36 13.84-3.1 5.49-3.574 8.818-3.574 14.307 0 4.21 2.74 7.57 3.493 13.84 3.1 5.929-.372 8.396 1.184 12.01 7.577 1.79 3.167 5.451 6.25 9.458 7.965 5.706 2.442 7.364 4.67 7.785 10.463.456 6.273 1.742 9.78 5.149 14.041 3.794 4.745 4.125 7.848 1.457 13.655-2.233 4.863-2.655 8.645-1.555 13.964 1.188 5.743-.061 8.913-4.926 12.507-4.289 3.168-6.241 6.14-8.109 12.347-1.513 5.027-4.03 7.133-9.694 8.108-5.47.941-8.615 2.6-12.47 6.576-4.275 4.408-7.339 5.135-13.314 3.16-4.887-1.616-8.65-1.623-13.517-.025-3.41 1.119-5.227 1.314-7.414.796Z"
-        fill="#fff" />
-    <path d="M90.847 99.018a1.462 1.462 0 0 1-2.68 1.137l-3.522-6.538a2.152 2.152 0 1 1 3.945-1.675l2.257 7.076Z" fill="#034ECA" />
-    <path d="M90.847 99.018a1.462 1.462 0 0 1-2.68 1.137l-3.522-6.538a2.152 2.152 0 1 1 3.945-1.675l2.257 7.076Z" fill="url(#a)" />
-    <mask id="b" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="78" y="51" width="21" height="26">
-        <path d="M88.095 75.55a12.443 12.443 0 0 0 3.382-3.272 12.496 12.496 0 0 0 1.42-2.646c.234-.599.422-1.217.562-1.847l.028.005 1.478.278a2295.78 2295.78 0 0 0 2.48.467 1.146 1.146 0 0 0 1.32-1.41 1.156 1.156 0 0 0-.163-.358 1.144 1.144 0 0 0-.733-.478c-.345-.066-.691-.13-1.037-.195l-1.443-.272-1.478-.279-.162-.03.004-.122c.037-1.48-.19-2.992-.713-4.472l-.044-.12a12.483 12.483 0 0 0-2.274-3.881l.1-.117.975-1.143.953-1.116.685-.802a1.14 1.14 0 0 0-.139-1.62 1.14 1.14 0 0 0-1.604.137l-.684.802-.953 1.116-.976 1.143-.008.01a12.59 12.59 0 0 0-6.087-2.635 12.477 12.477 0 0 0-4.617.207l8.288 23.458a12.56 12.56 0 0 0 1.44-.809Z" fill="#fff" />
-    </mask>
-    <g mask="url(#b)">
-        <path d="m100.745 71.537-8.84-25.05-14.093 4.973 8.84 25.05 14.093-4.973Z" fill="#4FAF53" />
-        <g opacity=".8" filter="url(#c)">
-            <path d="M92.34 62.13c-.875 3.1-3.533-3.82-8.313-5.169-4.78-1.349-10.664 3.16-9.789.06 1.562-2.275 5.744-4.013 10.524-2.664 4.78 1.35 7.62 5.39 7.578 7.773Z" fill="url(#d)" fill-opacity=".3" />
-        </g>
-        <g opacity=".7" filter="url(#e)">
-            <path d="M91.738 60.426c-2.627-1.865-.354 5.19-3.228 9.24-2.875 4.05-10.286 4.233-7.659 6.097 2.644.791 6.99-.48 9.865-4.53 2.875-4.05 2.55-8.978 1.022-10.807Z" fill="url(#f)" fill-opacity=".4" />
-        </g>
-        <g opacity=".6" filter="url(#g)">
-            <path d="M81.522 51.431c-3.337.105-6.032.504-6.02.891.013.387 2.727.616 6.064.51 3.337-.104 7.996 2.675 7.984 2.288-.012-.387-4.691-3.793-8.028-3.689Z" fill="#8BD8A0" />
-        </g>
-        <g opacity=".5" filter="url(#h)">
-            <path d="M89.978 75.393c-2.663 2.013-5.012 3.394-5.245 3.085-.234-.31 1.736-2.191 4.4-4.204 2.664-2.012 4.547-7.1 4.78-6.791.234.309-1.271 5.898-3.935 7.91Z" fill="#8BD8A0" />
-        </g>
-        <g opacity=".7" filter="url(#i)">
-            <path d="M91.21 53.386c-1.219 1.492-1.812 2.166-1.944 2.058-.132-.107.248-.956 1.466-2.448.75-1.87 2.98-.96 3.113-.852.132.108-1.076-.887-2.636 1.242Z" fill="#0D652D" />
-        </g>
-        <g opacity=".1" filter="url(#j)">
-            <path d="M89.034 55.32c.113.086 1.015-.903 2.013-2.21 1-1.306 1.716-2.436 1.603-2.523-.114-.087-1.015.902-2.014 2.21-.999 1.306-1.716 2.436-1.602 2.522Z" fill="#000" />
-        </g>
-        <g opacity=".3" filter="url(#k)">
-            <path d="M92.414 54.285c-1.274 1.561-1.847 2.305-1.742 2.392.106.086.85-.519 2.124-2.08 1.831-1.717-.068-2.979-.245-2.726-.519.555 1.692.348-.137 2.414Z" fill="#fff" />
-        </g>
-        <path opacity=".15" d="M91.83 50.843c-.553.395-.624 1.243-.158 1.894.465.65 1.29.857 1.844.462.552-.396.623-1.244.158-1.895-.465-.65-1.291-.857-1.844-.461Z" fill="url(#l)" fill-opacity=".9" />
-        <path opacity=".15" d="M97.296 65.762c-.552.396-.623 1.244-.158 1.895.465.65 1.291.857 1.844.462.553-.396.624-1.244.158-1.895-.465-.65-1.29-.857-1.844-.462Z" fill="url(#m)" fill-opacity=".9" />
-        <g opacity=".1" filter="url(#n)">
-            <path d="M93.33 67.75c.03-.14 1.356.043 2.96.408 1.604.365 2.878.773 2.846.913-.031.14-1.357-.043-2.96-.408-1.604-.365-2.879-.773-2.847-.913Z" fill="#000" />
-        </g>
-        <mask id="o" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="93" y="65" width="3" height="5">
-            <path d="M93.37 67.938c.15-.678.298-2.157.353-2.812l1.453-.093-.18 4.167c-.605-.138-1.776-.584-1.626-1.262Z" fill="#000" />
-        </mask>
-        <g mask="url(#o)">
-            <g style="mix-blend-mode:multiply" opacity=".3" filter="url(#p)">
-                <path d="M93.702 68.237c.07-1.142.01-2.076-.133-2.084-.142-.01-.225.868-.295 2.01-.07 1.143-.099 2.118.044 2.127.142.009.314-.91.384-2.053Z" fill="#0D652D" />
-            </g>
-            <g style="mix-blend-mode:screen" opacity=".3" filter="url(#q)">
-                <path d="M93.776 65.922c.039-.325.019-.594-.045-.602-.063-.007-.106.241-.144.566-.039.325-.058.604.005.611.064.008.146-.25.184-.575Z" fill="#81C995" />
-            </g>
-        </g>
-        <mask id="r" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="88" y="53" width="4" height="5">
-            <path d="M88.735 55.151c.552.422 1.617 1.46 2.08 1.926l1.172-.864-2.82-3.074c-.374.495-.983 1.59-.432 2.012Z" fill="#000" />
-        </mask>
-        <g mask="url(#r)">
-            <g style="mix-blend-mode:multiply" opacity=".3" filter="url(#s)">
-                <path d="M88.797 54.71c.788.829 1.343 1.582 1.24 1.68-.104.099-.732-.52-1.52-1.35-.79-.83-1.44-1.556-1.336-1.655.104-.098.827.495 1.616 1.324Z" fill="#0D652D" />
-            </g>
-            <g style="mix-blend-mode:screen" opacity=".3" filter="url(#t)">
-                <path d="M90.344 56.432c.238.224.396.444.352.49-.044.047-.236-.116-.475-.34-.238-.224-.432-.425-.389-.471.044-.047.273.097.512.321Z" fill="#81C995" />
-            </g>
-        </g>
-        <g opacity=".7" filter="url(#u)">
-            <path d="M96.294 68.007c-1.894-.354-2.782-.485-2.813-.318-.032.168.806.57 2.7.924 1.78.943 2.896-1.192 2.927-1.36.031-.167-.249 1.372-2.814.754Z" fill="#0D652D" />
-        </g>
-        <g opacity=".3" filter="url(#v)">
-            <path d="M96.623 66.49c-1.927-.36-2.82-.555-2.794-.695.027-.14.962-.174 2.889.185 3.152.072 3.521 2.29 1.88 2.484-.72-.05.683-1.597-1.975-1.975Z" fill="#fff" />
-        </g>
-    </g>
-    <path d="M85.353 57.695c-.158.386-.114.768.097.855.212.086.511-.156.669-.541.158-.385.114-.768-.097-.854-.212-.087-.511.155-.669.54Z" fill="url(#w)" fill-opacity=".7" />
-    <path d="M89.055 68.227c-.365-.2-.57-.525-.46-.726.11-.2.494-.199.859.002.364.2.57.526.46.726-.11.2-.495.2-.86-.002Z" fill="url(#x)" fill-opacity=".7" />
-    <g style="mix-blend-mode:multiply" opacity=".09" filter="url(#y)">
-        <path d="M84.336 58.813c1 .044 1.414-.52 1.495-.807.585-.95-.365-1.62-.809-1.763-.443-.143-1.196-.312-1.91.364-.712.676-.026 2.15 1.224 2.206Z" fill="#011B04" />
-    </g>
-    <g style="mix-blend-mode:multiply" opacity=".09" filter="url(#z)">
-        <path d="M87.562 67.997c.747-.66 1.42-.48 1.662-.307 1.048.376.732 1.49.478 1.88-.253.39-.73.993-1.705.913-.975-.08-1.368-1.66-.435-2.486Z" fill="#011B04" />
-    </g>
-    <path d="M87.718 70.192c.56.42 1.427.215 1.936-.46.508-.676.465-1.564-.096-1.986-.561-.42-1.428-.215-1.936.46-.508.676-.465 1.565.096 1.986Z" fill="#000" />
-    <g filter="url(#A)">
-        <path d="M84.263 58.605c.82.207 1.621-.163 1.79-.827.168-.664-.36-1.37-1.18-1.577-.82-.207-1.622.163-1.79.827-.168.664.36 1.37 1.18 1.577Z" fill="#000" />
-    </g>
-    <g filter="url(#B)">
-        <path d="M87.638 68.2c.508-.675 1.364-.889 1.912-.478.548.411.58 1.292.072 1.967-.507.675-1.363.889-1.911.478-.548-.412-.58-1.292-.073-1.967Z" fill="#000" />
-    </g>
-    <mask id="C" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="83" y="56" width="4" height="3">
-        <path d="M84.263 58.605c.82.207 1.621-.163 1.79-.827.168-.664-.36-1.37-1.18-1.577-.82-.207-1.621.163-1.79.827-.168.663.36 1.37 1.18 1.577Z" fill="#202124" />
-    </mask>
-    <g mask="url(#C)">
-        <g filter="url(#D)">
-            <path d="M84.963 56.346c-.667-.24-1.287-.074-1.526.068.464-.283.969-.418 1.605-.183.35.13.622.419.783.643a.981.981 0 0 1 .067.1c.037.059.064.108.08.144-.025-.04-.047-.089-.08-.144a2.167 2.167 0 0 0-.067-.1c-.12-.154-.344-.342-.862-.528Z" fill="#D8D8D8" fill-opacity=".29" />
-        </g>
-        <g opacity=".8" filter="url(#E)">
-            <path d="M85.508 58.295c.67-.433.536-1.057.385-1.315.188.202.208.678.064.932-.115.204-.347.34-.449.383Z" fill="url(#F)" />
-        </g>
-    </g>
-    <mask id="G" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="87" y="67" width="3" height="4">
-        <path d="M87.64 68.2c.507-.675 1.363-.889 1.911-.478.548.411.58 1.292.073 1.967-.508.675-1.364.889-1.912.478-.548-.412-.58-1.292-.073-1.967Z" fill="#202124" />
-    </mask>
-    <g mask="url(#G)">
-        <path d="M89.72 68.247a.932.932 0 0 0-1.073-.587c.171.011.566.127.779.498.212.37-.057 1.057-.219 1.354l.29.12c.183-.206.484-.77.223-1.385Z" fill="url(#H)" />
-        <g filter="url(#I)">
-            <path d="M89.596 69.523c-.368.604-.955.865-1.23.904.539-.07 1.016-.283 1.364-.864.191-.32.22-.716.205-.992a.947.947 0 0 0-.01-.12 1.317 1.317 0 0 0-.028-.162c.006.046.019.098.028.162.004.036.008.077.01.12.004.195-.052.482-.339.952Z" fill="#D8D8D8" fill-opacity=".29" />
-        </g>
-    </g>
-    <g opacity=".8" filter="url(#J)">
-        <path d="M85.359 56.834c-.136-.228-.459-.321-.603-.34l-.141.188c.048.006.178.034.31.098.133.064.292.173.354.22l.08-.166Z" fill="#E2DCE1" />
-    </g>
-    <g opacity=".8" filter="url(#K)">
-        <path d="M89.603 68.904c.038.26-.145.529-.241.631l-.22-.059c.032-.034.112-.135.172-.265.06-.13.11-.312.128-.387l.16.08Z" fill="#E2DCE1" />
-    </g>
-    <g opacity=".8" filter="url(#L)" fill="#E2DCE1">
-        <path d="M84.386 58.31a5.615 5.615 0 0 1-.317-.312l-.237.001c.124.164.28.264.341.294l.213.018ZM85.445 58.35a1.21 1.21 0 0 0 .159-.138l-.083.03a.988.988 0 0 1-.204.154.27.27 0 0 0 .129-.045Z" />
-    </g>
-    <g opacity=".8" filter="url(#M)" fill="#E2DCE1">
-        <path d="M87.905 68.342a5.526 5.526 0 0 0-.05.443l-.186.148c-.007-.205.051-.38.081-.443l.155-.148ZM88.704 67.646c.064-.006.167.003.21.009l-.083.03a.97.97 0 0 0-.256.007.268.268 0 0 1 .129-.046Z" />
-    </g>
-    <g opacity=".3" filter="url(#N)">
-        <path d="M90.184 71.894c-3.038 1.072 1.085-5.089-.568-9.772-1.653-4.684-8.73-6.892-5.69-7.965 2.758-.035 6.589 2.381 8.242 7.065 1.652 4.683-.013 9.333-1.984 10.672Z" fill="url(#O)" fill-opacity=".4" />
-    </g>
-    <g opacity=".2" filter="url(#P)">
-        <path d="M90.184 71.894c-3.038 1.072 1.085-5.089-.568-9.772-1.653-4.684-8.73-6.892-5.69-7.965 2.758-.035 6.589 2.381 8.242 7.065 1.652 4.683-.013 9.333-1.984 10.672Z" fill="url(#Q)" fill-opacity=".4" />
-    </g>
-    <path d="M39.433 59.174c-.651-1.15-1.766-1.975-3.099-2.294-1.333-.32-2.775-.106-4.009.593-1.234.699-2.159 1.825-2.571 3.133-.413 1.307-.166 2.885.485 4.035l4.755-2.454 4.439-3.013Z" fill="#4386F5" />
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M39.39 59.103c6.882 11.394 21.289 16.269 33.88 10.888l4.203 9.836c-17.563 7.505-37.638.7-47.239-15.193l9.155-5.53Z" fill="url(#R)" />
-    <path d="M37.378 99.018a1.462 1.462 0 0 0 2.68 1.137l3.522-6.538a2.152 2.152 0 1 0-3.945-1.675l-2.257 7.076Z" fill="#034ECA" />
-    <path d="M37.378 99.018a1.462 1.462 0 0 0 2.68 1.137l3.522-6.538a2.152 2.152 0 1 0-3.945-1.675l-2.257 7.076Z" fill="url(#S)" />
-    <path d="M55.347 37.37a6.055 6.055 0 1 1 11.38 4.142l-17.77 48.82a6.055 6.055 0 1 1-11.379-4.141l17.769-48.82Z" fill="#4285F4" />
-    <path d="M42.813 94.285a6.036 6.036 0 0 0 6.28-3.94l14.434-39.656a6.035 6.035 0 0 0-1.57-6.492L42.813 94.285Z" fill="url(#T)" />
-    <path d="M67.924 26.35a3.809 3.809 0 1 0-7.617 0v7.227a3.809 3.809 0 1 0 7.617 0V26.35Z" fill="#4285F4" />
-    <path d="M67.924 26.35a3.809 3.809 0 1 0-7.617 0v7.227a3.809 3.809 0 1 0 7.617 0V26.35Z" fill="url(#U)" />
-    <g opacity=".5" filter="url(#V)">
-        <path d="M71.662 81.487c-1.49.128.91-1.714.543-5.998-.247-2.89.76-5.335 2.249-5.462 1.489-.128 2.897 2.11 3.144 5 1.233 4.628-4.447 6.332-5.936 6.46Z" fill="#044FCB" />
-    </g>
-    <path d="M61.382 41.456a5.986 5.986 0 0 1 11.24-4.12l17.922 48.912a5.986 5.986 0 1 1-11.24 4.118l-17.922-48.91Z" fill="url(#W)" />
-    <path d="M59.33 35.432a7.034 7.034 0 0 0-4.882 4.415L37.603 86.106c-1.027 2.82 0 5.87 2.196 7.236l19.53-57.91Z" fill="url(#X)" />
-    <path opacity=".3" d="M60.999 26.946c.853.854 2.392.699 3.437-.346 1.044-1.045 1.2-2.584.346-3.437-.854-.854-2.393-.699-3.437.346-1.045 1.045-1.2 2.584-.346 3.437Z" fill="url(#Y)" fill-opacity=".9" />
-    <path opacity=".3" d="M53.014 53.113c2.552 1.474 6.486-.561 8.786-4.545s2.095-8.408-.457-9.882c-2.552-1.473-6.486.562-8.786 4.545-2.3 3.984-2.096 8.408.457 9.882Z" fill="url(#Z)" fill-opacity=".9" />
-    <path d="M64.018 48.128a7.422 7.422 0 1 0 0-14.844 7.422 7.422 0 0 0 0 14.844Z" fill="#fff" />
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M64.018 35.237a5.469 5.469 0 1 0 0 10.938 5.469 5.469 0 0 0 0-10.938Zm-9.375 5.469a9.375 9.375 0 1 1 18.75 0 9.375 9.375 0 0 1-18.75 0Z" fill="#202124" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="128px" viewBox="0 0 128 128" width="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-        <filter id="c" x="73.683" y="53.416" width="19.126" height="9.973" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".234" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="a" height="100%" width="100%" x="0%" y="0%">
+            <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
         </filter>
-        <filter id="e" x="79.595" y="59.416" width="13.996" height="17.273" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".351" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="b" height="100%" width="100%" x="0%" y="0%">
+            <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -1 1"/>
         </filter>
-        <filter id="g" x="75.151" y="51.078" width="14.75" height="4.431" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".176" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="c" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#M"/>
+            <feImage height="318.50496" result="destination" width="318.50496"/>
+            <feBlend color-interpolation-filters="sRGB" in="source" in2="destination" mode="multiply"/>
         </filter>
-        <filter id="h" x="84.363" y="67.118" width="9.925" height="11.754" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".176" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="d" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#N"/>
+            <feImage height="318.50496" result="destination" width="318.50496"/>
+            <feComposite color-interpolation-filters="sRGB" in="source" in2="destination" k1="0" k2="1" k3="1" k4="0" operator="arithmetic"/>
         </filter>
-        <filter id="i" x="88.773" y="51.36" width="5.55" height="4.563" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".234" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="e" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#T"/>
+            <feImage height="318.50496" result="destination" width="318.50496" xlink:href="#U"/>
+            <feBlend color-interpolation-filters="sRGB" in="source" in2="destination" mode="screen"/>
         </filter>
-        <filter id="j" x="88.905" y="50.465" width="3.874" height="4.977" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".059" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="f" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#V"/>
+            <feImage height="318.50496" result="destination" width="318.50496" xlink:href="#W"/>
+            <feComposite color-interpolation-filters="sRGB" in="source" in2="destination" k1="0" k2="1" k3="1" k4="0" operator="arithmetic"/>
         </filter>
-        <filter id="k" x="90.309" y="51.488" width="3.63" height="5.548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".176" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="g" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#ae"/>
+            <feImage height="318.50496" result="destination" width="318.50496"/>
+            <feBlend color-interpolation-filters="sRGB" in="source" in2="destination" mode="multiply"/>
         </filter>
-        <filter id="n" x="93.211" y="67.586" width="6.043" height="1.649" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".059" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="h" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#af"/>
+            <feImage height="318.50496" result="destination" width="318.50496"/>
+            <feComposite color-interpolation-filters="sRGB" in="source" in2="destination" k1="0" k2="1" k3="1" k4="0" operator="arithmetic"/>
         </filter>
-        <filter id="p" x="92.982" y="65.918" width=".983" height="4.606" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".117" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="i" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#al"/>
+            <feImage height="318.50496" result="destination" width="318.50496" xlink:href="#am"/>
+            <feBlend color-interpolation-filters="sRGB" in="source" in2="destination" mode="screen"/>
         </filter>
-        <filter id="q" x="93.41" y="65.18" width=".526" height="1.458" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".07" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="j" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="318.50496" result="source" width="318.50496" xlink:href="#an"/>
+            <feImage height="318.50496" result="destination" width="318.50496" xlink:href="#ao"/>
+            <feComposite color-interpolation-filters="sRGB" in="source" in2="destination" k1="0" k2="1" k3="1" k4="0" operator="arithmetic"/>
         </filter>
-        <filter id="s" x="86.936" y="53.14" width="3.347" height="3.494" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".117" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="k" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="153.6" result="source" width="153.6" xlink:href="#aD"/>
+            <feImage height="153.6" result="destination" width="153.6" xlink:href="#aE"/>
+            <feBlend color-interpolation-filters="sRGB" in="source" in2="destination" mode="multiply"/>
         </filter>
-        <filter id="t" x="89.686" y="55.962" width="1.158" height="1.109" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".07" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="l" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="153.6" result="source" width="153.6" xlink:href="#aF"/>
+            <feImage height="153.6" result="destination" width="153.6" xlink:href="#aG"/>
+            <feComposite color-interpolation-filters="sRGB" in="source" in2="destination" k1="0" k2="1" k3="1" k4="0" operator="arithmetic"/>
         </filter>
-        <filter id="u" x="93.012" y="66.772" width="6.567" height="2.548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".234" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="m" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="153.6" result="source" width="153.6" xlink:href="#aM"/>
+            <feImage height="153.6" result="destination" width="153.6" xlink:href="#aN"/>
+            <feBlend color-interpolation-filters="sRGB" in="source" in2="destination" mode="multiply"/>
         </filter>
-        <filter id="v" x="93.478" y="65.344" width="6.43" height="3.471" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".176" result="effect1_foregroundBlur_1081_1678" />
+        <filter id="n" height="100%" width="100%" x="0%" y="0%">
+            <feImage height="153.6" result="source" width="153.6" xlink:href="#aO"/>
+            <feImage height="153.6" result="destination" width="153.6" xlink:href="#aP"/>
+            <feComposite color-interpolation-filters="sRGB" in="source" in2="destination" k1="0" k2="1" k3="1" k4="0" operator="arithmetic"/>
         </filter>
-        <filter id="y" x="82.754" y="56.043" width="3.332" height="2.843" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".035" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="z" x="86.961" y="67.459" width="3.062" height="3.101" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".035" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="A" x="83.017" y="56.143" width="3.078" height="2.566" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-            <feOffset dx="-.012" dy=".023" />
-            <feGaussianBlur stdDeviation=".012" />
-            <feComposite in2="hardAlpha" operator="out" />
-            <feColorMatrix values="0 0 0 0 0.0156863 0 0 0 0 0.231373 0 0 0 0 0.0666667 0 0 0 0.7 0" />
-            <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_1081_1678" />
-            <feBlend in="SourceGraphic" in2="effect1_dropShadow_1081_1678" result="shape" />
-        </filter>
-        <filter id="B" x="87.242" y="67.513" width="2.752" height="2.91" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-            <feOffset dx="-.012" dy=".023" />
-            <feGaussianBlur stdDeviation=".012" />
-            <feComposite in2="hardAlpha" operator="out" />
-            <feColorMatrix values="0 0 0 0 0.0156863 0 0 0 0 0.231373 0 0 0 0 0.0666667 0 0 0 0.7 0" />
-            <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_1081_1678" />
-            <feBlend in="SourceGraphic" in2="effect1_dropShadow_1081_1678" result="shape" />
-        </filter>
-        <filter id="D" x="83.414" y="56.087" width="2.581" height="1.054" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".012" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="E" x="85.503" y="56.975" width=".555" height="1.327" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".003" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="I" x="88.343" y="68.266" width="1.62" height="2.185" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".012" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="J" x="84.591" y="56.471" width=".791" height=".553" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".012" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="K" x="89.119" y="68.801" width=".512" height=".758" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".012" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="L" x="83.82" y="57.987" width="1.795" height=".421" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".006" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="M" x="87.656" y="67.632" width="1.269" height="1.313" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".006" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="N" x="82.708" y="53.689" width="10.603" height="18.797" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".234" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="P" x="82.708" y="53.689" width="10.603" height="18.797" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".234" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <filter id="V" x="70.583" y="69.436" width="7.775" height="12.643" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feGaussianBlur stdDeviation=".293" result="effect1_foregroundBlur_1081_1678" />
-        </filter>
-        <linearGradient id="a" x1="89.897" y1="100.561" x2="86.04" y2="98.374" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#4285F4" />
-            <stop offset="1" stop-color="#034ECA" />
+        <linearGradient id="o" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4285f4"/>
+            <stop offset="1" stop-color="#034eca"/>
         </linearGradient>
-        <linearGradient id="d" x1="84.808" y1="54.191" x2="83.586" y2="58.523" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#A8F0B9" />
-            <stop offset="1" stop-color="#ADEEBC" stop-opacity="0" />
+        <linearGradient id="p" gradientTransform="matrix(1.023985 0 0 1.023975 -1.534653 -1.533123)" x1="89.897003" x2="86.040001" xlink:href="#o" y1="100.560997" y2="98.374001"/>
+        <clipPath id="q">
+            <path d="m 0 0 h 128 v 128 h -128 z m 0 0"/>
+        </clipPath>
+        <mask id="r">
+            <g filter="url(#a)">
+                <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAACRElEQVR4nO3bz6tUZRzH8TdXFyUEFUboQgiypI1CUCuRFtLGTdAiWoa7oH+lRStX4sZQEFoF0cKNW/8BEXRjCi3KrkTRjdviKF5x8s6A5xzu3NcLHhhmnoEPzPM9Z54fpwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAk+qL6sDswdZD84OHeANfZ29VX1bvVa9aj6rbpZXa/uL/jOiepG9Ub1b3VlkqQwglerP6rtBW2r+qn6ZEf/w9Xtx59vVu9NGRbGcKnFBbCz/VAda7jyPymOc3OEhZft03YvgO3qnx2vv5klKYzgYPWg5Ypgu7o4T8z9a2PuAGtuq7q6Qv/TDRNmWBsft/wdYLu6ME9MGM+tli+ArYalUyZgs2Uab1Vnluy70fC7/DheHJjWiVb7G/TLPDFhPDdbrQjenyfm/mIVaDqXV+x/cpQUPEMBTOf7hvM9y3pzrCA8ZRI8nc2GifA7S/b/u/q1elj9NVYomNL5VpsHPGl3q2sNR6Vhz3q94Wq+zKB/tOC976aPvN48DzCt3xvW9z/bpd9mw97B0erU43YkBcAa+Lzdr/6rnB+CPeWVhjvBiwpg2V1j2JMu9v+D/+cZc8EkzrZ48D+sjs+YCyaxUd3r+VOgHoVk3/i2p4P/z+qLeePAtD5qGPx3qg9nzgKz+Lo6NHcIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA19R9YF79ehUI7CgAAAABJRU5ErkJggg=="/>
+            </g>
+        </mask>
+        <mask id="s">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.8" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="t">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.7" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="u">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.6" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="v">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.5" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="w">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.7" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="x">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.1" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="y">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="z">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.15" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <linearGradient id="A" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+            <stop offset="0.948" stop-color="#ffffff" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="f" x1="90.857" y1="71.333" x2="87.186" y2="68.728" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#A8F0B9" />
-            <stop offset="1" stop-color="#ADEEBC" stop-opacity="0" />
+        <radialGradient id="B" cx="0" cy="0" gradientTransform="matrix(-0.549296 -0.753349 0.545927 -0.39805 101.361075 67.734082)" r="1" xlink:href="#A"/>
+        <clipPath id="C">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <mask id="D">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.15" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <radialGradient id="E" cx="0" cy="0" gradientTransform="matrix(-0.549297 -0.75335 0.545927 -0.39805 106.958874 83.011861)" r="1" xlink:href="#A"/>
+        <clipPath id="F">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <mask id="G">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.1" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="H">
+            <g filter="url(#a)">
+                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAiElEQVR4nO3BMQEAAADCoPVP7WsIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAPIpwABWLk4FQAAAABJRU5ErkJggg=="/>
+            </g>
+        </mask>
+        <mask id="I">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="J">
+            <rect fill="none" height="318.50496" width="318.50496"/>
+            <rect fill="#ffffff" height="318.50496" width="318.50496"/>
+        </g>
+        <mask id="K">
+            <use xlink:href="#J"/>
+        </mask>
+        <mask>
+            <use filter="url(#b)" xlink:href="#J"/>
+        </mask>
+        <mask id="L">
+            <g mask="url(#I)" transform="matrix(1 0 0 1 87.25248 79.25248)">
+                <rect fill="#ffffff" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="M" mask="url(#L)">
+            <image height="152" transform="matrix(1 0 0 1 87.25248 79.25248)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAA2ElEQVR4nO3Uyw2CUBCG0QFc+IodmLjWAmjHHY3Sgh1YAGHlxmABsHZucs+p4Esm/0QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAULnz8LhnN9SgzQ5gW/Nt++yGGhhAiZ63fcTiNn+wyw5g7dKdjtF07+yOGvgyBZqvr+nwWcbsDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjeD87pCjk7Jv74AAAAAElFTkSuQmCC"/>
+        </g>
+        <g id="N" filter="url(#c)" mask="url(#K)">
+            <rect height="318.50496" width="318.50496"/>
+        </g>
+        <mask id="O">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="P">
+            <rect fill="none" height="318.50496" width="318.50496"/>
+            <rect fill="#ffffff" height="318.50496" width="318.50496"/>
+        </g>
+        <mask id="Q">
+            <use xlink:href="#P"/>
+        </mask>
+        <mask id="R">
+            <use filter="url(#b)" xlink:href="#P"/>
+        </mask>
+        <mask id="S">
+            <g mask="url(#O)" transform="matrix(1 0 0 1 87.25248 79.25248)">
+                <rect fill="#ffffff" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="T" mask="url(#S)">
+            <image height="152" transform="matrix(1 0 0 1 87.25248 79.25248)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAoklEQVR4nO3OMQ0AIRAAsOM3VhQj5PVgioRggP1IaBU0AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIjo42/Zhxd82QHO6ioz+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABX2dPaA/pw15dZAAAAAElFTkSuQmCC"/>
+        </g>
+        <g id="U" transform="matrix(1 0 0 1 87.25248 79.25248)">
+            <g filter="url(#d)" transform="matrix(1 0 0 1 -87.25248 -79.25248)">
+                <rect height="318.50496" width="318.50496"/>
+            </g>
+        </g>
+        <g id="V" filter="url(#e)" mask="url(#Q)">
+            <rect height="318.50496" width="318.50496"/>
+        </g>
+        <g id="W" mask="url(#R)">
+            <use xlink:href="#U"/>
+        </g>
+        <clipPath id="X">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <clipPath id="Y">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <mask id="Z">
+            <g filter="url(#a)">
+                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAiElEQVR4nO3BMQEAAADCoPVP7WsIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAPIpwABWLk4FQAAAABJRU5ErkJggg=="/>
+            </g>
+        </mask>
+        <mask id="aa">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="ab">
+            <rect fill="none" height="318.50496" width="318.50496"/>
+            <rect fill="#ffffff" height="318.50496" width="318.50496"/>
+        </g>
+        <mask id="ac">
+            <use xlink:href="#ab"/>
+        </mask>
+        <mask>
+            <use filter="url(#b)" xlink:href="#ab"/>
+        </mask>
+        <mask id="ad">
+            <g mask="url(#aa)" transform="matrix(1 0 0 1 87.25248 79.25248)">
+                <rect fill="#ffffff" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="ae" mask="url(#ad)">
+            <image height="152" transform="matrix(1 0 0 1 87.25248 79.25248)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAA2klEQVR4nO3OsQnCUBQAwJBAEAlpxBSuIGjxh8gEggvEodwpTiEptLMQtIiOYOcr/t0EVxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAb5tTWrbDvo9+5KyMDuRsOo/PTzk/mmF3jL7kqooO5O493q516laLtO5el/sU/YEYh20dXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+KMvumURUtQKTSYAAAAASUVORK5CYII="/>
+        </g>
+        <g id="af" filter="url(#g)" mask="url(#ac)">
+            <rect height="318.50496" width="318.50496"/>
+        </g>
+        <mask id="ag">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="ah">
+            <rect fill="none" height="318.50496" width="318.50496"/>
+            <rect fill="#ffffff" height="318.50496" width="318.50496"/>
+        </g>
+        <mask id="ai">
+            <use xlink:href="#ah"/>
+        </mask>
+        <mask id="aj">
+            <use filter="url(#b)" xlink:href="#ah"/>
+        </mask>
+        <mask id="ak">
+            <g mask="url(#ag)" transform="matrix(1 0 0 1 87.25248 79.25248)">
+                <rect fill="#ffffff" height="318.50496" width="318.50496" x="-87.25248" y="-79.25248"/>
+            </g>
+        </mask>
+        <g id="al" mask="url(#ak)">
+            <image height="152" transform="matrix(1 0 0 1 87.25248 79.25248)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAApklEQVR4nO3OMQGAIBAAQHBkpbDGgEyQ6R0s4OQP3iW4UgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeCMiavbhj47sAI9rz36u0bIfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfuQEG3gbr33XL0QAAAABJRU5ErkJggg=="/>
+        </g>
+        <g id="am" transform="matrix(1 0 0 1 87.25248 79.25248)">
+            <g filter="url(#h)" transform="matrix(1 0 0 1 -87.25248 -79.25248)">
+                <rect height="318.50496" width="318.50496"/>
+            </g>
+        </g>
+        <g id="an" filter="url(#i)" mask="url(#ai)">
+            <rect height="318.50496" width="318.50496"/>
+        </g>
+        <g id="ao" mask="url(#aj)">
+            <use xlink:href="#am"/>
+        </g>
+        <clipPath id="ap">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <clipPath id="aq">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <mask id="ar">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.7" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <mask id="as">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <clipPath id="at">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <clipPath id="au">
+            <rect height="128" width="128"/>
+        </clipPath>
+        <linearGradient id="av" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#93e19f" stop-opacity="0.7"/>
+            <stop offset="1" stop-color="#93e19f" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="F" x1="86.212" y1="56.951" x2="85.191" y2="57.364" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#E2DDE2" />
-            <stop offset="1" stop-color="#E2DDE2" stop-opacity="0" />
+        <radialGradient id="aw" cx="0" cy="0" gradientTransform="matrix(-0.332815 -0.146787 0.267342 -0.606163 86.257697 57.705896)" r="1" xlink:href="#av"/>
+        <radialGradient id="ax" cx="0" cy="0" gradientTransform="matrix(-0.166916 0.323017 -0.588336 -0.304011 89.859842 67.958901)" r="1" xlink:href="#av"/>
+        <mask id="ay">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.09" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <g id="az">
+            <rect fill="none" height="153.6" width="153.6"/>
+            <rect fill="#ffffff" height="153.6" width="153.6"/>
+        </g>
+        <mask id="aA">
+            <use xlink:href="#az"/>
+        </mask>
+        <mask id="aB">
+            <use filter="url(#b)" xlink:href="#az"/>
+        </mask>
+        <mask id="aC">
+            <g mask="url(#ay)" transform="matrix(1 0 0 1 12.8 12.8)">
+                <rect fill="#ffffff" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <g id="aD" mask="url(#aC)">
+            <image height="152" transform="matrix(1 0 0 1 4.8 -3.2)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAA2UlEQVR4nO3TwQ0BQQCG0X/GbLQge9aAq4tedKEVDWpAOGDXUTRgJPteBd/lSwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+LLNuncCH7V3wKKMw7Hc27WM7ZJx2PXOwQA/Veu0T9JSsknJoXcPSesdsCTT83WqdXVLKdM8P869ewAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAvvAFMzg6UyptJ+gAAAABJRU5ErkJggg=="/>
+        </g>
+        <g id="aE" transform="matrix(1 0 0 1 12.8 12.8)">
+            <path d="m 49.515625 123.71875 c -2.027344 -0.480469 -3.722656 -1.601562 -6.09375 -4.035156 c -3.964844 -4.066406 -7.183594 -5.761719 -12.773437 -6.722656 c -5.796876 -0.996094 -8.375 -3.152344 -9.925782 -8.300782 c -1.910156 -6.355468 -3.910156 -9.402344 -8.300781 -12.644531 c -4.984375 -3.679687 -6.261719 -6.925781 -5.046875 -12.804687 c 1.128906 -5.449219 0.695312 -9.320313 -1.589844 -14.300782 c -2.730468 -5.941406 -2.394531 -9.113281 1.484375 -13.980468 c 3.550781 -4.464844 4.667969 -7.410157 5.199219 -13.753907 c 0.539062 -6.402343 2.316406 -9.027343 7.5625 -11.152343 c 4.375 -1.773438 8.121094 -4.851563 10.195312 -8.382813 c 2.402344 -4.085937 2.753907 -4.554687 4.238282 -5.664063 c 2.402344 -1.789062 4.34375 -2.285156 8.039062 -2.054687 c 6.417969 0.402344 9.859375 -0.367187 14.171875 -3.175781 c 5.621094 -3.65625 9.027344 -3.65625 14.648438 0 c 4.3125 2.808594 7.753906 3.578125 14.171875 3.175781 c 6.070312 -0.378906 8.597656 1.210937 12.300781 7.757813 c 1.832031 3.242187 5.578125 6.402343 9.683594 8.15625 c 5.84375 2.5 7.539062 4.78125 7.972656 10.714843 c 0.464844 6.421875 1.78125 10.015625 5.269531 14.378907 c 3.886719 4.855468 4.226563 8.035156 1.492188 13.980468 c -2.285156 4.980469 -2.71875 8.851563 -1.589844 14.300782 c 1.214844 5.878906 -0.0625 9.125 -5.046875 12.804687 c -4.390625 3.246094 -6.390625 6.289063 -8.300781 12.644531 c -1.550782 5.148438 -4.128906 7.304688 -9.929688 8.300782 c -5.597656 0.964843 -8.820312 2.664062 -12.765625 6.734374 c -4.378906 4.515626 -7.515625 5.257813 -13.636719 3.234376 c -5.003906 -1.652344 -8.855468 -1.660157 -13.839843 -0.023438 c -3.492188 1.144531 -5.351563 1.34375 -7.589844 0.8125 z m 0 0"
+                  fill="#ffffff"/>
+            <path d="m 91.492188 99.859375 c 0.234374 0.734375 -0.132813 1.527344 -0.84375 1.832031 c -0.710938 0.300782 -1.535157 0.011719 -1.902344 -0.667968 l -3.605469 -6.695313 c -0.394531 -0.734375 -0.339844 -1.632813 0.140625 -2.316406 c 0.484375 -0.679688 1.308594 -1.03125 2.136719 -0.90625 c 0.824219 0.128906 1.507812 0.710937 1.761719 1.507812 z m 0 0" fill="#034eca"/>
+            <path d="m 91.492188 99.859375 c 0.234374 0.734375 -0.132813 1.527344 -0.84375 1.832031 c -0.710938 0.300782 -1.535157 0.011719 -1.902344 -0.667968 l -3.605469 -6.695313 c -0.394531 -0.734375 -0.339844 -1.632813 0.140625 -2.316406 c 0.484375 -0.679688 1.308594 -1.03125 2.136719 -0.90625 c 0.824219 0.128906 1.507812 0.710937 1.761719 1.507812 z m 0 0" fill="url(#p)"/>
+            <g clip-path="url(#au)">
+                <g clip-path="url(#q)">
+                    <g mask="url(#r)">
+                        <g clip-path="url(#at)" transform="matrix(1 0 0 1 -8 -16)">
+                            <path d="m 109.625 87.71875 l -9.050781 -25.648438 l -14.429688 5.089844 l 9.050781 25.652344 z m 0 0" fill="#4faf53"/>
+                            <g mask="url(#s)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAB2ElEQVR4nO3TPU4UYQCA4e+b+b5xF5ZFi20oja2VXoBEPYAFCSfgGnsFSzrrrexI7OyxpPAHEv+DxkgwwMLszFh4BXSi+zwneJs3BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP4Zse+A/9nsYFbljclKl66qEEK4aFbqvP7ldCtuNX238ZsBrlnXdfHpybP18WC83pxfrhaxSm3R5CKG1DZtDrEs66K9CG1zvHFz5dNm3Fz03bzMDHCNpl1X3D5+PiwHdZXLcWrm81yWMbVFnYtikNpFnYsYU9s0uahyWtR1iIPy3fbqo899ty8rA/wJXRf3w8t09PEoDcthvEijYjIJ4dvpZXUjjQb12flqMYyprRd5UVSpuWp+vpk8PJzG2PadvmwM0IPd/d18697dtfDjbFQWMTV1nZs0uHz15MX76XRqgr/IAD2adQdVOP0wWsxTTmsxpUU3fzx+8L3vrmVigJ51XRf33u5V5Z0ynZ9U+evh67Od+zt1313Qi1k3K/tuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoyS/RdnlemxukHQAAAABJRU5ErkJggg=="/>
+                            </g>
+                            <g mask="url(#t)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAACCklEQVR4nO3Xv2pUQRTA4Zl7s66RHZO4BAWxs8p7iGBjFxTtfBFfI5VY2GxhaxNJYauk8g+CIhglKria6LLJ7r1jHbDeWbjf9wS/5sw5EwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwHznE0gldUZUO4Kydlzu9R5/2+qU7umKldABnXb2+NZjEvzGEMC3d0gUGYImMvu8NJu00hXbWlG7pCifQkhjlUV3Hk1TlOtX1BQ/TghiAZfFjc3UWVtI8NCm0lQ2wIF6aJVHXYT20TQohpF/t0e/SPV1hAyyBUX59runPN8L5OKj7dX6wefu4dFNXGIBlMP56JbZVirlKs+n0S+mcLnECFfb0aHd4msPlmNsUmjZWw8n70k1dYgOUkkN8fLA7nDfttSo3KeRmMMvN/nbc9gFeIBuggIc5V1t/XgzD2ulmM2tTDCG1bXh3f3jroHRb19SlA7om5xzHx88vhTzbiLldr6q4luv6w931m29Kt3WRE2jBnvx8lmIzS/NcpzZWvXwy37+Tbrwt3dVVTqAFGn0erYbcT5NZ0+sNwrewOj7cvujmL8kALErOcRxezTfCx8N7ProAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIvwD/+YhXX4URZFAAAAAElFTkSuQmCC"/>
+                            </g>
+                            <g mask="url(#u)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAABMklEQVR4nO3TMS6EURiF4e+7ZIqhkRFMR0H0k9jDFKLU6PRa7d9OpVGITqKyBM2sQiESorEAEZ17dVYg+cM8zwrenOREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/UPYd8J90rSsrT9vTbDGpLcaZuRG1rWeJUW1RM9pzZrkflKXbs92T9757cYBf1T3cDYbl8zAidkrkqGX92bdlrmWLcURMImI1Iq5rfF2c75++9dWLA/Ri9nhzUGo9jsxpZl5+7L1cddnVvrsWkQP0qJvPl4dbr0el5KYTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsBC+AeEnMAWtXskyAAAAAElFTkSuQmCC"/>
+                            </g>
+                            <g mask="url(#v)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAABmElEQVR4nO3WsWqUQRSG4XP8FwNLbAR7G4kQtErrFVhYCEELCwuxjzbB5q8sspImEBGCu4KVnSBYipWNbYxRIRcRNxJwdywt7DOL8zxX8BbzMScCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKBdT7+/vFS7oQXnagfwr+39vYuD33mndkcLDGABzbrBZsnuU+0OOHNbX8ZXRl8nB6WUrN3SAj/AgsnM3Syxl5mldksLBrUD+Gt0OH5QIq5Nj09v1W5phQEsiK3D8Y0ouZMlH/drD09q97TCCbQARt8mN7Pk+4j4ML16tFu7pyUGUNmzg8mjmMfbiPw4/Xl6u89+XrupJU6gSvr9N+eXu1/PS5S7EflkunI08vjPngFU0H9+MVzuTt6VyKVu1l3fWL33o3ZTqwygguGFpfvzUl5fXhm+Ws/1We0eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+O/9AWsoTRIRJ6RDAAAAAElFTkSuQmCC"/>
+                            </g>
+                            <g mask="url(#w)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAA8UlEQVR4nO3Vuw2CUABAUZ5ih3EBV4DCCZzByAiwhBZWDsEKbmFvY5zDQmJlApbGBXh+zpngdjdJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAvFGIH8CZkdb7uQ7je+8kxaU6P2EG/Lo0dwEtW5ZtRH9pbcz7EboFBzepiMa2KfeyOf+MAnyH0Xbdq55dt7BAY3m6ZJmU5jp0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM4wlFxRc688E5jwAAAABJRU5ErkJggg=="/>
+                            </g>
+                            <g mask="url(#x)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVR4nO3OsREBARRAwXdIzQikytCDJiQ60qj0UrGR3x9jt4ItAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgF+1nw7w5VIdqnU68g920wE+HKt79ZqOwNaW6lmdpiMw4VFdpxMw4VzdphMwZZkOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23kDjPwEDDUjE7gAAAAASUVORK5CYII="/>
+                            </g>
+                            <g mask="url(#y)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAzklEQVR4nO3TQQ3CUBRFwffrAAOkFho2CEAKvgkGauHWAEvS1+TPKDibUwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwD8keXQ3zGLpDuCnW5KtO2IGBrimZ1Xt3REzMMDFJHlV1WeM8e1ugVMlWZO8uzugRZJ7dwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwEkOiRoWOa1mKSoAAAAASUVORK5CYII="/>
+                            </g>
+                            <g mask="url(#z)">
+                                <g clip-path="url(#C)">
+                                    <path d="m 100.496094 66.527344 c -0.566406 0.40625 -0.636719 1.273437 -0.160156 1.941406 c 0.476562 0.664062 1.320312 0.878906 1.886718 0.472656 s 0.640625 -1.273437 0.164063 -1.941406 c -0.476563 -0.664062 -1.324219 -0.875 -1.890625 -0.472656 z m 0 0" fill="url(#B)"/>
+                                </g>
+                            </g>
+                            <g mask="url(#D)">
+                                <g clip-path="url(#F)">
+                                    <path d="m 106.09375 81.804688 c -0.5625 0.40625 -0.636719 1.273437 -0.160156 1.941406 c 0.476562 0.664062 1.320312 0.878906 1.886718 0.472656 c 0.566407 -0.40625 0.640626 -1.273438 0.164063 -1.941406 c -0.476563 -0.664063 -1.320313 -0.875 -1.890625 -0.472656 z m 0 0" fill="url(#E)"/>
+                                </g>
+                            </g>
+                            <g mask="url(#G)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAvElEQVR4nO3OoQ3CABQA0UvKAtgqHBMxKtswAwM0JGCwtf2EvOfOXQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1imB9i1Vu9qmx75Z6fpAXa9qlt1+fajulfPqSGYdK6u0xMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/IoPpU8GQ6oK6iQAAAAASUVORK5CYII="/>
+                            </g>
+                            <g clip-path="url(#Y)">
+                                <g mask="url(#H)">
+                                    <g clip-path="url(#X)">
+                                        <g filter="url(#f)" transform="matrix(1 0 0 1 -87.25248 -79.25248)">
+                                            <rect height="318.50496" width="318.50496"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g clip-path="url(#aq)">
+                                <g mask="url(#Z)">
+                                    <g clip-path="url(#ap)">
+                                        <g filter="url(#j)" transform="matrix(1 0 0 1 -87.25248 -79.25248)">
+                                            <rect height="318.50496" width="318.50496"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g mask="url(#ar)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAA0klEQVR4nO3OMQ4BUQBF0VeMRPGjU6sZ9qC2jhGJWIQFWKLSdDYwEUalVv6Ec8qXV9wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOB/lUO7Kt16mfO2+WzzY1tqNv2i5vuFGibjtH/msZv199O43yyS3IbhdUlyrd0GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFDZGzGyEHaopzBIAAAAAElFTkSuQmCC"/>
+                            </g>
+                            <g mask="url(#as)">
+                                <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAzElEQVR4nO3QMU1FUQAFwfNKGhJaHBBCSYMMRKAFYZj5JlhccAmZUbDZDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANiq++qteqyu0z3/lbF/WPW07XXby7bnbV/bPq/r+j4aBr+tuqtu1fvpFjii+qgeTncAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABz2A+SlIwWGFIIJAAAAAElFTkSuQmCC"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path d="m 85.867188 57.546875 c -0.164063 0.394531 -0.117188 0.785156 0.097656 0.875 c 0.21875 0.085937 0.523437 -0.160156 0.683594 -0.554687 c 0.164062 -0.394532 0.117187 -0.785157 -0.097657 -0.875 c -0.21875 -0.089844 -0.523437 0.160156 -0.683593 0.554687 z m 0 0" fill="url(#aw)"/>
+            <path d="m 89.65625 68.328125 c -0.375 -0.203125 -0.582031 -0.535156 -0.472656 -0.742187 c 0.113281 -0.203126 0.507812 -0.203126 0.882812 0.003906 c 0.371094 0.203125 0.582032 0.535156 0.46875 0.742187 c -0.113281 0.203125 -0.507812 0.203125 -0.878906 -0.003906 z m 0 0" fill="url(#ax)"/>
+        </g>
+        <g id="aF" filter="url(#k)" mask="url(#aA)">
+            <rect height="153.6" width="153.6"/>
+        </g>
+        <g id="aG" mask="url(#aB)">
+            <use xlink:href="#aE"/>
+        </g>
+        <mask id="aH">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.09" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <g id="aI">
+            <rect fill="none" height="153.6" width="153.6"/>
+            <rect fill="#ffffff" height="153.6" width="153.6"/>
+        </g>
+        <mask id="aJ">
+            <use xlink:href="#aI"/>
+        </mask>
+        <mask id="aK">
+            <use filter="url(#b)" xlink:href="#aI"/>
+        </mask>
+        <mask id="aL">
+            <g mask="url(#aH)" transform="matrix(1 0 0 1 12.8 12.8)">
+                <rect fill="#ffffff" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <g id="aM" mask="url(#aL)">
+            <image height="152" transform="matrix(1 0 0 1 4.8 -3.2)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAA10lEQVR4nO3OsQ3CMAAEwHcSEcQICX16xmAfpqFnLToKFqCJZLbAQr6b4BIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA4s85bzeE1SWlfgt5Z5K+v0KetUs0y31p0eDa0DfdsvSY5JklLfbS99GlsHunaqz2EcDrWWR177vXUHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/s4XDXMOALdK4kgAAAAASUVORK5CYII="/>
+        </g>
+        <g id="aN" transform="matrix(1 0 0 1 12.8 12.8)">
+            <g filter="url(#l)" transform="matrix(1 0 0 1 -12.8 -12.8)">
+                <rect height="153.6" width="153.6"/>
+            </g>
+        </g>
+        <g id="aO" filter="url(#m)" mask="url(#aJ)">
+            <rect height="153.6" width="153.6"/>
+        </g>
+        <g id="aP" mask="url(#aK)">
+            <use xlink:href="#aN"/>
+        </g>
+        <clipPath id="aQ">
+            <path d="m 0 0 h 128 v 128 h -128 z m 0 0"/>
+        </clipPath>
+        <mask id="aR">
+            <g filter="url(#a)">
+                <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAt0lEQVR4nO3VsQmEABBFwceJHHiBDdh/jSaCgUXsgTMVPDb4WwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L+W6YCX+VZHtVdndc3m8JkOeJm15+ZLtQ23wIhfzwcwPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFB1A4FaAl1iITdeAAAAAElFTkSuQmCC"/>
+            </g>
+        </mask>
+        <mask id="aS">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.8" height="221.184" width="221.184" x="-38.592" y="-30.592"/>
+            </g>
+        </mask>
+        <clipPath id="aT">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <clipPath id="aU">
+            <rect height="128" width="128"/>
+        </clipPath>
+        <clipPath id="aV">
+            <path d="m 0 0 h 128 v 128 h -128 z m 0 0"/>
+        </clipPath>
+        <mask id="aW">
+            <g filter="url(#a)">
+                <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAu0lEQVR4nO3UsQ3CQBBFwQcnIkwD9F+kJSck7mGFbib6m71oCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgC6s6qud0yI7WdMDmHtW3+tz3OdiyJV9n1qpe974mQ2DKUb2nIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAv/QBMXwJRUjQcTgAAAABJRU5ErkJggg=="/>
+            </g>
+        </mask>
+        <linearGradient id="aX" gradientTransform="matrix(1.023985 0 0 1.023975 6.465347 14.466877)" gradientUnits="userSpaceOnUse" x1="89.776001" x2="88.920998" y1="68.398003" y2="68.699997">
+            <stop offset="0" stop-color="#373637"/>
+            <stop offset="1" stop-color="#373637" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="H" x1="89.776" y1="68.398" x2="88.921" y2="68.7" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#373637" />
-            <stop offset="1" stop-color="#373637" stop-opacity="0" />
+        <clipPath id="aY">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <clipPath id="aZ">
+            <rect height="128" width="128"/>
+        </clipPath>
+        <mask id="a0">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.8" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <mask id="a1">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.8" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <mask id="a2">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.8" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <mask id="a3">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.8" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <mask id="a4">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <mask id="a5">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.2" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <linearGradient id="a6" gradientTransform="matrix(1.023985 0 0 1.023975 -1.534653 -1.533123)" gradientUnits="userSpaceOnUse" x1="60.209" x2="78.764" y1="75.081001" y2="73.615997">
+            <stop offset="0" stop-color="#4285f4"/>
+            <stop offset="0.703" stop-color="#044fcb"/>
         </linearGradient>
-        <linearGradient id="O" x1="92.331" y1="61.164" x2="88.086" y2="62.662" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#A8F0B9" />
-            <stop offset="1" stop-color="#ADEEBC" stop-opacity="0" />
+        <linearGradient id="a7" gradientTransform="matrix(1.023985 0 0 1.023975 -1.534653 -1.533123)" x1="39.018002" x2="43.018002" xlink:href="#o" y1="99.584999" y2="97.223"/>
+        <linearGradient id="a8" gradientTransform="matrix(1.023985 0 0 1.023975 -1.534653 -1.533123)" gradientUnits="userSpaceOnUse" x1="57.372002" x2="55.240002" y1="65.999001" y2="65.260002">
+            <stop offset="0" stop-color="#73a7ff"/>
+            <stop offset="1" stop-color="#5893f6" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="Q" x1="92.331" y1="61.164" x2="88.086" y2="62.662" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#A8F0B9" />
-            <stop offset="1" stop-color="#ADEEBC" stop-opacity="0" />
+        <linearGradient id="a9" gradientTransform="matrix(1.023985 0 0 1.023975 -1.534653 -1.533123)" x1="64.114998" x2="67.468002" xlink:href="#o" y1="26.802" y2="29.818001"/>
+        <mask id="ba">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.5" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <linearGradient id="bb" gradientTransform="matrix(1.023985 0 0 1.023975 -1.534653 -1.533123)" gradientUnits="userSpaceOnUse" x1="67.865997" x2="78.003998" y1="46.530998" y2="67.720001">
+            <stop offset="0" stop-color="#034dc9"/>
+            <stop offset="1" stop-color="#4285f4"/>
         </linearGradient>
-        <linearGradient id="R" x1="60.209" y1="75.081" x2="78.764" y2="73.616" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#4285F4" />
-            <stop offset=".703" stop-color="#044FCB" />
+        <linearGradient id="bc" gradientTransform="matrix(1.023985 0 0 1.023975 -1.534653 -1.533123)" gradientUnits="userSpaceOnUse" x1="43.333" x2="48.674999" y1="63.990002" y2="65.822998">
+            <stop offset="0" stop-color="#9bc0ff"/>
+            <stop offset="1" stop-color="#5893f6" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="S" x1="39.018" y1="99.585" x2="43.018" y2="97.223" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#4285F4" />
-            <stop offset="1" stop-color="#034ECA" />
-        </linearGradient>
-        <linearGradient id="T" x1="57.372" y1="65.999" x2="55.24" y2="65.26" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#73A7FF" />
-            <stop offset="1" stop-color="#5893F6" stop-opacity="0" />
-        </linearGradient>
-        <linearGradient id="U" x1="64.115" y1="26.802" x2="67.468" y2="29.818" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#4285F4" />
-            <stop offset="1" stop-color="#034ECA" />
-        </linearGradient>
-        <linearGradient id="W" x1="67.866" y1="46.531" x2="78.004" y2="67.72" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#034DC9" />
-            <stop offset="1" stop-color="#4285F4" />
-        </linearGradient>
-        <linearGradient id="X" x1="43.333" y1="63.99" x2="48.675" y2="65.823" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#9BC0FF" />
-            <stop offset="1" stop-color="#5893F6" stop-opacity="0" />
-        </linearGradient>
-        <radialGradient id="l" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.53643 -.73571 .53314 -.38873 92.673 52.02)">
-            <stop stop-color="#fff" />
-            <stop offset=".948" stop-color="#fff" stop-opacity="0" />
-        </radialGradient>
-        <radialGradient id="m" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-126.097 66.088 8.52) scale(.91051 .65981)">
-            <stop stop-color="#fff" />
-            <stop offset=".948" stop-color="#fff" stop-opacity="0" />
-        </radialGradient>
-        <radialGradient id="w" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.32502 -.14335 .26108 -.59197 85.736 57.852)">
-            <stop stop-color="#93E19F" />
-            <stop offset="1" stop-color="#93E19F" stop-opacity="0" />
-        </radialGradient>
-        <radialGradient id="x" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(117.327 23.966 61.105) scale(.35508 .64673)">
-            <stop stop-color="#93E19F" />
-            <stop offset="1" stop-color="#93E19F" stop-opacity="0" />
-        </radialGradient>
-        <radialGradient id="Y" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1.17874 1.19941 -.8356 -.8212 62.89 25.054)">
-            <stop stop-color="#fff" />
-            <stop offset=".948" stop-color="#fff" stop-opacity="0" />
-        </radialGradient>
-        <radialGradient id="Z" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-2.58695 4.552 -2.48687 -1.41331 57.178 45.9)">
-            <stop stop-color="#fff" />
-            <stop offset=".948" stop-color="#fff" stop-opacity="0" />
-        </radialGradient>
+        <mask id="bd">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <radialGradient id="be" cx="0" cy="0" gradientTransform="matrix(-1.207012 1.228166 -0.855642 -0.840889 70.863744 40.12156)" r="1" xlink:href="#A"/>
+        <clipPath id="bf">
+            <rect height="152" width="192"/>
+        </clipPath>
+        <mask id="bg">
+            <g filter="url(#a)">
+                <rect fill-opacity="0.3" height="153.6" width="153.6" x="-12.8" y="-12.8"/>
+            </g>
+        </mask>
+        <radialGradient id="bh" cx="0" cy="0" gradientTransform="matrix(-2.648997 4.661136 -2.546517 -1.447195 65.014744 61.467345)" r="1" xlink:href="#A"/>
+        <clipPath id="bi">
+            <rect height="152" width="192"/>
+        </clipPath>
     </defs>
+    <g filter="url(#n)" transform="matrix(1 0 0 1 -12.8 -12.8)">
+        <rect height="153.6" width="153.6"/>
+    </g>
+    <path d="m 88.289062 70.339844 c 0.570313 0.433594 1.460938 0.222656 1.980469 -0.46875 s 0.476563 -1.601563 -0.097656 -2.035156 c -0.574219 -0.429688 -1.460937 -0.21875 -1.984375 0.472656 c -0.519531 0.691406 -0.476562 1.601562 0.101562 2.03125 z m 0 0"/>
+    <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAvUlEQVR4nO3UoRHCABAAwRsKYBKHpQMcgjIwlELH6HQQTwH5iN0KTl0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDnMh0AU17VVv2q53ALudHR7tW1ulXv4RY42GNZqk/1rdbhGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADiHHclRBBrhbLqJAAAAAElFTkSuQmCC"/>
+    <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAvElEQVR4nO3OoQ0CURQAwQWBQ0IJ1xMJoRx6JKEXMNcAhif+jFq5BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwhEt1r87TI/Bvp+pVfarn8MuSjtMDi7tW297vyRGYcKge1W1vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4BdfHyAEtskEIpMAAAAASUVORK5CYII="/>
+    <g clip-path="url(#aU)">
+        <g clip-path="url(#aQ)">
+            <g mask="url(#aR)">
+                <g clip-path="url(#aT)" transform="matrix(1 0 0 1 -8 -16)">
+                    <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAoklEQVR4nO3TOQEAIAzAQJ4J/4bqpULKCA4YuFOQJa0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHCrqv66gWO8DvhNRMzMXEYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD63Aag+CvQmW7wFAAAAAElFTkSuQmCC"/>
+                    <g mask="url(#aS)">
+                        <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAnElEQVR4nO3OMQEAIAwDsMGBf4HzMn4M9CBRkCoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDHzKz0gaqdDvyqu0/6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDaBR2qBZuyIT5hAAAAAElFTkSuQmCC"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g clip-path="url(#aZ)">
+        <g clip-path="url(#aV)">
+            <g mask="url(#aW)">
+                <g clip-path="url(#aY)" transform="matrix(1 0 0 1 -8 -16)">
+                    <path d="m 98.335938 84.351562 c -0.164063 -0.449218 -0.632813 -0.703124 -1.097657 -0.601562 c 0.175781 0.011719 0.578125 0.128906 0.796875 0.507812 c 0.21875 0.378907 -0.058594 1.082032 -0.222656 1.386719 l 0.296875 0.125 c 0.1875 -0.210937 0.496094 -0.789062 0.226563 -1.417969 z m 0 0" fill="url(#aX)"/>
+                    <image height="152" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAApElEQVR4nO3OUQ0AIQwFsAcfF/x7m4IZQcZyoVXQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeMWaDrxoTwdIkqzuPtMJGFFV3/QBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfukCYNwFO4T5zUQAAAAASUVORK5CYII="/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g mask="url(#a0)">
+        <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAk0lEQVR4nO3OIQEAAAgDMPLQvw3qTbA0wGwJVgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHBk0t8HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBnC06xAsj5/HKNAAAAAElFTkSuQmCC"/>
+    </g>
+    <g mask="url(#a1)">
+        <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAoElEQVR4nO3OQQ3AMAwEsGwI+hp/ZgclhRFNsRG4CgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWKG7n+nDRu90gKokJ8k3/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgTy7jDQhh1Rty8gAAAABJRU5ErkJggg=="/>
+    </g>
+    <g mask="url(#a2)">
+        <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAo0lEQVR4nO3OQQ3AMAwEsLTKY/wJFsr1OQiZNBuBqwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICqc84zfeC1pwN/090ryU6ypi8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwCRfwWAiyx2kjTAAAAABJRU5ErkJggg=="/>
+    </g>
+    <g mask="url(#a3)">
+        <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAAm0lEQVR4nO3OQQ0AIAwEsD0wgH8xaDklQ8ZCaBW0CgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgD316TR9gRJI9fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeMwFuTkFdkULJmcAAAAASUVORK5CYII="/>
+    </g>
+    <g mask="url(#a4)">
+        <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAB/UlEQVR4nO3aP4oUQRjG4aqu3lld/6C4qwgGYiQYGGxoajQHmPN4G2GMZGE1MzH3AIaCyaDL6i7T7UxXeQIDo2qo5znBL3mDD74QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCfzr6fHa2/rW/W7mhdVzugVelxmtLRyYO3Fx+efiqf+to9rTKASpZxOU6L7ZjywdHm8s/L86/nh7WbWmQAFR3evjukFIYuhv76UTpdr9epdlNrDKCiL+HVdb/LQ85xLDnc2r++86J2U2sMoKI3MeaD4/2PPMUxdmlIsXv2fvP5Tu2ulhhAZcu4HPOi35SyH2PpdtvF8Lx2U0sMYAb6j5uLMKVtydPYxfyklBJrN7XCAGZgtVpNIXc/Y5eGMIXw7urDce2mVhjAXHT5Kuc4lhLG3ba/VzunFQYwEzeHYdfdKEPsyhBTXtTuaYUBzER6nKY+x7HkOIYSp9o9rTCAmXgYHuYyxTFPYTy81W9r97TCAGbiNJzu+4MyHKYyTH92v2v3tMIAZiLGWPIujft9GcLdX5e1e1phADOyu9qM/cn9i1VcuQFoTykleo0GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA//AXDOmSZ4EYdYkAAAAASUVORK5CYII="/>
+    </g>
+    <g mask="url(#a5)">
+        <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAAB/UlEQVR4nO3aP4oUQRjG4aqu3lld/6C4qwgGYiQYGGxoajQHmPN4G2GMZGE1MzH3AIaCyaDL6i7T7UxXeQIDo2qo5znBL3mDD74QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCfzr6fHa2/rW/W7mhdVzugVelxmtLRyYO3Fx+efiqf+to9rTKASpZxOU6L7ZjywdHm8s/L86/nh7WbWmQAFR3evjukFIYuhv76UTpdr9epdlNrDKCiL+HVdb/LQ85xLDnc2r++86J2U2sMoKI3MeaD4/2PPMUxdmlIsXv2fvP5Tu2ulhhAZcu4HPOi35SyH2PpdtvF8Lx2U0sMYAb6j5uLMKVtydPYxfyklBJrN7XCAGZgtVpNIXc/Y5eGMIXw7urDce2mVhjAXHT5Kuc4lhLG3ba/VzunFQYwEzeHYdfdKEPsyhBTXtTuaYUBzER6nKY+x7HkOIYSp9o9rTCAmXgYHuYyxTFPYTy81W9r97TCAGbiNJzu+4MyHKYyTH92v2v3tMIAZiLGWPIujft9GcLdX5e1e1phADOyu9qM/cn9i1VcuQFoTykleo0GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA//AXDOmSZ4EYdYkAAAAASUVORK5CYII="/>
+    </g>
+    <path d="m 38.84375 59.058594 c -0.667969 -1.175782 -1.808594 -2.019532 -3.171875 -2.347656 c -1.367187 -0.328126 -2.84375 -0.109376 -4.105469 0.605468 c -1.265625 0.71875 -2.210937 1.871094 -2.632812 3.210938 c -0.421875 1.335937 -0.171875 2.953125 0.496094 4.128906 l 4.867187 -2.511719 z m 0 0" fill="#4386f5"/>
+    <path d="m 38.800781 58.988281 c 7.046875 11.664063 21.800781 16.65625 34.691407 11.148438 l 4.304687 10.070312 c -17.984375 7.6875 -38.542969 0.71875 -48.371094 -15.554687 z m 0 0" fill="url(#a6)" fill-rule="evenodd"/>
+    <path d="m 36.738281 99.859375 c -0.234375 0.734375 0.132813 1.527344 0.84375 1.832031 c 0.710938 0.300782 1.535157 0.011719 1.902344 -0.667968 l 3.605469 -6.695313 c 0.398437 -0.734375 0.34375 -1.632813 -0.140625 -2.316406 c -0.480469 -0.679688 -1.308594 -1.03125 -2.132813 -0.90625 c -0.828125 0.128906 -1.511718 0.710937 -1.765625 1.507812 z m 0 0" fill="#034eca"/>
+    <path d="m 36.738281 99.859375 c -0.234375 0.734375 0.132813 1.527344 0.84375 1.832031 c 0.710938 0.300782 1.535157 0.011719 1.902344 -0.667968 l 3.605469 -6.695313 c 0.398437 -0.734375 0.34375 -1.632813 -0.140625 -2.316406 c -0.480469 -0.679688 -1.308594 -1.03125 -2.132813 -0.90625 c -0.828125 0.128906 -1.511718 0.710937 -1.765625 1.507812 z m 0 0" fill="url(#a7)"/>
+    <path d="m 55.140625 36.734375 c 1.171875 -3.21875 4.726563 -4.878906 7.945313 -3.707031 s 4.878906 4.730468 3.707031 7.945312 l -18.195313 49.992188 c -0.738281 2.109375 -2.554687 3.65625 -4.75 4.054687 c -2.199218 0.394531 -4.441406 -0.421875 -5.871094 -2.136719 c -1.425781 -1.71875 -1.820312 -4.070312 -1.03125 -6.160156 z m 0 0" fill="#4285f4"/>
+    <path d="m 42.304688 95.011719 c 2.816406 0.285156 5.464843 -1.375 6.429687 -4.035157 l 14.78125 -40.605468 c 0.851563 -2.335938 0.21875 -4.957032 -1.605469 -6.648438 z m 0 0" fill="url(#a8)"/>
+    <path d="m 68.019531 25.449219 c 0.023438 -1.410157 -0.714843 -2.71875 -1.933593 -3.429688 c -1.214844 -0.710937 -2.71875 -0.710937 -3.9375 0 c -1.214844 0.710938 -1.953126 2.019531 -1.929688 3.429688 v 7.398437 c -0.023438 1.410156 0.714844 2.722656 1.929688 3.429688 c 1.21875 0.710937 2.722656 0.710937 3.9375 0 c 1.21875 -0.707032 1.957031 -2.019532 1.933593 -3.429688 z m 0 0" fill="#4285f4"/>
+    <path d="m 68.019531 25.449219 c 0.023438 -1.410157 -0.714843 -2.71875 -1.933593 -3.429688 c -1.214844 -0.710937 -2.71875 -0.710937 -3.9375 0 c -1.214844 0.710938 -1.953126 2.019531 -1.929688 3.429688 v 7.398437 c -0.023438 1.410156 0.714844 2.722656 1.929688 3.429688 c 1.21875 0.710937 2.722656 0.710937 3.9375 0 c 1.21875 -0.707032 1.957031 -2.019532 1.933593 -3.429688 z m 0 0" fill="url(#a9)"/>
+    <g mask="url(#ba)">
+        <image height="152" transform="matrix(1 0 0 1 -8 -16)" width="192" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAABn0lEQVR4nO3ZsWoUURiG4e9M1jWoIN6CZQQFV8RGLAJ2igp2XoAXYeElCF6BINjZ2NloKaiFhRcgWNoakzjMsRHEuOCOg3tIeJ7u/NXbfMUwCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMD/UFoHHAXzm+/PD2V4VJLP34dyPy8u7bRuYjWz1gGH3t2P82H/27MkWzXJrMupPrnTOovVdK0DDrvZ3s61pG79utTbx269vdyuiDEMYLJ69eBlqLnXooTxDGCi2pUzB28lWbRoYTwDmKou/Y46t/YO/okBTFVrXXI9nRvvTqy9hdEMYKquHF9y/ZLFYnftLYxmABOVmrN/HGue5mEZGuQwkgFMcf3DySRXfj/WN/3u/EGTHkYzgAk2Nve3k2z+fPY1edwP3XZeXvjasovV+RM8QSllkdTXSX3Vb8ye5PnFT62bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODvfgByJjvnz6btQgAAAABJRU5ErkJggg=="/>
+    </g>
+    <path d="m 61.320312 40.917969 c -1.121093 -3.167969 0.511719 -6.648438 3.667969 -7.804688 c 3.152344 -1.15625 6.652344 0.441407 7.839844 3.585938 l 18.351563 50.082031 c 0.792968 2.066406 0.414062 4.398438 -0.996094 6.105469 c -1.410156 1.703125 -3.628906 2.515625 -5.808594 2.125 c -2.175781 -0.390625 -3.972656 -1.921875 -4.703125 -4.011719 z m 0 0" fill="url(#bb)"/>
+    <path d="m 59.21875 34.75 c -2.3125 0.585938 -4.183594 2.277344 -5 4.519531 l -17.25 47.367188 c -1.050781 2.886719 0 6.011719 2.25 7.410156 z m 0 0" fill="url(#bc)"/>
+    <g mask="url(#bd)">
+        <g clip-path="url(#bf)" transform="matrix(1 0 0 1 -8 -16)">
+            <path d="m 68.925781 42.058594 c 0.875 0.875 2.449219 0.714844 3.519531 -0.355469 c 1.070313 -1.070313 1.230469 -2.644531 0.355469 -3.519531 c -0.875 -0.871094 -2.449219 -0.714844 -3.519531 0.355468 c -1.070312 1.070313 -1.226562 2.644532 -0.355469 3.519532 z m 0 0" fill="url(#be)"/>
+        </g>
+    </g>
+    <g mask="url(#bg)">
+        <g clip-path="url(#bi)" transform="matrix(1 0 0 1 -8 -16)">
+            <path d="m 60.75 68.851562 c 2.613281 1.511719 6.640625 -0.574218 8.996094 -4.652343 c 2.355468 -4.078125 2.148437 -8.609375 -0.464844 -10.117188 c -2.613281 -1.511719 -6.644531 0.574219 -9 4.652344 c -2.351562 4.078125 -2.144531 8.609375 0.46875 10.117187 z m 0 0" fill="url(#bh)"/>
+        </g>
+    </g>
+    <path d="m 64.019531 47.75 c 4.195313 0 7.597657 -3.402344 7.597657 -7.601562 c 0 -4.195313 -3.402344 -7.597657 -7.597657 -7.597657 c -4.199219 0 -7.601562 3.402344 -7.601562 7.597657 c 0 4.199218 3.402343 7.601562 7.601562 7.601562 z m 0 0" fill="#ffffff"/>
+    <path d="m 64.019531 34.546875 c -3.09375 0 -5.601562 2.507813 -5.601562 5.601563 s 2.507812 5.601562 5.601562 5.601562 s 5.597657 -2.507812 5.597657 -5.601562 s -2.503907 -5.601563 -5.597657 -5.601563 z m -9.601562 5.601563 c 0 -5.300782 4.300781 -9.597657 9.601562 -9.597657 s 9.597657 4.296875 9.597657 9.597657 c 0 5.300781 -4.296876 9.601562 -9.597657 9.601562 s -9.601562 -4.300781 -9.601562 -9.601562 z m 0 0" fill="#202124" fill-rule="evenodd"/>
 </svg>
