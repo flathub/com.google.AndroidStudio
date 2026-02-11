@@ -98,8 +98,18 @@
     </description>
     <releases>
         <!-- stable release -->
-        <release date="2026-01-15" version="2025.2.3.9">
+        <release date="2026-02-10" version="2025.3.1.7">
             <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Panda 1</p>
+                <p>Android Gradle Plugin 9.0.0</p>
+                <ul>
+                    <li>Simplified JDK management with Gradle Daemon JVM Criteria</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2026-01-15" version="2025.2.3.9">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-otter-3-feature-drop-release-notes</url>
             <description>
                 <p>Android Studio Otter 3 Feature Drop | 2025.2.3</p>
                 <p>Android Gradle Plugin 9.0.0</p>
@@ -146,16 +156,6 @@
                 <ul>
                     <li>FIXED: Autocomplete quality regression after removal of ML completion settings in Otter 2025.2.1</li>
                     <li>FIXED: Multiple build operations failed. ConcurrentModificationException</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-10-30" version="2025.2.1.7">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-otter-release-notes</url>
-            <description>
-                <p>Android Studio Otter | 2025.2.1</p>
-                <p>Android Gradle Plugin 8.13</p>
-                <ul>
-                    <li>Backup and Sync</li>
                 </ul>
             </description>
         </release>
