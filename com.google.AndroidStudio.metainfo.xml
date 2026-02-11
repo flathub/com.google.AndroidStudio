@@ -97,14 +97,17 @@
         </ul>
     </description>
     <releases>
+        <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
         <release date="2026-02-10" version="2025.3.1.7">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
-                <p>Android Studio Panda 1</p>
+                <p>Android Studio Panda 1 | 2025.3.1</p>
                 <p>Android Gradle Plugin 9.0.0</p>
                 <ul>
-                    <li>Simplified JDK management with Gradle Daemon JVM Criteria</li>
+                    <li>Daemon JVM criteria as default in Studio.</li>
+                    <li>IntelliJ IDEA 2025.3 Platform Update.</li>
+                    <li>Performance optimizations and minor bug fixes.</li>
                 </ul>
             </description>
         </release>
@@ -114,16 +117,13 @@
                 <p>Android Studio Otter 3 Feature Drop | 2025.2.3</p>
                 <p>Android Gradle Plugin 9.0.0</p>
                 <ul>
-                    <li>App Links AI Assistant</li>
-                    <li>Journeys for Android Studio in Studio Labs</li>
-                    <li>UI development in Agent Mode</li>
-                    <li>Manage multiple conversation threads with Gemini</li>
-                    <li>Use a local model</li>
-                    <li>Use a remote model</li>
-                    <li>Find and review changes using the changes drawer</li>
                     <li>Automatic Logcat retracing</li>
-                    <li>Support for remote MCP servers</li>
                     <li>Device interaction tools</li>
+                    <li>Find and review changes using the changes drawer</li>
+                    <li>Journeys for Android Studio in Studio Labs</li>
+                    <li>Manage multiple conversation threads with Gemini</li>
+                    <li>Support for remote MCP servers</li>
+                    <li>UI development in Agent Mode</li>
                 </ul>
             </description>
         </release>
@@ -133,7 +133,7 @@
                 <p>Android Studio Otter 2 Feature Drop | 2025.2.2 Patch 1</p>
                 <p>Android Gradle Plugin 8.13.1</p>
                 <ul>
-                    <li>FIXED: Android Project View Provider is not registered in Android Studio 2025.2.2 RC 1 and 2.3 Canary 1</li>
+                    <li>This release includes minor fixes and improvements.</li>
                 </ul>
             </description>
         </release>
@@ -143,8 +143,7 @@
                 <p>Android Studio Otter 2 Feature Drop | 2025.2.2</p>
                 <p>Android Gradle Plugin 8.13.1</p>
                 <ul>
-                    <li>Access fresh documentation with the Android Knowledge Base</li>
-                    <li>Communications from Android Studio</li>
+                    <li>This release includes minor fixes and improvements.</li>
                 </ul>
             </description>
         </release>
@@ -154,8 +153,7 @@
                 <p>Android Studio Otter | 2025.2.1 Patch 1</p>
                 <p>Android Gradle Plugin 8.13.1</p>
                 <ul>
-                    <li>FIXED: Autocomplete quality regression after removal of ML completion settings in Otter 2025.2.1</li>
-                    <li>FIXED: Multiple build operations failed. ConcurrentModificationException</li>
+                    <li>Backup and Sync</li>
                 </ul>
             </description>
         </release>
