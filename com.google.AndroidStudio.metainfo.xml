@@ -99,6 +99,18 @@
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
+        <release date="2026-02-13" version="2025.3.1.8">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.3.1#android-studio-panda-1-|-2025.3.1-patch-1</url>
+            <description>
+                <p>Android Studio Panda 1 | 2025.3.1 Patch 1</p>
+                <p>Android Gradle Plugin 9.0.0</p>
+                <ul>
+                    <li>Daemon JVM criteria as default in Studio.</li>
+                    <li>IntelliJ IDEA 2025.3 Platform Update.</li>
+                    <li>Performance optimizations and minor bug fixes.</li>
+                </ul>
+            </description>
+        </release>
         <release date="2026-02-10" version="2025.3.1.7">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -144,16 +156,6 @@
                 <p>Android Gradle Plugin 8.13.1</p>
                 <ul>
                     <li>This release includes minor fixes and improvements.</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-11-17" version="2025.2.1.8">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.2.1#android-studio-otter-|-2025.2.1-patch-1</url>
-            <description>
-                <p>Android Studio Otter | 2025.2.1 Patch 1</p>
-                <p>Android Gradle Plugin 8.13.1</p>
-                <ul>
-                    <li>Backup and Sync</li>
                 </ul>
             </description>
         </release>
