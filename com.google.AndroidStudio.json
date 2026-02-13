@@ -44,12 +44,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1415292980,
+          "size": 1415242996,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2025.3.1.7/android-studio-panda1-linux.tar.gz",
-          "sha256": "d7eb0b463b0a4d6a309c48f3d8744a51149955f0112281eebb81210339c88a96"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2025.3.1.8/android-studio-panda1-patch1-linux.tar.gz",
+          "sha256": "678b8495f6368938927a8c8cc1a82484dd47e3640b77ec8b9983dc95722cda42"
         },
         {
           "type": "script",
