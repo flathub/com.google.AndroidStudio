@@ -67,6 +67,37 @@
           ]
         }
       ]
-    }
+    },
+	{
+	  "name": "glxinfo",
+	  "buildsystem": "autotools",
+	  "config-opts": [
+	    "--without-glut",
+	    "--bindir=/app/lib/mesa-demos"
+	  ],
+	  "make-args": [
+	    "-C",
+	    "src/xdemos",
+	    "glxinfo"
+	  ],
+	  "no-make-install": true,
+	  "build-commands": [
+	    "install -D src/xdemos/glxinfo -t /app/bin/"
+	  ],
+	  "cleanup": [
+	    "/lib/mesa-demos"
+	  ],
+	  "modules": [
+	    "shared-modules/glew/glew.json",
+	    "shared-modules/glu/glu-9.json"
+	  ],
+	  "sources": [
+	    {
+	      "type": "archive",
+	      "url": "https://mesa.freedesktop.org/archive/demos/mesa-demos-8.4.0.tar.bz2",
+	      "sha256": "01e99c94a0184e63e796728af89bfac559795fb2a0d6f506fa900455ca5fff7d"
+	    }
+	  ]
+	}
   ]
 }
