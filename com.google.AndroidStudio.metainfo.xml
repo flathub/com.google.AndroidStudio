@@ -100,7 +100,7 @@
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
         <release date="2026-03-03" version="2025.3.2.6">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.3.2#android-studio-panda-2-|-2025.3.2</url>
+            <url type="details">https://developer.android.com/studio/releases</url>
             <description>
                 <p>Android Studio Panda 2 | 2025.3.2</p>
                 <p>Android Gradle Plugin 9.1.0</p>
@@ -126,7 +126,7 @@
             </description>
         </release>
         <release date="2026-02-10" version="2025.3.1.7">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-panda-1-release-notes</url>
             <description>
                 <p>Android Studio Panda 1 | 2025.3.1</p>
                 <p>Android Gradle Plugin 9.0.0</p>
