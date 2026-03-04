@@ -99,6 +99,20 @@
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
+        <release date="2026-03-03" version="2025.3.2.6">
+            <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Panda 2 | 2025.3.2</p>
+                <p>Android Gradle Plugin 9.1.0</p>
+                <ul>
+                    <li>Recomposition state reads in the Layout Inspector</li>
+                    <li>Create a new project with AI</li>
+                    <li>Layout Inspector 3D mode deprecation</li>
+                    <li>Update dependencies with the AI agent</li>
+                    <li>Monochrome icon support in Asset Studio</li>
+                </ul>
+            </description>
+        </release>
         <release date="2026-02-13" version="2025.3.1.8">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.3.1#android-studio-panda-1-|-2025.3.1-patch-1</url>
             <description>
@@ -112,7 +126,7 @@
             </description>
         </release>
         <release date="2026-02-10" version="2025.3.1.7">
-            <url type="details">https://developer.android.com/studio/releases</url>
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-panda-1-release-notes</url>
             <description>
                 <p>Android Studio Panda 1 | 2025.3.1</p>
                 <p>Android Gradle Plugin 9.0.0</p>
@@ -143,16 +157,6 @@
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.2.2#android-studio-otter-2-feature-drop-|-2025.2.2-patch-1</url>
             <description>
                 <p>Android Studio Otter 2 Feature Drop | 2025.2.2 Patch 1</p>
-                <p>Android Gradle Plugin 8.13.1</p>
-                <ul>
-                    <li>This release includes minor fixes and improvements.</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-12-04" version="2025.2.2.7">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-otter-2-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Otter 2 Feature Drop | 2025.2.2</p>
                 <p>Android Gradle Plugin 8.13.1</p>
                 <ul>
                     <li>This release includes minor fixes and improvements.</li>
