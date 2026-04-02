@@ -99,8 +99,24 @@
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
-        <release date="2026-03-03" version="2025.3.2.6">
+        <release date="2026-04-02" version="2025.3.3.6">
             <url type="details">https://developer.android.com/studio/releases</url>
+            <description>
+                <p>Android Studio Panda 3 | 2025.3.3</p>
+                <p>Android Gradle Plugin 9.1.0</p>
+                <ul>
+                    <li>Context Compression &amp; Usage Improvements for Gemini in Android Studio</li>
+                    <li>Skills support for Gemini in Android Studio</li>
+                    <li>Manage permissions in Agent Mode</li>
+                    <li>New Project template for Car App Library</li>
+                    <li>Agent Shell Sandbox for Gemini in Android Studio</li>
+                    <li>Agent Notifications</li>
+                    <li>Shell tool for Gemini in Android Studio</li>
+                </ul>
+            </description>
+        </release>
+        <release date="2026-03-03" version="2025.3.2.6">
+            <url type="details">https://developer.android.com/studio/releases/past-releases/as-panda-2-release-notes</url>
             <description>
                 <p>Android Studio Panda 2 | 2025.3.2</p>
                 <p>Android Gradle Plugin 9.1.0</p>
@@ -150,16 +166,6 @@
                     <li>Manage multiple conversation threads with Gemini</li>
                     <li>Support for remote MCP servers</li>
                     <li>UI development in Agent Mode</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2025-12-23" version="2025.2.2.8">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.2.2#android-studio-otter-2-feature-drop-|-2025.2.2-patch-1</url>
-            <description>
-                <p>Android Studio Otter 2 Feature Drop | 2025.2.2 Patch 1</p>
-                <p>Android Gradle Plugin 8.13.1</p>
-                <ul>
-                    <li>This release includes minor fixes and improvements.</li>
                 </ul>
             </description>
         </release>
