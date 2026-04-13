@@ -99,6 +99,22 @@
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
+        <release date="2026-04-13" version="2025.3.3.7">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.3.3#android-studio-panda-3-|-2025.3.3-patch-1</url>
+            <description>
+                <p>Android Studio Panda 3 | 2025.3.3 Patch 1</p>
+                <p>Android Gradle Plugin 9.1.1</p>
+                <ul>
+                    <li>Context Compression &amp; Usage Improvements for Gemini in Android Studio</li>
+                    <li>Skills support for Gemini in Android Studio</li>
+                    <li>Manage permissions in Agent Mode</li>
+                    <li>New Project template for Car App Library</li>
+                    <li>Agent Shell Sandbox for Gemini in Android Studio</li>
+                    <li>Agent Notifications</li>
+                    <li>Shell tool for Gemini in Android Studio</li>
+                </ul>
+            </description>
+        </release>
         <release date="2026-04-02" version="2025.3.3.6">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -150,22 +166,6 @@
                     <li>Daemon JVM criteria as default in Studio.</li>
                     <li>IntelliJ IDEA 2025.3 Platform Update.</li>
                     <li>Performance optimizations and minor bug fixes.</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2026-01-15" version="2025.2.3.9">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-otter-3-feature-drop-release-notes</url>
-            <description>
-                <p>Android Studio Otter 3 Feature Drop | 2025.2.3</p>
-                <p>Android Gradle Plugin 9.0.0</p>
-                <ul>
-                    <li>Automatic Logcat retracing</li>
-                    <li>Device interaction tools</li>
-                    <li>Find and review changes using the changes drawer</li>
-                    <li>Journeys for Android Studio in Studio Labs</li>
-                    <li>Manage multiple conversation threads with Gemini</li>
-                    <li>Support for remote MCP servers</li>
-                    <li>UI development in Agent Mode</li>
                 </ul>
             </description>
         </release>
