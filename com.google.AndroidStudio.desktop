@@ -1,9 +1,12 @@
 [Desktop Entry]
 Name=Android Studio
-Exec=android-studio-wrapper
+Exec=android-studio-wrapper %F
 Icon=com.google.AndroidStudio
-Comment=IDE for Android app development
+GenericName=IDE for Android app development
 Terminal=false
 Type=Application
 Categories=Development;IDE;Java;
 StartupWMClass=jetbrains-studio
+Keywords=development;ide;android;
+MimeType=text/plain;inode/directory;
+StartupNotify=true
