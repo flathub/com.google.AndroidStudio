@@ -99,6 +99,23 @@
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
+        <release date="2026-05-05" version="2025.3.4.7">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.3.4#android-studio-panda-4-|-2025.3.4-patch-1</url>
+            <description>
+                <p>Android Studio Panda 4 | 2025.3.4 Patch 1</p>
+                <p>Android Gradle Plugin 9.2.1</p>
+                <ul>
+                    <li>Gemini API starter template.</li>
+                    <li>Google One integration for Gemini in Android Studio.</li>
+                    <li>Generate unit tests with Gemini.</li>
+                    <li>Next Edit Prediction (NEP).</li>
+                    <li>Ask Mode.</li>
+                    <li>Planning Mode.</li>
+                    <li>Developer verification support.</li>
+                    <li>Agent Web Search</li>
+                </ul>
+            </description>
+        </release>
         <release date="2026-04-21" version="2025.3.4.6">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -154,18 +171,6 @@
                     <li>Layout Inspector 3D mode deprecation</li>
                     <li>Update dependencies with the AI agent</li>
                     <li>Monochrome icon support in Asset Studio</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2026-02-13" version="2025.3.1.8">
-            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2025.3.1#android-studio-panda-1-|-2025.3.1-patch-1</url>
-            <description>
-                <p>Android Studio Panda 1 | 2025.3.1 Patch 1</p>
-                <p>Android Gradle Plugin 9.0.0</p>
-                <ul>
-                    <li>Daemon JVM criteria as default in Studio.</li>
-                    <li>IntelliJ IDEA 2025.3 Platform Update.</li>
-                    <li>Performance optimizations and minor bug fixes.</li>
                 </ul>
             </description>
         </release>
