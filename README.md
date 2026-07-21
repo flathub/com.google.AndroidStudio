@@ -2,7 +2,11 @@
 
 This is a community-made Flatpak wrapper of Android Studio. It's not verified by, affiliated with, or supported by Google.
 
-This wrapper uses X11 via XWayland, due to missing support in OpenJDK. Filesystem visibility is voluntarily limited to home, and `flatpak-spawn` is not permitted because it would reduce security.
+This wrapper uses X11 via XWayland by default, but Wayland (experimental) can be enabled by granting it the _--socket=wayland_ permission:
+
+`flatpak override --user --socket=wayland com.google.AndroidStudio`
+
+Filesystem visibility is voluntarily limited to home, and `flatpak-spawn` is not permitted because it would reduce security.
 
 Any suggestions, problem reports, or improvement proposals are welcome.
 
