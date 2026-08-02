@@ -11,7 +11,7 @@
     "--filesystem=home",
     "--share=ipc",
     "--share=network",
-    "--socket=fallback-x11",
+    "--socket=x11",
     "--socket=gpg-agent",
     "--socket=pulseaudio",
     "--socket=ssh-auth",
