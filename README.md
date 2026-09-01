@@ -83,4 +83,4 @@ Since the _fallback-x11_ socket is included in the manifest to cater for users o
 
 To make AVD work again you need to explicitly enable X11 by granting Flatpak the _--socket=x11_ permission. Additionally you need to remove the default _fallback-x11_ socket:
 
-`flatpak override --user --socket=x11 --nosocket=fallback-x11 com.google.AndroidStudio`
+`flatpak override --user --nosocket=fallback-x11 --socket=x11 com.google.AndroidStudio`
