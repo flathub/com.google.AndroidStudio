@@ -46,12 +46,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1560605310,
+          "size": 1536243986,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2026.1.3.8/android-studio-quail3-patch1-linux.tar.gz",
-          "sha256": "5bd5ee5d6e747b13f82fba3241380bd358cc2f4a847815c8e860757df13dc35f"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2026.1.4.7/android-studio-quail4-linux.tar.gz",
+          "sha256": "4be240083df5ada290975d87d60fc212a3d38d4f258a1250989885a9dbc79980"
         },
         {
           "type": "script",
