@@ -98,6 +98,18 @@
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
+        <release date="2026-09-18" version="2026.1.4.8">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2026.1.4#android-studio-quail-4-|-2026.1.4-patch-1</url>
+            <description>
+                <p>Android Studio Quail 4 | 2026.1.4 Patch 1</p>
+                <p>Android Gradle Plugin 9.4.1</p>
+                <ul>
+                    <li>Recomposition state reads in the Layout Inspector.</li>
+                    <li>Simulate back navigation transitions in Interactive Preview.</li>
+                    <li>Gemma 4 integration.</li>
+                </ul>
+            </description>
+        </release>
         <release date="2026-09-01" version="2026.1.4.7">
             <url type="details">https://developer.android.com/studio/releases</url>
             <description>
@@ -139,20 +151,6 @@
             <description>
                 <p>Android Studio Quail 2 | 2026.1.2 Patch 1</p>
                 <p>Android Gradle Plugin 9.3.1</p>
-                <ul>
-                    <li>More agent skills.</li>
-                    <li>Build full-stack apps with Firebase in Agent Mode.</li>
-                    <li>Parallel conversations.</li>
-                    <li>Android CLI.</li>
-                    <li>LeakCanary in Android Studio Profiler.</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2026-06-14" version="2026.1.2.10">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-quail-2-release-notes</url>
-            <description>
-                <p>Android Studio Quail 2 | 2026.1.2</p>
-                <p>Android Gradle Plugin 9.3.0</p>
                 <ul>
                     <li>More agent skills.</li>
                     <li>Build full-stack apps with Firebase in Agent Mode.</li>
