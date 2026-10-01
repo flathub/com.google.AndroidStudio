@@ -13,11 +13,10 @@
     "--share=network",
     "--socket=fallback-x11",
     "--socket=gpg-agent",
-    "--socket=pulseaudio",
     "--socket=ssh-auth",
     "--socket=wayland",
     "--system-talk-name=org.freedesktop.Avahi",
-    "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.freedesktop.FileManager1",
     "--talk-name=org.freedesktop.secrets"
   ],
   "modules": [
@@ -46,12 +45,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1536220902,
+          "size": 1570628738,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2026.1.4.8/android-studio-quail4-patch1-linux.tar.gz",
-          "sha256": "25c97ca6c6b505f2a20bff962dfd28718327f61e25b09a9bc915f1dae7b1e534"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2026.2.1.8/android-studio-rabbit1-linux.tar.gz",
+          "sha256": "f8775c67cf899d9133712a2d7ee3ef7231e07fb16dbe0544c47e5f5babd5931b"
         },
         {
           "type": "script",
