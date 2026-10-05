@@ -94,6 +94,7 @@
             <li>C++ and NDK support</li>
             <li>Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine</li>
         </ul>
+        <p><em>If you actively use this package, please star and/or +1 this issue: </em><code>https://issuetracker.google.com/issues/523371278</code></p>
     </description>
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->

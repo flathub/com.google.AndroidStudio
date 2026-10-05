@@ -1,10 +1,16 @@
 # Android Studio Flatpak Wrapper
 
-This is a community-made Flatpak wrapper of Android Studio. It's not verified by, affiliated with, or supported by Google.
+This community-provided package is not verified by, affiliated with, or supported by Android Open Source Project.
 
-This wrapper uses X11 via XWayland, due to missing support in OpenJDK. Filesystem visibility is voluntarily limited to home, and `flatpak-spawn` is not permitted because it would reduce security.
+Filesystem visibility is voluntarily limited to home, and `flatpak-spawn` is not permitted because it would reduce security. If you need, you can extend filesystem visibility and add extra permissions.
 
 Any suggestions, problem reports, or improvement proposals are welcome.
+
+## Distribution as extra-data problem
+
+The Flatpak does not redistribute anything from AOSP but instead downloads the official archive at install time from the Google servers. Each update requires to download the full archive (no support for partial / delta updates). The archive is not deleted (the application always requires the additional space of the extra-data archive)
+
+We are asking Google for permission to redistribute: if you actively use this package, please star and/or +1 this issue: https://issuetracker.google.com/issues/523371278
 
 ## Android `udev` Rules
 
@@ -37,6 +43,16 @@ WantedBy=default.target
 ```
 
 ## AVD Emulator
+
+### Wayland
+
+By default, Android Studio now runs on Wayland, however the AVD Emulator still runs on X11 (XWayland) due to [missing the latest Qt libraries](https://issuetracker.google.com/issues/378421876) with Wayland support.
+
+Since the _fallback-x11_ socket is included in the manifest to cater for users on X11 an issue arise where AVD stops working. This happens due to the _fallback-x11_ permission hiding X11 completely when Wayland is detected.
+
+To make AVD work again you need to explicitly enable X11 by granting Flatpak the _--socket=x11_ permission. Additionally, you need to remove the default _fallback-x11_ socket:
+
+`flatpak override --user --nosocket=fallback-x11 --socket=x11 com.google.AndroidStudio`
 
 ### SELinux
 
@@ -74,13 +90,3 @@ chattr +C $HOME/.var/app/com.google.AndroidStudio/config/.android/avd
 
 > [!IMPORTANT]
 > This should only be done once, before creating any virtual devices. AVDs created prior won't be affected.
-
-## AVD Emulator fix for Wayland
-
-By default Android Studio now runs on Wayland, however the AVD Emulator still runs on X11 (XWayland) due to [missing the latest Qt libraries](https://issuetracker.google.com/issues/378421876) with Wayland support.
-
-Since the _fallback-x11_ socket is included in the manifest to cater for users on X11 an issue arise where AVD stops working. This happens due to the _fallback-x11_ permission hiding X11 completely when Wayland is detected.
-
-To make AVD work again you need to explicitly enable X11 by granting Flatpak the _--socket=x11_ permission. Additionally you need to remove the default _fallback-x11_ socket:
-
-`flatpak override --user --nosocket=fallback-x11 --socket=x11 com.google.AndroidStudio`
