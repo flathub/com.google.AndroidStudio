@@ -45,12 +45,12 @@
         {
           "type": "extra-data",
           "filename": "android-studio.tar.gz",
-          "size": 1589439805,
+          "size": 1589479657,
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://dl.google.com/dl/android/studio/ide-zips/2026.2.2.8/android-studio-rabbit2-linux.tar.gz",
-          "sha256": "b47fdcc0703019618a7afd5ad1822cafc5de66bed984640be2977a0fdb538304"
+          "url": "https://dl.google.com/dl/android/studio/ide-zips/2026.2.2.9/android-studio-rabbit2-patch1-linux.tar.gz",
+          "sha256": "11ecbf0e6dc0f04a1353f797e45bf239a3ff1a82221539b1b8cdd7eab0d8d8ea"
         },
         {
           "type": "script",
