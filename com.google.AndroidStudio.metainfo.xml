@@ -99,6 +99,19 @@
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
         <!-- stable release -->
+        <release date="2026-11-20" version="2026.2.2.10">
+            <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2026.2.2#android-studio-rabbit-2-|-2026.2.2-patch-2</url>
+            <description>
+                <p>Android Studio Rabbit 2 | 2026.2.2 Patch 2</p>
+                <p>Android Gradle Plugin 9.5.2</p>
+                <ul>
+                    <li>Bring Your Own Agent (BYOA): Integrate your preferred coding agents.</li>
+                    <li>Agentic fixes with LeakCanary.</li>
+                    <li>Discover, install, and manage Android skills in Android Studio.</li>
+                    <li>AI Change Review and Guided Walkthrough.</li>
+                </ul>
+            </description>
+        </release>
         <release date="2026-11-05" version="2026.2.2.9">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2026.2.2#android-studio-rabbit-2-|-2026.2.2-patch-1</url>
             <description>
@@ -141,18 +154,6 @@
             <description>
                 <p>Android Studio Quail 4 | 2026.1.4 Patch 1</p>
                 <p>Android Gradle Plugin 9.4.1</p>
-                <ul>
-                    <li>Recomposition state reads in the Layout Inspector.</li>
-                    <li>Simulate back navigation transitions in Interactive Preview.</li>
-                    <li>Gemma 4 integration.</li>
-                </ul>
-            </description>
-        </release>
-        <release date="2026-09-01" version="2026.1.4.7">
-            <url type="details">https://developer.android.com/studio/releases/past-releases/as-quail-4-release-notes</url>
-            <description>
-                <p>Android Studio Quail 4 | 2026.1.4</p>
-                <p>Android Gradle Plugin 9.4.0</p>
                 <ul>
                     <li>Recomposition state reads in the Layout Inspector.</li>
                     <li>Simulate back navigation transitions in Interactive Preview.</li>
