@@ -1,5 +1,5 @@
 [Desktop Entry]
-Categories=Development;IDE;Android
+Categories=Development;IDE
 Exec=android-studio-wrapper %F
 GenericName=IDE for Android app development
 Icon=com.google.AndroidStudio
