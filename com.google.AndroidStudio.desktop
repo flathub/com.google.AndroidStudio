@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=Android Studio
+Categories=Development;IDE;Android
 Exec=android-studio-wrapper %F
-Icon=com.google.AndroidStudio
 GenericName=IDE for Android app development
-Terminal=false
-Type=Application
-Categories=Development;IDE;Java;
-StartupWMClass=com.google.AndroidStudio
+Icon=com.google.AndroidStudio
 Keywords=development;ide;android;
 MimeType=text/plain;inode/directory;
+Name=Android Studio
 StartupNotify=true
+StartupWMClass=com.google.AndroidStudio
+Terminal=false
+Type=Application
