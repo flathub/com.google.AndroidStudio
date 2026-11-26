@@ -98,7 +98,6 @@
     </description>
     <releases>
         <!-- https://dl.google.com/android/studio/patches/updates.xml -->
-        <!-- stable release -->
         <release date="2026-11-25" version="2026.2.2.11">
             <url type="details">https://developer.android.com/studio/releases/fixed-bugs/studio/2026.2.2#android-studio-rabbit-2-|-2026.2.2-patch-3</url>
             <description>
